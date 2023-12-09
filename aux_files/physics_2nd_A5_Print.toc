@@ -1,0 +1,1105 @@
+\contentsline {chapter}{\textbf {このノートについて}}{i}{}%
+\contentsline {chapter}{\textbf {このノートで使用する記号}}{iii}{}%
+\contentsline {chapter}{\textbf {記述する内容（予定）}}{vi}{}%
+\contentsline {chapter}{\textbf {記述方法についての諸注意}}{vii}{}%
+\contentsline {section}{(1) 括弧の扱いについて}{vii}{}%
+\contentsline {section}{(2) 積分記号}{vii}{}%
+\contentsline {section}{(3) 三角関数の表現}{viii}{}%
+\contentsline {section}{(4) 「一般に」という記述}{x}{}%
+\contentsline {chapter}{\textbf {ギリシア文字（ギリシャ文字）}}{xi}{}%
+\contentsline {part}{I\hspace {1em}古典力学}{1}{}%
+\contentsline {chapter}{\numberline {1}物理学への導入}{3}{}%
+\contentsline {section}{\numberline {1.1}物理学を勉強する理由}{3}{}%
+\contentsline {subsection}{\numberline {1.1.1}科学を勉強する}{3}{}%
+\contentsline {subsubsection}{\numberline {1.1.1.1}科学とは何か}{3}{}%
+\contentsline {subsubsection}{\numberline {1.1.1.2}科学活動の原動力は好奇心だ}{4}{}%
+\contentsline {subsubsection}{\numberline {1.1.1.3}科学的活動の手順}{5}{}%
+\contentsline {subsubsection}{$\sharp \tmspace +\thickmuskip {.2777em}$\textit {memo} No.1: 科学するために必要な能力}{5}{}%
+\contentsline {subsubsection}{\numberline {1.1.1.4}まずは，教科書を読むことから}{6}{}%
+\contentsline {subsection}{\numberline {1.1.2}学問と専門用語}{6}{}%
+\contentsline {subsubsection}{$\sharp \tmspace +\thickmuskip {.2777em}$\textit {memo} No.2: 専門用語を使うとカッコよくみえる？}{6}{}%
+\contentsline {section}{\numberline {1.2}物理学の思想}{7}{}%
+\contentsline {subsection}{\numberline {1.2.1}物理学を学ぼう}{7}{}%
+\contentsline {subsubsection}{$\sharp \tmspace +\thickmuskip {.2777em}$\textit {memo} No.3: 「なぜ」と「どうのように」の違い}{7}{}%
+\contentsline {subsection}{\numberline {1.2.2}因果関係}{8}{}%
+\contentsline {subsection}{\numberline {1.2.3}経験，仮説，実験，解釈}{8}{}%
+\contentsline {subsubsection}{\numberline {1.2.3.1}科学的活動}{8}{}%
+\contentsline {subsubsection}{\numberline {1.2.3.2}経験$=$現象を観察する}{9}{}%
+\contentsline {subsubsection}{\numberline {1.2.3.3}仮説$=$現象の説明の試み}{9}{}%
+\contentsline {subsubsection}{\numberline {1.2.3.4}実験$=$仮説の検証}{9}{}%
+\contentsline {subsubsection}{\numberline {1.2.3.5}解釈(考察)$=$仮説の肯定，否定}{10}{}%
+\contentsline {subsection}{\numberline {1.2.4}自然現象の発生とその解釈}{10}{}%
+\contentsline {subsubsection}{$\sharp \tmspace +\thickmuskip {.2777em}$\textit {memo} No.4: 偶然と必然}{11}{}%
+\contentsline {subsubsection}{$\sharp \tmspace +\thickmuskip {.2777em}$\textit {memo} No.5: 相対主義と絶対主義/蓋然性の蓋然性}{11}{}%
+\contentsline {subsubsection}{$\sharp \tmspace +\thickmuskip {.2777em}$\textit {memo} No.6: 真偽と確実性}{12}{}%
+\contentsline {subsection}{\numberline {1.2.5}論理的な飛躍}{12}{}%
+\contentsline {subsubsection}{$\sharp \tmspace +\thickmuskip {.2777em}$\textit {memo} No.7: 例：ハッブルの法則}{12}{}%
+\contentsline {subsection}{\numberline {1.2.6}推論の種類}{14}{}%
+\contentsline {subsubsection}{\numberline {1.2.6.1}演繹的推論}{14}{}%
+\contentsline {subsubsection}{\numberline {1.2.6.2}帰納的推論}{14}{}%
+\contentsline {subsubsection}{\numberline {1.2.6.3}発想的推論}{14}{}%
+\contentsline {subsubsection}{\numberline {1.2.6.4}科学的推論}{15}{}%
+\contentsline {subsection}{\numberline {1.2.7}再現性}{15}{}%
+\contentsline {subsubsection}{$\sharp \tmspace +\thickmuskip {.2777em}$\textit {memo} No.8: 「科学の方法」（中谷宇吉郎：岩波新書）より}{16}{}%
+\contentsline {subsection}{\numberline {1.2.8}単純性：オッカムの剃刀}{17}{}%
+\contentsline {subsubsection}{$\sharp \tmspace +\thickmuskip {.2777em}$\textit {memo} No.9: 「オッカムの剃刀」は正しいのか}{18}{}%
+\contentsline {subsection}{\numberline {1.2.9}客観と主観}{18}{}%
+\contentsline {subsubsection}{\numberline {1.2.9.1}客観性}{18}{}%
+\contentsline {subsubsection}{\numberline {1.2.9.2}"客観" と "主観" の違い}{20}{}%
+\contentsline {subsection}{\numberline {1.2.10}法則}{20}{}%
+\contentsline {subsubsection}{\numberline {1.2.10.1}還元主義}{20}{}%
+\contentsline {subsubsection}{$\sharp \tmspace +\thickmuskip {.2777em}$\textit {memo} No.10: 科学的思想の根本？}{21}{}%
+\contentsline {subsubsection}{\numberline {1.2.10.2}規則性の発見}{21}{}%
+\contentsline {subsubsection}{\numberline {1.2.10.3}法則は理論の土台である}{22}{}%
+\contentsline {subsubsection}{\numberline {1.2.10.4}法則の正しさ}{22}{}%
+\contentsline {subsubsection}{\numberline {1.2.10.5}法則は適用範囲が存在する}{22}{}%
+\contentsline {subsubsection}{\numberline {1.2.10.6}法則であるための条件}{23}{}%
+\contentsline {subsubsection}{$\sharp \tmspace +\thickmuskip {.2777em}$\textit {memo} No.11: ヘンペルのパラドクス}{24}{}%
+\contentsline {subsubsection}{\numberline {1.2.10.7}実験誤差と法則の実証}{24}{}%
+\contentsline {subsubsection}{\numberline {1.2.10.8}法則に含まれる暗黙の前提}{25}{}%
+\contentsline {subsubsection}{\numberline {1.2.10.9}厳密な法則は得られない}{25}{}%
+\contentsline {subsubsection}{\numberline {1.2.10.10}本当の "世界の規則" は知り得ない}{26}{}%
+\contentsline {subsubsection}{\numberline {1.2.10.11}本当に知りたい規則と "等価" な規則}{27}{}%
+\contentsline {subsubsection}{\numberline {1.2.10.12}法則を捉えるということ}{27}{}%
+\contentsline {subsubsection}{\numberline {1.2.10.13}物体は自然法則を知っているか}{28}{}%
+\contentsline {subsubsection}{\numberline {1.2.10.14}物理法則を表現する言葉}{29}{}%
+\contentsline {subsubsection}{\numberline {1.2.10.15}科学法則だけが自然のすべてではない}{30}{}%
+\contentsline {subsubsection}{$\sharp \tmspace +\thickmuskip {.2777em}$\textit {memo} No.12: 科学的根拠}{30}{}%
+\contentsline {subsection}{\numberline {1.2.11}定義}{31}{}%
+\contentsline {subsubsection}{$\sharp \tmspace +\thickmuskip {.2777em}$\textit {memo} No.13: 「定義」の定義}{32}{}%
+\contentsline {section}{\numberline {1.3}物理学の基本概念}{33}{}%
+\contentsline {subsection}{\numberline {1.3.1}物理量}{33}{}%
+\contentsline {subsection}{\numberline {1.3.2}物体}{33}{}%
+\contentsline {subsection}{\numberline {1.3.3}系}{33}{}%
+\contentsline {subsection}{\numberline {1.3.4}文字・数式・式変形}{34}{}%
+\contentsline {subsubsection}{$\sharp \tmspace +\thickmuskip {.2777em}$\textit {memo} No.14: $a+b=b+a$ ?}{39}{}%
+\contentsline {chapter}{\numberline {2}力学の基本概念}{41}{}%
+\contentsline {section}{\numberline {2.1}力とその性質}{41}{}%
+\contentsline {subsection}{\numberline {2.1.1}力（ちから）}{41}{}%
+\contentsline {subsection}{\numberline {2.1.2}力の重ね合わせの原理}{42}{}%
+\contentsline {subsubsection}{$\sharp \tmspace +\thickmuskip {.2777em}$\textit {memo} No.15: 和の記号: $\DOTSB \sum@ \slimits@ $}{42}{}%
+\contentsline {subsection}{\numberline {2.1.3}作用}{44}{}%
+\contentsline {subsection}{\numberline {2.1.4}外力}{46}{}%
+\contentsline {section}{\numberline {2.2}基本単位　([s]/[m]/[kg]/[A])}{46}{}%
+\contentsline {subsection}{\numberline {2.2.1}単位と測定}{46}{}%
+\contentsline {subsection}{\numberline {2.2.2}4つの基本単位}{46}{}%
+\contentsline {subsection}{\numberline {2.2.3}組立単位}{47}{}%
+\contentsline {subsection}{\numberline {2.2.4}測定の方法}{48}{}%
+\contentsline {subsection}{\numberline {2.2.5}単位}{48}{}%
+\contentsline {subsection}{\numberline {2.2.6}時間}{48}{}%
+\contentsline {subsubsection}{$\sharp \tmspace +\thickmuskip {.2777em}$\textit {memo} No.16: “時間”と“時刻”の違い}{48}{}%
+\contentsline {subsubsection}{$\sharp \tmspace +\thickmuskip {.2777em}$\textit {memo} No.17: 飛ぶ矢のパラドクス}{49}{}%
+\contentsline {subsubsection}{$\sharp \tmspace +\thickmuskip {.2777em}$\textit {memo} No.18: 時間とは何か}{49}{}%
+\contentsline {subsubsection}{$\sharp \tmspace +\thickmuskip {.2777em}$\textit {memo} No.19: 「今」見ている世界はいつの世界か}{50}{}%
+\contentsline {subsubsection}{$\sharp \tmspace +\thickmuskip {.2777em}$\textit {memo} No.20: 空間化された時間}{51}{}%
+\contentsline {subsubsection}{$\sharp \tmspace +\thickmuskip {.2777em}$\textit {memo} No.21: 時間の非実在性}{51}{}%
+\contentsline {subsubsection}{$\sharp \tmspace +\thickmuskip {.2777em}$\textit {memo} No.22: 時間が逆行しない}{52}{}%
+\contentsline {subsection}{\numberline {2.2.7}長さ}{53}{}%
+\contentsline {subsection}{\numberline {2.2.8}重さと質量}{53}{}%
+\contentsline {subsubsection}{$\sharp \tmspace +\thickmuskip {.2777em}$\textit {memo} No.23: 定量的な説明}{55}{}%
+\contentsline {subsubsection}{$\sharp \tmspace +\thickmuskip {.2777em}$\textit {memo} No.24: お肉の重さ}{55}{}%
+\contentsline {subsubsection}{$\sharp \tmspace +\thickmuskip {.2777em}$\textit {memo} No.25: 質量は「何」からできているか}{56}{}%
+\contentsline {subsection}{\numberline {2.2.9}基本単位のまとめ}{56}{}%
+\contentsline {subsubsection}{$\sharp \tmspace +\thickmuskip {.2777em}$\textit {memo} No.26: 各基本単位の関係}{56}{}%
+\contentsline {section}{\numberline {2.3}物理学における，数学の扱い方}{57}{}%
+\contentsline {subsection}{\numberline {2.3.1}道具としての数学}{57}{}%
+\contentsline {subsection}{\numberline {2.3.2}物理学の考え方}{58}{}%
+\contentsline {subsection}{\numberline {2.3.3}物理学の数式の解釈}{58}{}%
+\contentsline {subsubsection}{$\sharp \tmspace +\thickmuskip {.2777em}$\textit {memo} No.27: 恒等式}{59}{}%
+\contentsline {subsubsection}{$\sharp \tmspace +\thickmuskip {.2777em}$\textit {memo} No.28: 方程式}{59}{}%
+\contentsline {section}{\numberline {2.4}対称性 --- 物理学の基本要請 ---}{59}{}%
+\contentsline {subsection}{\numberline {2.4.1}空間の対称性}{59}{}%
+\contentsline {subsubsection}{\numberline {2.4.1.1}並進対称性}{60}{}%
+\contentsline {subsubsection}{\numberline {2.4.1.2}回転対称性}{61}{}%
+\contentsline {subsection}{\numberline {2.4.2}時間の対称性}{61}{}%
+\contentsline {subsection}{\numberline {2.4.3}対称性 --- まとめ ---}{62}{}%
+\contentsline {subsection}{\numberline {2.4.4}対称性と保存則（ネーターの定理）}{62}{}%
+\contentsline {chapter}{\numberline {3}運動学}{65}{}%
+\contentsline {section}{\numberline {3.1}「物体の運動」の表現方法}{65}{}%
+\contentsline {subsection}{\numberline {3.1.1}位置}{65}{}%
+\contentsline {subsection}{\numberline {3.1.2}速度}{66}{}%
+\contentsline {subsection}{\numberline {3.1.3}加速度}{66}{}%
+\contentsline {subsubsection}{$\sharp \tmspace +\thickmuskip {.2777em}$\textit {memo} No.29: 加加速度，躍度，jerk}{66}{}%
+\contentsline {subsection}{\numberline {3.1.4}運動軌道}{66}{}%
+\contentsline {subsection}{\numberline {3.1.5}「運動の軌道」の表現に必要な情報}{67}{}%
+\contentsline {section}{\numberline {3.2}位置の記述方法}{67}{}%
+\contentsline {subsection}{\numberline {3.2.1}1次元（直線）上の位置}{68}{}%
+\contentsline {subsection}{\numberline {3.2.2}2次元（平面）上の位置}{69}{}%
+\contentsline {subsection}{\numberline {3.2.3}3次元（空間）内の位置}{71}{}%
+\contentsline {subsubsection}{$\sharp \tmspace +\thickmuskip {.2777em}$\textit {memo} No.30: 次元とは何か}{71}{}%
+\contentsline {subsubsection}{$\sharp \tmspace +\thickmuskip {.2777em}$\textit {memo} No.31: 座標の張り方}{73}{}%
+\contentsline {section}{\numberline {3.3}速度・速さの表現方法}{74}{}%
+\contentsline {subsection}{\numberline {3.3.1}「速度・速さ」の表現方法}{74}{}%
+\contentsline {subsubsection}{$\sharp \tmspace +\thickmuskip {.2777em}$\textit {memo} No.32: 「速度」と「速さ」の使い分け}{75}{}%
+\contentsline {subsection}{\numberline {3.3.2}「変化」の数式化}{75}{}%
+\contentsline {subsection}{\numberline {3.3.3}位置の時間変化の図示}{75}{}%
+\contentsline {subsection}{\numberline {3.3.4}1次元（直線）上の速度}{76}{}%
+\contentsline {subsection}{\numberline {3.3.5}2次元（平面）上の速度}{80}{}%
+\contentsline {subsection}{\numberline {3.3.6}3次元（空間）内の速度}{80}{}%
+\contentsline {subsubsection}{$\sharp \tmspace +\thickmuskip {.2777em}$\textit {memo} No.33: 速度のを表す他の記号}{81}{}%
+\contentsline {subsection}{\numberline {3.3.7}速度の合成}{81}{}%
+\contentsline {subsubsection}{$\sharp \tmspace +\thickmuskip {.2777em}$\textit {memo} No.34: 数式と実際の現象}{82}{}%
+\contentsline {section}{\numberline {3.4}加速度の表現方法}{83}{}%
+\contentsline {subsection}{\numberline {3.4.1}1次元（直線）上の加速度}{83}{}%
+\contentsline {subsubsection}{$\sharp \tmspace +\thickmuskip {.2777em}$\textit {memo} No.35: 速度$\cdot $位置$\cdot $加速度の関係}{84}{}%
+\contentsline {subsection}{\numberline {3.4.2}2次元（平面）上の加速度}{84}{}%
+\contentsline {subsection}{\numberline {3.4.3}3次元（空間）内の加速度}{85}{}%
+\contentsline {subsubsection}{$\sharp \tmspace +\thickmuskip {.2777em}$\textit {memo} No.36: 変化の記述}{85}{}%
+\contentsline {section}{\numberline {3.5}躍度（加加速度，jerk）}{87}{}%
+\contentsline {chapter}{\numberline {4}3つの運動法則 と 万有引力の法則}{89}{}%
+\contentsline {section}{\numberline {4.1}運動の3法則}{89}{}%
+\contentsline {subsection}{\numberline {4.1.1}（第1法則）慣性の法則}{89}{}%
+\contentsline {subsection}{\numberline {4.1.2}（第2法則）運動方程式}{91}{}%
+\contentsline {subsection}{\numberline {4.1.3}（第3法則）作用$\cdot $反作用の法則}{93}{}%
+\contentsline {subsection}{\numberline {4.1.4}慣性質量}{94}{}%
+\contentsline {subsubsection}{$\sharp \tmspace +\thickmuskip {.2777em}$\textit {memo} No.37: 慣性の法則と運動方程式の関係}{94}{}%
+\contentsline {section}{\numberline {4.2}万有引力の法則}{95}{}%
+\contentsline {subsection}{\numberline {4.2.1}法則のイメージと数式による定義}{95}{}%
+\contentsline {subsubsection}{$\sharp \tmspace +\thickmuskip {.2777em}$\textit {memo} No.38: 万有引力法則とケプラーの法則}{96}{}%
+\contentsline {subsection}{\numberline {4.2.2}重力質量}{96}{}%
+\contentsline {subsubsection}{$\sharp \tmspace +\thickmuskip {.2777em}$\textit {memo} No.39: この世界にある「力」の種類}{97}{}%
+\contentsline {subsection}{\numberline {4.2.3}重力加速度}{97}{}%
+\contentsline {chapter}{\numberline {5}保存則}{99}{}%
+\contentsline {section}{\numberline {5.1}等価原理}{99}{}%
+\contentsline {subsection}{\numberline {5.1.1}原理}{99}{}%
+\contentsline {subsection}{\numberline {5.1.2}実験による確認}{100}{}%
+\contentsline {section}{\numberline {5.2}運動量保存の法則}{100}{}%
+\contentsline {subsection}{\numberline {5.2.1}運動量の定義}{100}{}%
+\contentsline {subsection}{\numberline {5.2.2}運動量を用いた運動方程式}{101}{}%
+\contentsline {subsubsection}{$\sharp \tmspace +\thickmuskip {.2777em}$\textit {memo} No.40: 運動量を用いた運動方程式の必要性}{102}{}%
+\contentsline {subsection}{\numberline {5.2.3}運動量保存の法則}{102}{}%
+\contentsline {subsubsection}{\numberline {5.2.3.1}2つの物体間の運動量保存の法則}{102}{}%
+\contentsline {subsubsection}{\numberline {5.2.3.2}$N$ 個の物体間の運動量保存の法則}{103}{}%
+\contentsline {subsubsection}{$\sharp \tmspace +\thickmuskip {.2777em}$\textit {memo} No.41: 現象全体を見ることで，保存則が成立する}{103}{}%
+\contentsline {subsubsection}{$\sharp \tmspace +\thickmuskip {.2777em}$\textit {memo} No.42: 運動方程式と運動量保存則}{104}{}%
+\contentsline {subsubsection}{$\sharp \tmspace +\thickmuskip {.2777em}$\textit {memo} No.43: 高校物理における運動量保存則}{104}{}%
+\contentsline {subsection}{\numberline {5.2.4}運動量の変化と力積}{105}{}%
+\contentsline {section}{\numberline {5.3}角運動量保存の法則}{106}{}%
+\contentsline {subsection}{\numberline {5.3.1}角運動}{106}{}%
+\contentsline {subsection}{\numberline {5.3.2}てこの原理}{106}{}%
+\contentsline {subsection}{\numberline {5.3.3}釣り合いの式}{107}{}%
+\contentsline {subsection}{\numberline {5.3.4}物体の回転の表現 と ベクトルの外積}{107}{}%
+\contentsline {subsection}{\numberline {5.3.5}角運動量}{109}{}%
+\contentsline {subsection}{\numberline {5.3.6}角運動の方程式}{109}{}%
+\contentsline {subsection}{\numberline {5.3.7}角運動量保存則}{110}{}%
+\contentsline {section}{\numberline {5.4}力学的エネルギー保存の法則}{111}{}%
+\contentsline {subsection}{\numberline {5.4.1}仕事}{111}{}%
+\contentsline {subsubsection}{\numberline {5.4.1.1}1次元上の仕事}{111}{}%
+\contentsline {subsubsection}{\numberline {5.4.1.2}3次元内の仕事}{112}{}%
+\contentsline {subsubsection}{\numberline {5.4.1.3}仕事の単位}{113}{}%
+\contentsline {subsubsection}{\numberline {5.4.1.4}一般的な仕事の定義}{113}{}%
+\contentsline {subsubsection}{$\sharp \tmspace +\thickmuskip {.2777em}$\textit {memo} No.44: 注意}{114}{}%
+\contentsline {subsection}{\numberline {5.4.2}エネルギーについて}{115}{}%
+\contentsline {subsubsection}{\numberline {5.4.2.1}エネルギー}{115}{}%
+\contentsline {subsubsection}{\numberline {5.4.2.2}エネルギーの種類}{116}{}%
+\contentsline {subsubsection}{\numberline {5.4.2.3}「エネルギー」のイメージ}{117}{}%
+\contentsline {subsection}{\numberline {5.4.3}ポテンシャル$\cdot $エネルギー}{117}{}%
+\contentsline {subsubsection}{\numberline {5.4.3.1}高さ（位置）によるエネルギーの違い}{117}{}%
+\contentsline {subsubsection}{\numberline {5.4.3.2}エネルギーの値が負であるのはなぜか}{119}{}%
+\contentsline {subsubsection}{\numberline {5.4.3.3}ポテンシャル$\cdot $エネルギーの定義}{119}{}%
+\contentsline {subsubsection}{\numberline {5.4.3.4}一般的なポテンシャルエネルギー}{120}{}%
+\contentsline {subsection}{\numberline {5.4.4}運動エネルギー}{120}{}%
+\contentsline {subsubsection}{\numberline {5.4.4.1}物体を高いところから落とすと$\cdots $}{120}{}%
+\contentsline {subsubsection}{\numberline {5.4.4.2}位置エネルギーから運動エネルギーへ}{121}{}%
+\contentsline {subsubsection}{\numberline {5.4.4.3}運動エネルギーの定義}{122}{}%
+\contentsline {subsubsection}{\numberline {5.4.4.4}運動量と運動エネルギーの関係式}{122}{}%
+\contentsline {subsection}{\numberline {5.4.5}力学的エネルギー保存の法則}{122}{}%
+\contentsline {subsubsection}{\numberline {5.4.5.1}高校生向けの説明}{122}{}%
+\contentsline {subsubsection}{\numberline {5.4.5.2}微分の知識を使う方法}{123}{}%
+\contentsline {subsubsection}{$\sharp \tmspace +\thickmuskip {.2777em}$\textit {memo} No.45: 注意}{128}{}%
+\contentsline {subsection}{\numberline {5.4.6}万有引力によるポテンシャル$\cdot $エネルギー}{128}{}%
+\contentsline {subsection}{\numberline {5.4.7}保存力}{129}{}%
+\contentsline {subsection}{\numberline {5.4.8}勾配}{132}{}%
+\contentsline {subsection}{\numberline {5.4.9}保存力と $\mathrm {grad}\,$ の図的イメージ}{134}{}%
+\contentsline {subsubsection}{$\sharp \tmspace +\thickmuskip {.2777em}$\textit {memo} No.46: $\partial / \partial \boldsymbol {r}$ という表現について}{135}{}%
+\contentsline {subsection}{\numberline {5.4.10}保存力と周回積分}{136}{}%
+\contentsline {section}{\numberline {5.5}エネルギーと運動量}{136}{}%
+\contentsline {chapter}{\numberline {6}座標変換}{139}{}%
+\contentsline {section}{\numberline {6.1}座標のとりかた}{139}{}%
+\contentsline {subsection}{\numberline {6.1.1}座標とは}{139}{}%
+\contentsline {subsection}{\numberline {6.1.2}直交座標}{140}{}%
+\contentsline {subsection}{\numberline {6.1.3}斜交座標}{140}{}%
+\contentsline {subsection}{\numberline {6.1.4}極座標}{141}{}%
+\contentsline {subsection}{\numberline {6.1.5}円筒座標}{142}{}%
+\contentsline {section}{\numberline {6.2}異なる座標同士の関係}{143}{}%
+\contentsline {subsection}{\numberline {6.2.1}座標による違い}{143}{}%
+\contentsline {subsection}{\numberline {6.2.2}直交座標 $\rightarrow $ 斜交座標}{144}{}%
+\contentsline {section}{\numberline {6.3}座標変換}{144}{}%
+\contentsline {subsection}{\numberline {6.3.1}座標系の表現の仕方}{144}{}%
+\contentsline {section}{\numberline {6.4}座標変換と運動方程式}{144}{}%
+\contentsline {subsection}{\numberline {6.4.1}ガリレイ変換}{145}{}%
+\contentsline {subsection}{\numberline {6.4.2}加速度系における物体の運動}{146}{}%
+\contentsline {subsection}{\numberline {6.4.3}見かけの力}{148}{}%
+\contentsline {subsection}{\numberline {6.4.4}アインシュタインの等価原理}{148}{}%
+\contentsline {subsubsection}{$\sharp \tmspace +\thickmuskip {.2777em}$\textit {memo} No.47: 例1：電車の加速度運動}{149}{}%
+\contentsline {subsubsection}{$\sharp \tmspace +\thickmuskip {.2777em}$\textit {memo} No.48: 例2：エレベータ}{149}{}%
+\contentsline {subsubsection}{$\sharp \tmspace +\thickmuskip {.2777em}$\textit {memo} No.49: 「慣性質量」と「重力質量」の等価性とは意味が違う}{149}{}%
+\contentsline {subsection}{\numberline {6.4.5}極座標と運動方程式}{149}{}%
+\contentsline {chapter}{\numberline {7}物体の運動の解析}{151}{}%
+\contentsline {section}{\numberline {7.1}運動の解析方法}{151}{}%
+\contentsline {section}{\numberline {7.2}重要な例}{152}{}%
+\contentsline {subsection}{\numberline {7.2.1}等速直線運動}{152}{}%
+\contentsline {subsection}{\numberline {7.2.2}等加速度運動}{153}{}%
+\contentsline {subsection}{\numberline {7.2.3}等速円運動}{155}{}%
+\contentsline {subsubsection}{\numberline {7.2.3.1}はじめに}{155}{}%
+\contentsline {subsubsection}{\numberline {7.2.3.2}角速度}{155}{}%
+\contentsline {subsubsection}{$\sharp \tmspace +\thickmuskip {.2777em}$\textit {memo} No.50: 速度と加速度は直交する（図形的説明）}{156}{}%
+\contentsline {subsubsection}{\numberline {7.2.3.3}角速度と円の方程式}{157}{}%
+\contentsline {subsubsection}{\numberline {7.2.3.4}等速円運動の速度と加速度の導出}{159}{}%
+\contentsline {subsubsection}{\numberline {7.2.3.5}等速円運動の位置と速度と加速度の関係}{160}{}%
+\contentsline {subsubsection}{$\sharp \tmspace +\thickmuskip {.2777em}$\textit {memo} No.51: 速度と加速度は直交する(演繹的説明)}{162}{}%
+\contentsline {subsubsection}{\numberline {7.2.3.6}円運動の周期と角速度}{163}{}%
+\contentsline {subsubsection}{\numberline {7.2.3.7}等速円運動の運動方程式}{164}{}%
+\contentsline {section}{\numberline {7.3}地球重力下での運動}{164}{}%
+\contentsline {subsection}{\numberline {7.3.1}理想的な地球の形}{164}{}%
+\contentsline {subsubsection}{$\sharp \tmspace +\thickmuskip {.2777em}$\textit {memo} No.52: 計算で使う記号}{164}{}%
+\contentsline {subsection}{\numberline {7.3.2}地表の重力加速度}{164}{}%
+\contentsline {subsubsection}{$\sharp \tmspace +\thickmuskip {.2777em}$\textit {memo} No.53: 地表の重力加速度}{165}{}%
+\contentsline {subsubsection}{$\sharp \tmspace +\thickmuskip {.2777em}$\textit {memo} No.54: エベレスト頂上の重力加速度}{166}{}%
+\contentsline {subsection}{\numberline {7.3.3}放物運動}{166}{}%
+\contentsline {subsection}{\numberline {7.3.4}宇宙速度}{169}{}%
+\contentsline {subsubsection}{\numberline {7.3.4.1}第一宇宙速度}{170}{}%
+\contentsline {subsubsection}{\numberline {7.3.4.2}第二宇宙速度}{171}{}%
+\contentsline {subsubsection}{$\sharp \tmspace +\thickmuskip {.2777em}$\textit {memo} No.55: 補足}{172}{}%
+\contentsline {subsubsection}{\numberline {7.3.4.3}第三宇宙速度}{172}{}%
+\contentsline {subsection}{\numberline {7.3.5}躍度(jerk)と運動方程式}{172}{}%
+\contentsline {subsection}{\numberline {7.3.6}円錐振り子}{173}{}%
+\contentsline {subsection}{\numberline {7.3.7}調和振動（単振動）}{173}{}%
+\contentsline {subsubsection}{\numberline {7.3.7.1}弾性力}{173}{}%
+\contentsline {subsubsection}{\numberline {7.3.7.2}フックの法則}{174}{}%
+\contentsline {subsubsection}{\numberline {7.3.7.3}単振動の種類}{175}{}%
+\contentsline {subsubsection}{\numberline {7.3.7.4}調和振動の運動解析}{175}{}%
+\contentsline {chapter}{\numberline {8}惑星の運動}{179}{}%
+\contentsline {section}{\numberline {8.1}はじめに}{179}{}%
+\contentsline {section}{\numberline {8.2}ケプラーの法則}{180}{}%
+\contentsline {subsection}{\numberline {8.2.1}楕円の方程式}{180}{}%
+\contentsline {subsection}{\numberline {8.2.2}極座標での運動方程式}{180}{}%
+\contentsline {subsection}{\numberline {8.2.3}第1法則；楕円軌道の法則}{181}{}%
+\contentsline {subsection}{\numberline {8.2.4}第2法則；面積速度一定の法則}{181}{}%
+\contentsline {subsection}{\numberline {8.2.5}第3法則；調和の法則}{181}{}%
+\contentsline {chapter}{\numberline {9}解析力学}{183}{}%
+\contentsline {section}{\numberline {9.1}はじめに}{183}{}%
+\contentsline {subsection}{\numberline {9.1.1}教科書}{183}{}%
+\contentsline {subsection}{\numberline {9.1.2}解析力学とは}{183}{}%
+\contentsline {subsection}{\numberline {9.1.3}解析力学の目的}{184}{}%
+\contentsline {section}{\numberline {9.2}速習：解析力学}{184}{}%
+\contentsline {subsection}{\numberline {9.2.1}時間微分の省略記号}{185}{}%
+\contentsline {subsection}{\numberline {9.2.2}ラグランジュ形式の解析力学}{185}{}%
+\contentsline {subsubsection}{\numberline {9.2.2.1}ニュートン方程式の復習}{186}{}%
+\contentsline {subsubsection}{\numberline {9.2.2.2}力とポテンシャル$\cdot $エネルギーの関係式}{186}{}%
+\contentsline {subsubsection}{\numberline {9.2.2.3}運動エネルギーと運動量}{186}{}%
+\contentsline {subsubsection}{\numberline {9.2.2.4}ラグランジアンの導入}{187}{}%
+\contentsline {subsubsection}{\numberline {9.2.2.5}ラグランジュの運動方程式}{188}{}%
+\contentsline {subsubsection}{$\sharp \tmspace +\thickmuskip {.2777em}$\textit {memo} No.56: 式(9.13\@setref@ {})と式(9.10\@setref@ {})の等価性}{189}{}%
+\contentsline {subsection}{\numberline {9.2.3}一般化された運動量}{189}{}%
+\contentsline {subsection}{\numberline {9.2.4}一般化された力}{190}{}%
+\contentsline {subsection}{\numberline {9.2.5}ハミルトン形式の解析力学}{191}{}%
+\contentsline {subsubsection}{\numberline {9.2.5.1}ハミルトニアンの導入}{192}{}%
+\contentsline {subsubsection}{\numberline {9.2.5.2}ハミルトニアンのもつ意味}{192}{}%
+\contentsline {subsection}{\numberline {9.2.6}正準方程式}{193}{}%
+\contentsline {subsubsection}{\numberline {9.2.6.1}汎関数}{193}{}%
+\contentsline {subsubsection}{\numberline {9.2.6.2}変分}{196}{}%
+\contentsline {subsubsection}{\numberline {9.2.6.3}汎関数の微分}{197}{}%
+\contentsline {subsubsection}{\numberline {9.2.6.4}汎関数の変分}{198}{}%
+\contentsline {subsubsection}{\numberline {9.2.6.5}正準方程式の導出}{198}{}%
+\contentsline {subsubsection}{$\sharp \tmspace +\thickmuskip {.2777em}$\textit {memo} No.57: 変分と微分の可換性}{199}{}%
+\contentsline {section}{\numberline {9.3}変分原理}{200}{}%
+\contentsline {subsection}{\numberline {9.3.1}学習マップ}{200}{}%
+\contentsline {subsection}{\numberline {9.3.2}ダランベールの原理}{201}{}%
+\contentsline {subsection}{\numberline {9.3.3}仮想仕事の原理}{201}{}%
+\contentsline {subsection}{\numberline {9.3.4}ラグランジアン と 最小作用の原理}{202}{}%
+\contentsline {subsubsection}{$\sharp \tmspace +\thickmuskip {.2777em}$\textit {memo} No.58: ラグランジアンの定義について}{204}{}%
+\contentsline {subsubsection}{$\sharp \tmspace +\thickmuskip {.2777em}$\textit {memo} No.59: 最小作用の原理のイメージ}{204}{}%
+\contentsline {subsection}{\numberline {9.3.5}ラグランジュの運動方程式の導出}{205}{}%
+\contentsline {subsubsection}{$\sharp \tmspace +\thickmuskip {.2777em}$\textit {memo} No.60: 共変性}{207}{}%
+\contentsline {subsection}{\numberline {9.3.6}一般化座標}{207}{}%
+\contentsline {subsection}{\numberline {9.3.7}運動方程式の共変性}{208}{}%
+\contentsline {section}{\numberline {9.4}ハミルトンの運動方程式}{211}{}%
+\contentsline {subsection}{\numberline {9.4.1}ハミルトニアンの導入}{211}{}%
+\contentsline {subsubsection}{\numberline {9.4.1.1}ルジャンドル変換}{211}{}%
+\contentsline {subsubsection}{\numberline {9.4.1.2}ハミルトニアンの定義}{213}{}%
+\contentsline {subsection}{\numberline {9.4.2}ポアソン括弧}{215}{}%
+\contentsline {subsection}{\numberline {9.4.3}正準方程式}{215}{}%
+\contentsline {subsubsection}{\numberline {9.4.3.1}正準運動方程式}{215}{}%
+\contentsline {part}{II\hspace {1em}電磁気学 1st}{219}{}%
+\contentsline {chapter}{\numberline {10}電磁気学が対象とする現象}{221}{}%
+\contentsline {section}{\numberline {10.1}はじめに}{221}{}%
+\contentsline {subsection}{\numberline {10.1.1}電気と磁気}{221}{}%
+\contentsline {subsection}{\numberline {10.1.2}電気と磁気の伝わり方}{221}{}%
+\contentsline {subsection}{\numberline {10.1.3}電気・磁気の研究の歴史（ダイジェスト）}{222}{}%
+\contentsline {section}{\numberline {10.2}電気的現象}{223}{}%
+\contentsline {section}{\numberline {10.3}磁気的現象}{223}{}%
+\contentsline {section}{\numberline {10.4}電磁気的現象}{224}{}%
+\contentsline {subsubsection}{$\sharp \tmspace +\thickmuskip {.2777em}$\textit {memo} No.61: 非接触的な力}{224}{}%
+\contentsline {chapter}{\numberline {11}電荷 --- 電磁気現象の根源 ---}{225}{}%
+\contentsline {section}{\numberline {11.1}電荷}{225}{}%
+\contentsline {subsection}{\numberline {11.1.1}電荷の存在}{225}{}%
+\contentsline {subsection}{\numberline {11.1.2}電荷は2種類しかないのか}{227}{}%
+\contentsline {subsection}{\numberline {11.1.3}荷電粒子，点電荷}{227}{}%
+\contentsline {subsection}{\numberline {11.1.4}電荷は実際に存在するか}{228}{}%
+\contentsline {subsubsection}{$\sharp \tmspace +\thickmuskip {.2777em}$\textit {memo} No.62: 電子の存在と電磁気学}{228}{}%
+\contentsline {subsection}{\numberline {11.1.5}電気量}{229}{}%
+\contentsline {subsection}{\numberline {11.1.6}電気素量}{230}{}%
+\contentsline {subsubsection}{$\sharp \tmspace +\thickmuskip {.2777em}$\textit {memo} No.63: 電気素量をどう見つけたか}{230}{}%
+\contentsline {subsection}{\numberline {11.1.7}電荷密度}{231}{}%
+\contentsline {subsubsection}{$\sharp \tmspace +\thickmuskip {.2777em}$\textit {memo} No.64: 電荷密度の表現上の問題}{231}{}%
+\contentsline {subsection}{\numberline {11.1.8}電荷密度と全電気量の関係}{232}{}%
+\contentsline {subsubsection}{$\sharp \tmspace +\thickmuskip {.2777em}$\textit {memo} No.65: 微小体積}{233}{}%
+\contentsline {subsubsection}{$\sharp \tmspace +\thickmuskip {.2777em}$\textit {memo} No.66: 体積分の表示方法}{233}{}%
+\contentsline {subsection}{\numberline {11.1.9}$\delta $ 関数}{234}{}%
+\contentsline {subsubsection}{\numberline {11.1.9.1}$\delta $ 関数の定義}{234}{}%
+\contentsline {subsubsection}{\numberline {11.1.9.2}1次元の $\delta $ 関数}{236}{}%
+\contentsline {section}{\numberline {11.2}電流}{238}{}%
+\contentsline {subsection}{\numberline {11.2.1}電流のイメージ}{238}{}%
+\contentsline {subsection}{\numberline {11.2.2}電流の定義（仮）}{239}{}%
+\contentsline {subsubsection}{$\sharp \tmspace +\thickmuskip {.2777em}$\textit {memo} No.67: 注意}{239}{}%
+\contentsline {subsection}{\numberline {11.2.3}電流密度}{240}{}%
+\contentsline {subsection}{\numberline {11.2.4}電流密度と電流の関係}{240}{}%
+\contentsline {subsubsection}{$\sharp \tmspace +\thickmuskip {.2777em}$\textit {memo} No.68: 微小面積と単位法線ベクトル}{241}{}%
+\contentsline {subsubsection}{$\sharp \tmspace +\thickmuskip {.2777em}$\textit {memo} No.69: 面積分の表示方法}{241}{}%
+\contentsline {section}{\numberline {11.3}電流と電荷の関係}{243}{}%
+\contentsline {subsection}{\numberline {11.3.1}大局的な電荷保存則}{243}{}%
+\contentsline {subsection}{\numberline {11.3.2}局所的な電荷保存則}{244}{}%
+\contentsline {subsubsection}{$\sharp \tmspace +\thickmuskip {.2777em}$\textit {memo} No.70: ガウスの定理（復習）}{246}{}%
+\contentsline {chapter}{\numberline {12}クーロンの法則}{247}{}%
+\contentsline {section}{\numberline {12.1}クーロン力}{247}{}%
+\contentsline {subsection}{\numberline {12.1.1}法則}{247}{}%
+\contentsline {subsection}{\numberline {12.1.2}定量化}{248}{}%
+\contentsline {subsection}{\numberline {12.1.3}まとめ}{251}{}%
+\contentsline {subsubsection}{$\sharp \tmspace +\thickmuskip {.2777em}$\textit {memo} No.71: （例）2つの点電荷同士のクーロン力}{251}{}%
+\contentsline {section}{\numberline {12.2}力の重ねあわせの原理}{254}{}%
+\contentsline {section}{\numberline {12.3}クーロンの法則（$N$個の点電荷）}{256}{}%
+\contentsline {subsubsection}{$\sharp \tmspace +\thickmuskip {.2777em}$\textit {memo} No.72: 和の記号: $\DOTSB \sum@ \slimits@ _{j=1,j\neq i}^{N}$ の注意}{257}{}%
+\contentsline {section}{\numberline {12.4}クーロンの法則（電荷の連続分布）}{258}{}%
+\contentsline {section}{\numberline {12.5}クーロン力(電気的な力)と力学的な力}{259}{}%
+\contentsline {chapter}{\numberline {13}電場}{261}{}%
+\contentsline {section}{\numberline {13.1}作用の伝わり方}{261}{}%
+\contentsline {subsection}{\numberline {13.1.1}遠隔作用}{261}{}%
+\contentsline {subsection}{\numberline {13.1.2}近接作用}{261}{}%
+\contentsline {section}{\numberline {13.2}電場（1個の点電荷）}{262}{}%
+\contentsline {subsection}{\numberline {13.2.1}2つの点電荷間のクーロン力}{262}{}%
+\contentsline {subsection}{\numberline {13.2.2}定量化}{262}{}%
+\contentsline {subsection}{\numberline {13.2.3}単位電荷が及ぼすクーロン力}{263}{}%
+\contentsline {section}{\numberline {13.3}電場（$N$ 個の点電荷）}{264}{}%
+\contentsline {section}{\numberline {13.4}電場（電荷の連続分布）}{265}{}%
+\contentsline {section}{\numberline {13.5}電場（一般化）}{266}{}%
+\contentsline {subsubsection}{$\sharp \tmspace +\thickmuskip {.2777em}$\textit {memo} No.73: （例）点電荷の作る電場}{266}{}%
+\contentsline {section}{\numberline {13.6}時間変化する電場}{267}{}%
+\contentsline {section}{\numberline {13.7}電場の定性的なイメージ}{268}{}%
+\contentsline {subsection}{\numberline {13.7.1}イメージ}{268}{}%
+\contentsline {subsection}{\numberline {13.7.2}電気力線（電場の可視化）}{269}{}%
+\contentsline {chapter}{\numberline {14}磁束密度}{271}{}%
+\contentsline {section}{\numberline {14.1}磁束密度に関するローレンツ力}{271}{}%
+\contentsline {section}{\numberline {14.2}電流が受ける力}{274}{}%
+\contentsline {section}{\numberline {14.3}ビオ$=$サバールの法則}{275}{}%
+\contentsline {subsection}{\numberline {14.3.1}実験則}{275}{}%
+\contentsline {subsection}{\numberline {14.3.2}一般化}{275}{}%
+\contentsline {subsection}{\numberline {14.3.3}点電荷の場合}{276}{}%
+\contentsline {chapter}{\numberline {15}電磁気力（ローレンツ力）}{279}{}%
+\contentsline {section}{\numberline {15.1}ローレンツ力（電磁気力）}{279}{}%
+\contentsline {section}{\numberline {15.2}ローレンツ力と観測者}{280}{}%
+\contentsline {subsubsection}{$\sharp \tmspace +\thickmuskip {.2777em}$\textit {memo} No.74: 電荷自身から発する磁束密度}{280}{}%
+\contentsline {chapter}{\numberline {16}マクスウェル方程式概観}{283}{}%
+\contentsline {section}{\numberline {16.1}4つの基本法則}{283}{}%
+\contentsline {subsection}{\numberline {16.1.1}はじめに}{283}{}%
+\contentsline {subsection}{\numberline {16.1.2}電場に対するガウスの法則}{284}{}%
+\contentsline {subsection}{\numberline {16.1.3}磁束密度に対するガウスの法則}{285}{}%
+\contentsline {subsection}{\numberline {16.1.4}ファラデーの電磁誘導の法則}{286}{}%
+\contentsline {subsection}{\numberline {16.1.5}アンペール$=$マクスウェルの法則}{286}{}%
+\contentsline {section}{\numberline {16.2}マクスウェル方程式を見てみよう}{287}{}%
+\contentsline {subsection}{\numberline {16.2.1}「マクスウェル方程式」とは}{287}{}%
+\contentsline {subsubsection}{\numberline {16.2.1.1}マクスウェルが電磁気学を確立する}{287}{}%
+\contentsline {subsubsection}{\numberline {16.2.1.2}数式で表現してこそ，基本法則と言える}{288}{}%
+\contentsline {subsubsection}{\numberline {16.2.1.3}マクスウェル方程式の2種類の表現}{288}{}%
+\contentsline {subsection}{\numberline {16.2.2}約束：独立変数の記述の省略}{288}{}%
+\contentsline {subsection}{\numberline {16.2.3}マクスウェル方程式（微分形）}{289}{}%
+\contentsline {subsubsection}{\numberline {16.2.3.1}電場に対するガウスの法則の式：微分形}{289}{}%
+\contentsline {subsubsection}{\numberline {16.2.3.2}磁束密度に対するガウスの法則の式：微分形}{290}{}%
+\contentsline {subsubsection}{\numberline {16.2.3.3}アンペール$=$マクスウェルの法則の式：微分形}{291}{}%
+\contentsline {subsubsection}{\numberline {16.2.3.4}ファラデーの電磁誘導の法則の式：微分形}{292}{}%
+\contentsline {subsection}{\numberline {16.2.4}マクスウェル方程式（積分形）}{293}{}%
+\contentsline {subsubsection}{\numberline {16.2.4.1}電場に対するガウスの法則の式：積分形}{293}{}%
+\contentsline {subsubsection}{\numberline {16.2.4.2}磁束密度に対するガウスの法則の式：積分形}{293}{}%
+\contentsline {subsubsection}{\numberline {16.2.4.3}アンペール$=$マクスウェルの法則の式：積分形}{294}{}%
+\contentsline {subsubsection}{\numberline {16.2.4.4}ファラデーの電磁誘導の法則の式：積分形}{294}{}%
+\contentsline {chapter}{\numberline {17}電場に対するガウスの法則}{297}{}%
+\contentsline {section}{\numberline {17.1}電場の定義}{297}{}%
+\contentsline {subsection}{\numberline {17.1.1}クーロンの法則（復習）}{297}{}%
+\contentsline {subsection}{\numberline {17.1.2}電場に対するガウスの法則の導出}{298}{}%
+\contentsline {subsubsection}{\numberline {17.1.2.1}クーロンの法則から見えてくること}{299}{}%
+\contentsline {subsubsection}{\numberline {17.1.2.2}1つの点電荷のみが存在する場合}{300}{}%
+\contentsline {subsubsection}{\numberline {17.1.2.3}$N$ 個の点電荷のみが存在する場合}{302}{}%
+\contentsline {subsubsection}{\numberline {17.1.2.4}電荷が連続的に分布する場合}{304}{}%
+\contentsline {subsection}{\numberline {17.1.3}法則の意味（定性的なイメージ）}{305}{}%
+\contentsline {subsubsection}{\numberline {17.1.3.1}法則のイメージ}{305}{}%
+\contentsline {subsubsection}{\numberline {17.1.3.2}近接作用するクーロン力}{305}{}%
+\contentsline {section}{\numberline {17.2}電位}{306}{}%
+\contentsline {subsection}{\numberline {17.2.1}クーロン力より生じるポテンシャル$\cdot $エネルギー}{306}{}%
+\contentsline {subsection}{\numberline {17.2.2}電位の定義}{309}{}%
+\contentsline {subsection}{\numberline {17.2.3}電位の定義の意味}{309}{}%
+\contentsline {subsection}{\numberline {17.2.4}電場と電位の関係}{310}{}%
+\contentsline {subsubsection}{$\sharp \tmspace +\thickmuskip {.2777em}$\textit {memo} No.75: ポテンシャルを基礎に，電場を定義する場合}{311}{}%
+\contentsline {subsection}{\numberline {17.2.5}等電位面}{311}{}%
+\contentsline {subsection}{\numberline {17.2.6}等電位面と電場の向き}{312}{}%
+\contentsline {subsection}{\numberline {17.2.7}ポアソン方程式}{313}{}%
+\contentsline {subsection}{\numberline {17.2.8}ラプラス方程式}{314}{}%
+\contentsline {subsubsection}{$\sharp \tmspace +\thickmuskip {.2777em}$\textit {memo} No.76: 次の計算のための準備}{314}{}%
+\contentsline {subsubsection}{$\sharp \tmspace +\thickmuskip {.2777em}$\textit {memo} No.77: ${\nabla }^{2}$ の計算}{314}{}%
+\contentsline {subsubsection}{$\sharp \tmspace +\thickmuskip {.2777em}$\textit {memo} No.78: $\mathrm {div}\,\mathrm {grad}\,$ の計算}{315}{}%
+\contentsline {subsubsection}{$\sharp \tmspace +\thickmuskip {.2777em}$\textit {memo} No.79: $\triangle = {\nabla }^{2} = \mathrm {div}\,\mathrm {grad}\,$}{315}{}%
+\contentsline {subsection}{\numberline {17.2.9}静電場/電位の特徴}{316}{}%
+\contentsline {subsubsection}{\numberline {17.2.9.1}特徴1}{316}{}%
+\contentsline {subsubsection}{\numberline {17.2.9.2}特徴2}{317}{}%
+\contentsline {subsubsection}{\numberline {17.2.9.3}特徴3}{318}{}%
+\contentsline {subsection}{\numberline {17.2.10}アーンショーの定理}{318}{}%
+\contentsline {section}{\numberline {17.3}導体}{319}{}%
+\contentsline {subsection}{\numberline {17.3.1}導体とは}{319}{}%
+\contentsline {subsubsection}{\numberline {17.3.1.1}導体，半導体，絶縁体}{319}{}%
+\contentsline {subsubsection}{\numberline {17.3.1.2}理想的な導体}{321}{}%
+\contentsline {subsection}{\numberline {17.3.2}導体と電場の関係}{321}{}%
+\contentsline {subsubsection}{\numberline {17.3.2.1}静電誘導}{321}{}%
+\contentsline {subsubsection}{\numberline {17.3.2.2}静電遮蔽}{322}{}%
+\contentsline {subsubsection}{$\sharp \tmspace +\thickmuskip {.2777em}$\textit {memo} No.80: 導体内部に電場は生じない}{322}{}%
+\contentsline {subsubsection}{\numberline {17.3.2.3}電場と導体表面}{323}{}%
+\contentsline {subsection}{\numberline {17.3.3}導体と電位の関係}{324}{}%
+\contentsline {chapter}{\numberline {18}磁束密度に対するガウスの法則}{325}{}%
+\contentsline {section}{\numberline {18.1}ビオ$=$サバールの法則（復習）}{325}{}%
+\contentsline {section}{\numberline {18.2}磁束密度に対するガウスの法則の導出}{325}{}%
+\contentsline {subsection}{\numberline {18.2.1}公式の確認}{325}{}%
+\contentsline {subsubsection}{$\sharp \tmspace +\thickmuskip {.2777em}$\textit {memo} No.81: 公式の変形1}{326}{}%
+\contentsline {subsubsection}{$\sharp \tmspace +\thickmuskip {.2777em}$\textit {memo} No.82: 公式の変形2}{326}{}%
+\contentsline {subsection}{\numberline {18.2.2}導出}{327}{}%
+\contentsline {subsection}{\numberline {18.2.3}まとめ}{328}{}%
+\contentsline {section}{\numberline {18.3}法則の意味（図的イメージ）}{329}{}%
+\contentsline {chapter}{\numberline {19}アンペール$=$マクスウェルの法則}{331}{}%
+\contentsline {section}{\numberline {19.1}アンペールの法則}{331}{}%
+\contentsline {subsection}{\numberline {19.1.1}エルステッドの実験}{331}{}%
+\contentsline {subsection}{\numberline {19.1.2}ビオ$=$サバールの法則（復習）}{332}{}%
+\contentsline {subsection}{\numberline {19.1.3}アンペールの法則の導出}{333}{}%
+\contentsline {subsubsection}{\numberline {19.1.3.1}定常電流}{333}{}%
+\contentsline {subsubsection}{\numberline {19.1.3.2}導出}{333}{}%
+\contentsline {subsection}{\numberline {19.1.4}法則の意味（図的イメージ）}{335}{}%
+\contentsline {section}{\numberline {19.2}アンペール$=$マクスウェルの法則}{335}{}%
+\contentsline {subsection}{\numberline {19.2.1}アンペールの法則と電荷保存則との矛盾}{335}{}%
+\contentsline {subsection}{\numberline {19.2.2}変位電流}{336}{}%
+\contentsline {subsection}{\numberline {19.2.3}アンペール$=$マクスウェルの法則の導出}{337}{}%
+\contentsline {subsection}{\numberline {19.2.4}法則の意味（図的イメージ）}{338}{}%
+\contentsline {section}{\numberline {19.3}静電容量}{338}{}%
+\contentsline {subsection}{\numberline {19.3.1}キャパシタンス}{338}{}%
+\contentsline {subsubsection}{$\sharp \tmspace +\thickmuskip {.2777em}$\textit {memo} No.83: 「キャパシタ」と「キャパシタンス」の違い}{338}{}%
+\contentsline {subsection}{\numberline {19.3.2}変位電流とキャパシタ}{338}{}%
+\contentsline {subsection}{\numberline {19.3.3}平行平板型のキャパシタ}{338}{}%
+\contentsline {section}{\numberline {19.4}電流のSI単位に基づく定義}{338}{}%
+\contentsline {subsection}{\numberline {19.4.1}直線電流が作る磁束密度}{338}{}%
+\contentsline {subsubsection}{$\sharp \tmspace +\thickmuskip {.2777em}$\textit {memo} No.84: 積分経路を円にとる}{339}{}%
+\contentsline {subsection}{\numberline {19.4.2}電流が受ける力}{340}{}%
+\contentsline {subsection}{\numberline {19.4.3}電流の定義(1[A]の定義)}{340}{}%
+\contentsline {chapter}{\numberline {20}ファラデーの電磁誘導の法則}{343}{}%
+\contentsline {section}{\numberline {20.1}ファラデーの実験}{343}{}%
+\contentsline {subsection}{\numberline {20.1.1}起電力}{343}{}%
+\contentsline {subsection}{\numberline {20.1.2}磁束}{343}{}%
+\contentsline {subsection}{\numberline {20.1.3}電磁誘導の法則}{344}{}%
+\contentsline {subsection}{\numberline {20.1.4}法則の意味（図的イメージ）}{345}{}%
+\contentsline {section}{\numberline {20.2}自己誘導 / 相互誘導}{346}{}%
+\contentsline {subsection}{\numberline {20.2.1}自己インダクタンス}{346}{}%
+\contentsline {subsubsection}{$\sharp \tmspace +\thickmuskip {.2777em}$\textit {memo} No.85: 磁束は電流に比例する}{347}{}%
+\contentsline {subsubsection}{$\sharp \tmspace +\thickmuskip {.2777em}$\textit {memo} No.86: ソレノイドが作る磁束密度}{347}{}%
+\contentsline {subsubsection}{$\sharp \tmspace +\thickmuskip {.2777em}$\textit {memo} No.87: 「インダクタ」と「インダクタンス」の違い}{348}{}%
+\contentsline {subsection}{\numberline {20.2.2}相互インダクタンス}{349}{}%
+\contentsline {subsection}{\numberline {20.2.3}結合定数}{349}{}%
+\contentsline {subsection}{\numberline {20.2.4}変圧器の原理}{349}{}%
+\contentsline {part}{III\hspace {1em}特殊相対性理論}{351}{}%
+\contentsline {chapter}{\numberline {21}電磁気学の不満な点}{353}{}%
+\contentsline {section}{\numberline {21.1}導入}{353}{}%
+\contentsline {section}{\numberline {21.2}ローレンツ力}{353}{}%
+\contentsline {section}{\numberline {21.3}電磁誘導}{354}{}%
+\contentsline {section}{\numberline {21.4}ローレンツ力と電磁誘導}{354}{}%
+\contentsline {chapter}{\numberline {22}2つの基本原理}{355}{}%
+\contentsline {section}{\numberline {22.1}特殊相対性原理}{355}{}%
+\contentsline {subsection}{\numberline {22.1.1}物理法則と座標変換}{355}{}%
+\contentsline {subsubsection}{$\sharp \tmspace +\thickmuskip {.2777em}$\textit {memo} No.88: 慣性系の存在 と ガリレイ変換(復習)}{355}{}%
+\contentsline {subsection}{\numberline {22.1.2}特殊相対性原理}{356}{}%
+\contentsline {section}{\numberline {22.2}光速不変の原理}{357}{}%
+\contentsline {subsection}{\numberline {22.2.1}エーテル（電磁波と光）}{357}{}%
+\contentsline {subsection}{\numberline {22.2.2}マイケルソンとモーレイの実験}{357}{}%
+\contentsline {subsubsection}{$\sharp \tmspace +\thickmuskip {.2777em}$\textit {memo} No.89: 式(22.3\@setref@ {})の解説}{360}{}%
+\contentsline {subsubsection}{$\sharp \tmspace +\thickmuskip {.2777em}$\textit {memo} No.90: 式(22.7\@setref@ {})の近似式の解説}{361}{}%
+\contentsline {subsection}{\numberline {22.2.3}光速不変の原理}{361}{}%
+\contentsline {chapter}{\numberline {23}特殊相対論的な現象}{365}{}%
+\contentsline {section}{\numberline {23.1}特殊相対論的な現象}{365}{}%
+\contentsline {subsection}{\numberline {23.1.1}同時刻}{365}{}%
+\contentsline {subsection}{\numberline {23.1.2}ローレンツ変換式}{368}{}%
+\contentsline {subsection}{\numberline {23.1.3}ローレンツ因子}{375}{}%
+\contentsline {subsection}{\numberline {23.1.4}方程式の変数}{376}{}%
+\contentsline {subsection}{\numberline {23.1.5}ローレンツ変換とガリレイ変換}{377}{}%
+\contentsline {subsection}{\numberline {23.1.6}棒の長さの収縮}{378}{}%
+\contentsline {subsubsection}{$\sharp \tmspace +\thickmuskip {.2777em}$\textit {memo} No.91: 座標の収縮}{380}{}%
+\contentsline {subsubsection}{$\sharp \tmspace +\thickmuskip {.2777em}$\textit {memo} No.92: 例}{380}{}%
+\contentsline {subsection}{\numberline {23.1.7}運動する時計の，時間の遅れ}{381}{}%
+\contentsline {subsection}{\numberline {23.1.8}複数の時計の，時刻の合わせ方}{382}{}%
+\contentsline {subsection}{\numberline {23.1.9}速度の合成}{383}{}%
+\contentsline {subsubsection}{$\sharp \tmspace +\thickmuskip {.2777em}$\textit {memo} No.93: 例1}{385}{}%
+\contentsline {subsubsection}{$\sharp \tmspace +\thickmuskip {.2777em}$\textit {memo} No.94: 例2}{385}{}%
+\contentsline {subsection}{\numberline {23.1.10}相対性}{386}{}%
+\contentsline {subsection}{\numberline {23.1.11}光のドップラー効果}{387}{}%
+\contentsline {subsection}{\numberline {23.1.12}アインシュタインの理論と，他の物理学者の理論}{387}{}%
+\contentsline {chapter}{\numberline {24}特殊相対論的力学}{389}{}%
+\contentsline {section}{\numberline {24.1}目標}{389}{}%
+\contentsline {section}{\numberline {24.2}ローレンツ変換式の行列表示}{390}{}%
+\contentsline {section}{\numberline {24.3}時空座標の導入}{391}{}%
+\contentsline {subsection}{\numberline {24.3.1}時空座標の次元（$ct$ の導入）}{391}{}%
+\contentsline {subsection}{\numberline {24.3.2}時空座標の組み上げ}{392}{}%
+\contentsline {section}{\numberline {24.4}四元位置ベクトル}{393}{}%
+\contentsline {section}{\numberline {24.5}世界間隔}{393}{}%
+\contentsline {subsubsection}{$\sharp \tmspace +\thickmuskip {.2777em}$\textit {memo} No.95: $-(ct)^{2} + {x}^{2} + {y}^{2} + {z}^{2} = 0$だから常に$s=0$?}{394}{}%
+\contentsline {section}{\numberline {24.6}固有時間}{395}{}%
+\contentsline {subsubsection}{$\sharp \tmspace +\thickmuskip {.2777em}$\textit {memo} No.96: 光の固有時間}{398}{}%
+\contentsline {section}{\numberline {24.7}四元速度ベクトル}{398}{}%
+\contentsline {section}{\numberline {24.8}四元加速度ベクトル}{398}{}%
+\contentsline {section}{\numberline {24.9}$\eta _{\mu \nu }$の導入}{398}{}%
+\contentsline {subsubsection}{$\sharp \tmspace +\thickmuskip {.2777em}$\textit {memo} No.97: 行列表示とその成分表示?}{400}{}%
+\contentsline {section}{\numberline {24.10}4元運動量の定義}{402}{}%
+\contentsline {section}{\numberline {24.11}相対論的運動方程式}{402}{}%
+\contentsline {section}{\numberline {24.12}4元運動量の時間成分}{406}{}%
+\contentsline {section}{\numberline {24.13}運動する物体の質量}{406}{}%
+\contentsline {part}{IV\hspace {1em}電磁気学 2nd}{407}{}%
+\contentsline {chapter}{\numberline {25}電磁気学の再構築}{409}{}%
+\contentsline {section}{\numberline {25.1}もう一度はじめから}{409}{}%
+\contentsline {subsection}{\numberline {25.1.1}帰納的な考え方}{409}{}%
+\contentsline {subsection}{\numberline {25.1.2}演繹的な考え方}{409}{}%
+\contentsline {subsection}{\numberline {25.1.3}“帰納”から“演繹”へ}{410}{}%
+\contentsline {subsection}{\numberline {25.1.4}演繹的な電磁気理論の組み立て方}{411}{}%
+\contentsline {section}{\numberline {25.2}クーロンの法則}{411}{}%
+\contentsline {section}{\numberline {25.3}ローレンツ変換}{413}{}%
+\contentsline {section}{\numberline {25.4}電場と磁束密度の定義}{413}{}%
+\contentsline {section}{\numberline {25.5}マクスウェル方程式}{413}{}%
+\contentsline {subsection}{\numberline {25.5.1}ファラデーの電磁誘導の法則}{413}{}%
+\contentsline {subsection}{\numberline {25.5.2}アンペール$=$マクスウェルの法則}{413}{}%
+\contentsline {subsection}{\numberline {25.5.3}電場に対するガウスの法則}{413}{}%
+\contentsline {subsection}{\numberline {25.5.4}磁束密度に対するガウスの法則}{413}{}%
+\contentsline {section}{\numberline {25.6}電荷保存の法則}{413}{}%
+\contentsline {section}{\numberline {25.7}マクスウェル方程式の解}{414}{}%
+\contentsline {chapter}{\numberline {26}真空中の電磁波}{417}{}%
+\contentsline {section}{\numberline {26.1}波動方程式}{417}{}%
+\contentsline {subsection}{\numberline {26.1.1}波動関数}{417}{}%
+\contentsline {subsection}{\numberline {26.1.2}波動方程式の導出}{417}{}%
+\contentsline {section}{\numberline {26.2}真空中のマクスウェル方程式}{418}{}%
+\contentsline {subsection}{\numberline {26.2.1}マクスウェル方程式の確認}{418}{}%
+\contentsline {subsection}{\numberline {26.2.2}真空中であることの仮定}{418}{}%
+\contentsline {subsection}{\numberline {26.2.3}電場の波動方程式}{418}{}%
+\contentsline {subsection}{\numberline {26.2.4}磁束密度の波動方程式}{421}{}%
+\contentsline {subsection}{\numberline {26.2.5}光速}{422}{}%
+\contentsline {subsection}{\numberline {26.2.6}電磁波の伝搬}{422}{}%
+\contentsline {subsubsection}{$\sharp \tmspace +\thickmuskip {.2777em}$\textit {memo} No.98: 波動方程式}{423}{}%
+\contentsline {subsection}{\numberline {26.2.7}電場と磁束密度の伝搬関係}{425}{}%
+\contentsline {subsection}{\numberline {26.2.8}電磁場のエネルギー と ポインティング・ベクトル}{427}{}%
+\contentsline {chapter}{\numberline {27}その他の電磁気学的現象}{431}{}%
+\contentsline {section}{\numberline {27.1}電気双極子}{431}{}%
+\contentsline {section}{\numberline {27.2}熱電効果}{431}{}%
+\contentsline {subsection}{\numberline {27.2.1}はじめに}{431}{}%
+\contentsline {subsection}{\numberline {27.2.2}トムソン効果}{432}{}%
+\contentsline {subsection}{\numberline {27.2.3}ペルチェ効果}{432}{}%
+\contentsline {subsection}{\numberline {27.2.4}ゼーベック効果}{432}{}%
+\contentsline {section}{\numberline {27.3}ゼーマン効果}{432}{}%
+\contentsline {section}{\numberline {27.4}電子の実験的発見}{432}{}%
+\contentsline {chapter}{\numberline {28}共変形式のマクスウェル方程式}{433}{}%
+\contentsline {section}{\numberline {28.1}ポテンシャルの導入}{433}{}%
+\contentsline {subsection}{\numberline {28.1.1}スカラーポテンシャル:$\phi $}{433}{}%
+\contentsline {subsection}{\numberline {28.1.2}ベクトルポテンシャル:$\boldsymbol {A}$}{433}{}%
+\contentsline {subsection}{\numberline {28.1.3}ベクトルポテンシャル $\boldsymbol {A}$ の形}{434}{}%
+\contentsline {subsection}{\numberline {28.1.4}磁束密度のポテンシャル表示}{435}{}%
+\contentsline {subsection}{\numberline {28.1.5}電場のポテンシャル表示}{435}{}%
+\contentsline {section}{\numberline {28.2}マクスウェル方程式のポテンシャル表示}{436}{}%
+\contentsline {subsection}{\numberline {28.2.1}アンペール$=$マクスウェルの法則の変形}{436}{}%
+\contentsline {subsection}{\numberline {28.2.2}電場に対するガウスの法則の変形}{437}{}%
+\contentsline {subsection}{\numberline {28.2.3}ゲージ変換}{439}{}%
+\contentsline {subsection}{\numberline {28.2.4}ローレンツ条件}{440}{}%
+\contentsline {subsection}{\numberline {28.2.5}ポテンシャル表記の利点}{442}{}%
+\contentsline {section}{\numberline {28.3}マクスウェル方程式のガリレイ変換}{443}{}%
+\contentsline {subsection}{\numberline {28.3.1}マクスウェル方程式に対してガリレイ変換は適用できない}{443}{}%
+\contentsline {subsection}{\numberline {28.3.2}ガリレイ変換と偏微分演算子}{444}{}%
+\contentsline {subsubsection}{\numberline {28.3.2.1}時間微分の計算}{444}{}%
+\contentsline {subsubsection}{\numberline {28.3.2.2}空間微分の計算}{445}{}%
+\contentsline {section}{\numberline {28.4}ローレンツ変換}{445}{}%
+\contentsline {section}{\numberline {28.5}共変形式にむけて}{445}{}%
+\contentsline {subsection}{\numberline {28.5.1}4元電流}{445}{}%
+\contentsline {part}{V\hspace {1em}熱・統計物理学}{447}{}%
+\contentsline {chapter}{\numberline {29}熱力学}{449}{}%
+\contentsline {section}{\numberline {29.1}熱力学的な系}{449}{}%
+\contentsline {subsection}{\numberline {29.1.1}平衡状態/非平衡状態}{449}{}%
+\contentsline {subsection}{\numberline {29.1.2}熱平衡状態}{449}{}%
+\contentsline {subsubsection}{\numberline {29.1.2.1}熱平衡}{451}{}%
+\contentsline {subsubsection}{\numberline {29.1.2.2}相平衡}{451}{}%
+\contentsline {subsubsection}{\numberline {29.1.2.3}化学平衡}{452}{}%
+\contentsline {subsection}{\numberline {29.1.3}準静的過程}{453}{}%
+\contentsline {section}{\numberline {29.2}状態量}{453}{}%
+\contentsline {subsection}{\numberline {29.2.1}熱力学で扱う変数（状態量）}{453}{}%
+\contentsline {subsection}{\numberline {29.2.2}示強変数と示量変数}{454}{}%
+\contentsline {section}{\numberline {29.3}環境と拘束}{454}{}%
+\contentsline {subsection}{\numberline {29.3.1}孤立系（孤立した系; isolated system）}{454}{}%
+\contentsline {subsection}{\numberline {29.3.2}断熱系}{455}{}%
+\contentsline {subsection}{\numberline {29.3.3}閉鎖系（閉じた系; closed system）}{455}{}%
+\contentsline {subsection}{\numberline {29.3.4}開放系（開いた系; opened system）}{455}{}%
+\contentsline {subsection}{\numberline {29.3.5}外界}{456}{}%
+\contentsline {subsection}{\numberline {29.3.6}環境}{456}{}%
+\contentsline {subsection}{\numberline {29.3.7}拘束}{456}{}%
+\contentsline {subsection}{\numberline {29.3.8}環境と拘束}{456}{}%
+\contentsline {subsection}{\numberline {29.3.9}可逆変化・非可逆変化}{456}{}%
+\contentsline {subsection}{\numberline {29.3.10}断熱環境：断熱ポットの中の熱湯}{456}{}%
+\contentsline {subsection}{\numberline {29.3.11}透熱環境：シリンジの中に封入された気体}{457}{}%
+\contentsline {subsection}{\numberline {29.3.12}熱源：浴槽ないの大量の熱湯の中に置かれた鉄球}{457}{}%
+\contentsline {subsection}{\numberline {29.3.13}半透膜：半透膜でしきられた希薄溶液}{458}{}%
+\contentsline {section}{\numberline {29.4}絶対温度（気温計による定義）}{459}{}%
+\contentsline {subsection}{\numberline {29.4.1}熱力学第0法則}{459}{}%
+\contentsline {subsection}{\numberline {29.4.2}温度}{459}{}%
+\contentsline {subsection}{\numberline {29.4.3}絶対温度}{460}{}%
+\contentsline {chapter}{\numberline {30}気体の状態方程式}{463}{}%
+\contentsline {section}{\numberline {30.1}ボイルの法則}{463}{}%
+\contentsline {section}{\numberline {30.2}シャルルの法則}{464}{}%
+\contentsline {section}{\numberline {30.3}ボイル$=$シャルルの法則}{464}{}%
+\contentsline {section}{\numberline {30.4}理想気体}{467}{}%
+\contentsline {section}{\numberline {30.5}状態方程式}{467}{}%
+\contentsline {subsection}{\numberline {30.5.1}理想気体の状態方程式}{467}{}%
+\contentsline {subsection}{\numberline {30.5.2}気体の濃度}{467}{}%
+\contentsline {subsection}{\numberline {30.5.3}実在気体の状態方程式}{468}{}%
+\contentsline {subsubsection}{\numberline {30.5.3.1}ビリアル方程式}{468}{}%
+\contentsline {subsubsection}{\numberline {30.5.3.2}ファンデルワールスの状態方程式}{468}{}%
+\contentsline {section}{\numberline {30.6}分圧の法則}{471}{}%
+\contentsline {chapter}{\numberline {31}気体分子運動論}{475}{}%
+\contentsline {section}{\numberline {31.1}仮定}{475}{}%
+\contentsline {section}{\numberline {31.2}分子の速度とその平均}{476}{}%
+\contentsline {subsubsection}{$\sharp \tmspace +\thickmuskip {.2777em}$\textit {memo} No.99: $N$個の分子の速度の2乗平均}{476}{}%
+\contentsline {section}{\numberline {31.3}分子1つが壁に衝突するときに，壁に与える平均の力:$\bar {{f}_{x}}$}{477}{}%
+\contentsline {section}{\numberline {31.4}分子N個が壁に衝突するときに，壁に与える平均の力:$\bar {{F}_{x}}$}{479}{}%
+\contentsline {section}{\numberline {31.5}気体の圧力:$P$}{480}{}%
+\contentsline {section}{\numberline {31.6}分子1つの並進運動エネルギーの平均値}{480}{}%
+\contentsline {section}{\numberline {31.7}単原子分子からなる理想気体の内部エネルギー}{481}{}%
+\contentsline {part}{VI\hspace {1em}量子力学}{483}{}%
+\contentsline {chapter}{\numberline {32}原子論}{485}{}%
+\contentsline {section}{\numberline {32.1}原子，分子の概念の導入}{485}{}%
+\contentsline {subsection}{\numberline {32.1.1}定比例の法則}{486}{}%
+\contentsline {subsection}{\numberline {32.1.2}倍数比例の法則}{486}{}%
+\contentsline {subsection}{\numberline {32.1.3}ドルトンの原子説}{487}{}%
+\contentsline {subsection}{\numberline {32.1.4}気体反応の法則，アヴォガドロの分子説}{487}{}%
+\contentsline {section}{\numberline {32.2}原子模型}{487}{}%
+\contentsline {subsection}{\numberline {32.2.1}電子の発見}{487}{}%
+\contentsline {subsection}{\numberline {32.2.2}ラザフォードの原子模型（原子核の発見）}{488}{}%
+\contentsline {subsubsection}{$\sharp \tmspace +\thickmuskip {.2777em}$\textit {memo} No.100: トムソンの原子模型}{488}{}%
+\contentsline {subsubsection}{$\sharp \tmspace +\thickmuskip {.2777em}$\textit {memo} No.101: 長岡の原子模型}{489}{}%
+\contentsline {subsubsection}{$\sharp \tmspace +\thickmuskip {.2777em}$\textit {memo} No.102: 原子は本当に存在するのか}{490}{}%
+\contentsline {section}{\numberline {32.3}原子核の構造}{491}{}%
+\contentsline {subsection}{\numberline {32.3.1}ウランの発見}{491}{}%
+\contentsline {subsection}{\numberline {32.3.2}X線の発見}{491}{}%
+\contentsline {subsection}{\numberline {32.3.3}ウランから生じる放射線の発見}{491}{}%
+\contentsline {subsection}{\numberline {32.3.4}$\alpha $ 線と$\beta $ 線，$\gamma $ 線の発見}{492}{}%
+\contentsline {chapter}{\numberline {33}量子力学への道のり}{493}{}%
+\contentsline {section}{\numberline {33.1}古典物理学の限界}{493}{}%
+\contentsline {subsection}{\numberline {33.1.1}黒体}{493}{}%
+\contentsline {subsection}{\numberline {33.1.2}黒体輻射}{494}{}%
+\contentsline {subsection}{\numberline {33.1.3}レイリー$=$ジーンズの公式}{495}{}%
+\contentsline {subsection}{\numberline {33.1.4}ウィーンの公式}{495}{}%
+\contentsline {subsection}{\numberline {33.1.5}理論式と実験値の不一致}{495}{}%
+\contentsline {subsection}{\numberline {33.1.6}プランクの式}{496}{}%
+\contentsline {subsubsection}{\numberline {33.1.6.1}$1/({\mathrm {e}}^{x} -1)$ の極限}{497}{}%
+\contentsline {subsubsection}{\numberline {33.1.6.2}レイリー$=$ジーンズの式との関係}{498}{}%
+\contentsline {subsubsection}{\numberline {33.1.6.3}ウィーンの式との関係}{498}{}%
+\contentsline {section}{\numberline {33.2}光の粒子性，電子の波動性}{499}{}%
+\contentsline {subsection}{\numberline {33.2.1}光は粒子としても振る舞う}{499}{}%
+\contentsline {subsection}{\numberline {33.2.2}アインシュタインの光量子}{499}{}%
+\contentsline {subsection}{\numberline {33.2.3}光電効果}{499}{}%
+\contentsline {subsection}{\numberline {33.2.4}振動現象と等速円運動}{501}{}%
+\contentsline {chapter}{\numberline {34}量子力学}{503}{}%
+\contentsline {section}{\numberline {34.1}量子力学の教科書}{503}{}%
+\contentsline {subsection}{\numberline {34.1.1}説明方法}{503}{}%
+\contentsline {subsection}{\numberline {34.1.2}歴史的記述から入る教科書}{503}{}%
+\contentsline {subsection}{\numberline {34.1.3}いきなり体系から入る教科書}{504}{}%
+\contentsline {subsection}{\numberline {34.1.4}このノートの学習方針}{504}{}%
+\contentsline {subsection}{\numberline {34.1.5}使用する教科書}{505}{}%
+\contentsline {section}{\numberline {34.2}量子力学での運動方程式}{506}{}%
+\contentsline {subsection}{\numberline {34.2.1}はじめに}{506}{}%
+\contentsline {subsection}{\numberline {34.2.2}量子力学での運動方程式}{506}{}%
+\contentsline {subsubsection}{\numberline {34.2.2.1}運動方程式は2種類の表現方法がある}{506}{}%
+\contentsline {subsubsection}{\numberline {34.2.2.2}シュレーディンガー方程式の導入}{507}{}%
+\contentsline {section}{\numberline {34.3}対応原理}{510}{}%
+\contentsline {section}{\numberline {34.4}電子の速度}{511}{}%
+\contentsline {subsection}{\numberline {34.4.1}間違った考察}{511}{}%
+\contentsline {subsection}{\numberline {34.4.2}電子の群速度}{512}{}%
+\contentsline {subsection}{\numberline {34.4.3}電子の有効質量}{512}{}%
+\contentsline {section}{\numberline {34.5}トンネル効果}{514}{}%
+\contentsline {section}{\numberline {34.6}Fermi-Dirac 分布関数}{514}{}%
+\contentsline {chapter}{\numberline {35}相対論的量子力学}{517}{}%
+\contentsline {section}{\numberline {35.1}量子力学と相対性理論との矛盾の原因}{517}{}%
+\contentsline {section}{\numberline {35.2}クライン$=$ゴルドンの方程式}{518}{}%
+\contentsline {section}{\numberline {35.3}クライン$=$ゴルドンの方程式の欠点}{519}{}%
+\contentsline {part}{VII\hspace {1em}電子物性}{521}{}%
+\contentsline {chapter}{\numberline {36}バンド理論}{523}{}%
+\contentsline {section}{\numberline {36.1}結晶構造}{523}{}%
+\contentsline {subsection}{\numberline {36.1.1}結晶}{523}{}%
+\contentsline {subsection}{\numberline {36.1.2}単位格子}{524}{}%
+\contentsline {subsection}{\numberline {36.1.3}ミラー指数}{524}{}%
+\contentsline {subsection}{\numberline {36.1.4}ブラックの回折条件}{524}{}%
+\contentsline {subsection}{\numberline {36.1.5}逆格子}{524}{}%
+\contentsline {subsection}{\numberline {36.1.6}結晶構造因子}{524}{}%
+\contentsline {section}{\numberline {36.2}エネルギーバンドの導出}{524}{}%
+\contentsline {subsection}{\numberline {36.2.1}トンネル効果のおさらい}{524}{}%
+\contentsline {subsection}{\numberline {36.2.2}1次元結晶}{524}{}%
+\contentsline {subsection}{\numberline {36.2.3}ペニー＝クローニヒのモデル}{524}{}%
+\contentsline {subsection}{\numberline {36.2.4}ブロッホ関数}{524}{}%
+\contentsline {subsection}{\numberline {36.2.5}ブロッホの定理}{524}{}%
+\contentsline {subsection}{\numberline {36.2.6}バンドの導出}{524}{}%
+\contentsline {chapter}{\numberline {37}半導体}{525}{}%
+\contentsline {section}{\numberline {37.1}半導体とは}{525}{}%
+\contentsline {section}{\numberline {37.2}半導体の種類}{525}{}%
+\contentsline {section}{\numberline {37.3}キャリア（電荷担体）}{526}{}%
+\contentsline {subsection}{\numberline {37.3.1}電子（electron）}{526}{}%
+\contentsline {subsection}{\numberline {37.3.2}正孔（hole）}{527}{}%
+\contentsline {subsection}{\numberline {37.3.3}電子の移動速度 と 正孔の移動速度}{527}{}%
+\contentsline {section}{\numberline {37.4}真性半導体の電導機構}{527}{}%
+\contentsline {subsection}{\numberline {37.4.1}Si原子の古典的イメージ}{527}{}%
+\contentsline {subsection}{\numberline {37.4.2}電導機構の説明}{527}{}%
+\contentsline {section}{\numberline {37.5}外因性半導体の電導機構}{528}{}%
+\contentsline {subsection}{\numberline {37.5.1}外因性半導体の構成1(donor 注入)}{528}{}%
+\contentsline {subsection}{\numberline {37.5.2}電導機構の説明1(donor 注入)}{529}{}%
+\contentsline {subsection}{\numberline {37.5.3}外因性半導体の構成2(acceptor 注入)}{529}{}%
+\contentsline {subsection}{\numberline {37.5.4}電導機構の説明2(acceptor 注入)}{529}{}%
+\contentsline {section}{\numberline {37.6}ホール効果}{529}{}%
+\contentsline {subsection}{\numberline {37.6.1}ホール効果の概要}{529}{}%
+\contentsline {subsection}{\numberline {37.6.2}ホール効果発生の機構}{530}{}%
+\contentsline {subsection}{\numberline {37.6.3}ホール効果におけるキャリアの運動}{531}{}%
+\contentsline {section}{\numberline {37.7}Schottkyダイオード}{531}{}%
+\contentsline {subsection}{\numberline {37.7.1}Schottky障壁ダイオード ダイオードの $I-V$ 特性}{531}{}%
+\contentsline {subsection}{\numberline {37.7.2}p-n接合ダイオードのエネルギーバンド図}{532}{}%
+\contentsline {subsection}{\numberline {37.7.3}Schottky障壁ダイオードのエネルギーバンド図}{534}{}%
+\contentsline {subsection}{\numberline {37.7.4}オーミック接触のダイオードのエネルギーバンド図}{534}{}%
+\contentsline {section}{\numberline {37.8}電子親和力}{534}{}%
+\contentsline {section}{\numberline {37.9}MOSFET}{535}{}%
+\contentsline {subsection}{\numberline {37.9.1}ピンチオフ効果}{535}{}%
+\contentsline {part}{VIII\hspace {1em}電気回路/電子回路}{537}{}%
+\contentsline {chapter}{\numberline {38}電気回路/電子回路の構成要素}{539}{}%
+\contentsline {section}{\numberline {38.1}電気回路/電子回路とは何か}{539}{}%
+\contentsline {subsection}{\numberline {38.1.1}導線（導体）と絶縁体}{539}{}%
+\contentsline {subsubsection}{$\sharp \tmspace +\thickmuskip {.2777em}$\textit {memo} No.103: 導体/半導体/絶縁体の違い}{540}{}%
+\contentsline {subsection}{\numberline {38.1.2}起電力$\cdot $電源}{542}{}%
+\contentsline {subsubsection}{\numberline {38.1.2.1}起電力}{542}{}%
+\contentsline {subsubsection}{\numberline {38.1.2.2}電源}{543}{}%
+\contentsline {subsubsection}{$\sharp \tmspace +\thickmuskip {.2777em}$\textit {memo} No.104: 起電力と電源の違い}{543}{}%
+\contentsline {subsection}{\numberline {38.1.3}電気回路}{543}{}%
+\contentsline {subsubsection}{$\sharp \tmspace +\thickmuskip {.2777em}$\textit {memo} No.105: 理論が先か．経験が先か}{544}{}%
+\contentsline {subsection}{\numberline {38.1.4}電子回路}{544}{}%
+\contentsline {subsection}{\numberline {38.1.5}電気回路と電子回路の違い}{544}{}%
+\contentsline {section}{\numberline {38.2}電気回路の構成要素}{545}{}%
+\contentsline {subsection}{\numberline {38.2.1}素子}{545}{}%
+\contentsline {subsection}{\numberline {38.2.2}抵抗とオームの法則}{545}{}%
+\contentsline {subsubsection}{\numberline {38.2.2.1}抵抗の定義}{545}{}%
+\contentsline {subsubsection}{\numberline {38.2.2.2}抵抗の回路図記号}{546}{}%
+\contentsline {subsection}{\numberline {38.2.3}キャパシタ}{546}{}%
+\contentsline {subsubsection}{\numberline {38.2.3.1}キャパシタの物理的構成}{546}{}%
+\contentsline {subsubsection}{\numberline {38.2.3.2}キャパシタンスの定義}{547}{}%
+\contentsline {subsubsection}{\numberline {38.2.3.3}キャパシタの回路図記号}{547}{}%
+\contentsline {subsubsection}{\numberline {38.2.3.4}キャパシタの電気回路中の動作}{548}{}%
+\contentsline {subsection}{\numberline {38.2.4}インダクタ}{549}{}%
+\contentsline {subsubsection}{\numberline {38.2.4.1}インダクタの物理的構成}{549}{}%
+\contentsline {subsubsection}{\numberline {38.2.4.2}自己インダクタンスの定義の準備}{550}{}%
+\contentsline {subsubsection}{\numberline {38.2.4.3}自己インダクタンスの定義}{550}{}%
+\contentsline {subsubsection}{$\sharp \tmspace +\thickmuskip {.2777em}$\textit {memo} No.106: ソレノイドのつくる磁束密度}{551}{}%
+\contentsline {section}{\numberline {38.3}電子回路の構成要素}{552}{}%
+\contentsline {subsection}{\numberline {38.3.1}ダイオード}{552}{}%
+\contentsline {subsubsection}{\numberline {38.3.1.1}ダイオードとは}{552}{}%
+\contentsline {subsubsection}{\numberline {38.3.1.2}ダイオードの回路図記号}{552}{}%
+\contentsline {subsubsection}{\numberline {38.3.1.3}ダイオードの特性}{553}{}%
+\contentsline {subsection}{\numberline {38.3.2}トランジスタ}{553}{}%
+\contentsline {subsection}{\numberline {38.3.3}受動的な素子/能動的な素子}{553}{}%
+\contentsline {subsubsection}{$\sharp \tmspace +\thickmuskip {.2777em}$\textit {memo} No.107: 回路が「記憶」できるようになった}{553}{}%
+\contentsline {section}{\numberline {38.4}電磁気学とのつながり}{554}{}%
+\contentsline {subsection}{\numberline {38.4.1}コンダクタンス}{554}{}%
+\contentsline {subsection}{\numberline {38.4.2}抵抗}{555}{}%
+\contentsline {subsection}{\numberline {38.4.3}オームの法則}{556}{}%
+\contentsline {subsection}{\numberline {38.4.4}オームの法則は物理法則ではない}{557}{}%
+\contentsline {subsection}{\numberline {38.4.5}オームの法則の導出1：高校生への標準的な説明}{558}{}%
+\contentsline {subsection}{\numberline {38.4.6}オームの法則の導出2: 微分方程式}{560}{}%
+\contentsline {subsection}{\numberline {38.4.7}オームの法則の導出3：電子移動度}{563}{}%
+\contentsline {subsection}{\numberline {38.4.8}ジュール熱と電力}{566}{}%
+\contentsline {subsection}{\numberline {38.4.9}電流と電球の発光との関係}{568}{}%
+\contentsline {subsection}{\numberline {38.4.10}電気抵抗率}{569}{}%
+\contentsline {subsection}{\numberline {38.4.11}電気伝導率}{570}{}%
+\contentsline {subsubsection}{\numberline {38.4.11.1}キャパシタンスの形と容量の関係}{571}{}%
+\contentsline {subsubsection}{$\sharp \tmspace +\thickmuskip {.2777em}$\textit {memo} No.108: 電気力線と等電位線は直交する}{573}{}%
+\contentsline {chapter}{\numberline {39}代表的な電気回路}{575}{}%
+\contentsline {section}{\numberline {39.1}抵抗のみの回路}{575}{}%
+\contentsline {section}{\numberline {39.2}インダクタと抵抗の回路（直列）}{575}{}%
+\contentsline {section}{\numberline {39.3}キャパシタと抵抗の回路（直列）}{575}{}%
+\contentsline {section}{\numberline {39.4}抵抗，インダクタ，キャパシタの直列回路}{575}{}%
+\contentsline {section}{\numberline {39.5}インダクタと抵抗の回路（並列）}{575}{}%
+\contentsline {section}{\numberline {39.6}キャパシタと抵抗の回路（並列）}{575}{}%
+\contentsline {section}{\numberline {39.7}抵抗，インダクタ，キャパシタの並列回路}{575}{}%
+\contentsline {section}{\numberline {39.8}積分回路}{575}{}%
+\contentsline {section}{\numberline {39.9}微分回路}{575}{}%
+\contentsline {section}{\numberline {39.10}変圧器}{575}{}%
+\contentsline {chapter}{\numberline {40}代表的な電子回路}{577}{}%
+\contentsline {section}{\numberline {40.1}整流回路（インバータ）}{577}{}%
+\contentsline {section}{\numberline {40.2}増幅回路}{577}{}%
+\contentsline {subsection}{\numberline {40.2.1}「増幅」の意味}{577}{}%
+\contentsline {chapter}{\numberline {41}コンピュータの物理学的基礎}{579}{}%
+\contentsline {section}{\numberline {41.1}考え方と方針}{579}{}%
+\contentsline {subsubsection}{$\sharp \tmspace +\thickmuskip {.2777em}$\textit {memo} No.109: 注意}{579}{}%
+\contentsline {section}{\numberline {41.2}電磁気学の復習}{580}{}%
+\contentsline {subsection}{\numberline {41.2.1}電子の存在}{580}{}%
+\contentsline {subsection}{\numberline {41.2.2}「ホール(hole)」という考え方}{580}{}%
+\contentsline {subsubsection}{$\sharp \tmspace +\thickmuskip {.2777em}$\textit {memo} No.110: 炭酸の泡 --- ホールに似た現象として ---}{581}{}%
+\contentsline {subsection}{\numberline {41.2.3}電荷保存則}{581}{}%
+\contentsline {subsubsection}{\numberline {41.2.3.1}電場に対するガウスの法則}{581}{}%
+\contentsline {subsubsection}{\numberline {41.2.3.2}アンペール$=$マクスウェルの法則}{582}{}%
+\contentsline {subsubsection}{\numberline {41.2.3.3}電荷保存の法則}{582}{}%
+\contentsline {subsection}{\numberline {41.2.4}電位（電圧）の定義}{582}{}%
+\contentsline {section}{\numberline {41.3}トランジスタの動作概要}{582}{}%
+\contentsline {subsection}{\numberline {41.3.1}半導体}{582}{}%
+\contentsline {subsubsection}{\numberline {41.3.1.1}半導体の分類}{582}{}%
+\contentsline {subsubsection}{\numberline {41.3.1.2}真性半導体}{583}{}%
+\contentsline {subsubsection}{\numberline {41.3.1.3}n型半導体，ドナー}{583}{}%
+\contentsline {subsubsection}{\numberline {41.3.1.4}p型半導体，アクセプタ}{583}{}%
+\contentsline {subsection}{\numberline {41.3.2}ダイオード}{583}{}%
+\contentsline {subsection}{\numberline {41.3.3}ダイオードの電流電圧特性}{583}{}%
+\contentsline {subsection}{\numberline {41.3.4}トランジスタの物理構成}{583}{}%
+\contentsline {subsubsection}{\numberline {41.3.4.1}バイポーラトランジスタの物理構成}{583}{}%
+\contentsline {subsubsection}{\numberline {41.3.4.2}電界効果型トランジスタ(FET)の物理構成}{583}{}%
+\contentsline {subsubsection}{\numberline {41.3.4.3}MOSFETトランジスタ(MIS構造)の物理構成}{583}{}%
+\contentsline {subsubsection}{\numberline {41.3.4.4}CMOSの物理構成}{583}{}%
+\contentsline {subsection}{\numberline {41.3.5}トランジスタの動作}{583}{}%
+\contentsline {subsubsection}{\numberline {41.3.5.1}バイポーラトランジスタの動作原理}{583}{}%
+\contentsline {subsubsection}{\numberline {41.3.5.2}MOSFETトランジスタ(MIS構造)の物理構成}{583}{}%
+\contentsline {subsubsection}{\numberline {41.3.5.3}トランジスタの動作（これだけを覚えていれば十分）}{583}{}%
+\contentsline {section}{\numberline {41.4}コンピュータの構成概要}{583}{}%
+\contentsline {subsection}{\numberline {41.4.1}コンピュータの定義}{583}{}%
+\contentsline {subsubsection}{\numberline {41.4.1.1}コンピュータとは何か}{583}{}%
+\contentsline {subsubsection}{\numberline {41.4.1.2}コンピュータの構成方法}{585}{}%
+\contentsline {subsubsection}{\numberline {41.4.1.3}ノイマン型コンピュータ}{585}{}%
+\contentsline {subsubsection}{\numberline {41.4.1.4}ハーバードアーキテクチャ}{585}{}%
+\contentsline {subsection}{\numberline {41.4.2}CPU（中央処理装置）}{585}{}%
+\contentsline {subsubsection}{\numberline {41.4.2.1}制御装置}{585}{}%
+\contentsline {subsubsection}{\numberline {41.4.2.2}主記憶装置（メモリ）}{585}{}%
+\contentsline {subsubsection}{\numberline {41.4.2.3}ALU（算術論理演算装置）}{585}{}%
+\contentsline {subsection}{\numberline {41.4.3}入出力装置}{585}{}%
+\contentsline {subsubsection}{\numberline {41.4.3.1}入力装置}{585}{}%
+\contentsline {subsubsection}{\numberline {41.4.3.2}出力装置}{585}{}%
+\contentsline {section}{\numberline {41.5}コンピュータの基本構成回路}{586}{}%
+\contentsline {subsection}{\numberline {41.5.1}NOT回路}{586}{}%
+\contentsline {subsection}{\numberline {41.5.2}AND回路}{586}{}%
+\contentsline {subsection}{\numberline {41.5.3}OR回路}{586}{}%
+\contentsline {subsection}{\numberline {41.5.4}NOR回路}{586}{}%
+\contentsline {subsection}{\numberline {41.5.5}NAND回路}{586}{}%
+\contentsline {section}{\numberline {41.6}制御回路}{586}{}%
+\contentsline {subsection}{\numberline {41.6.1}クロック}{586}{}%
+\contentsline {subsection}{\numberline {41.6.2}リセット}{586}{}%
+\contentsline {subsection}{\numberline {41.6.3}制御用選択回路（マルチプレクサ）}{586}{}%
+\contentsline {section}{\numberline {41.7}記憶回路（簡易的なメモリの作成）}{586}{}%
+\contentsline {subsection}{\numberline {41.7.1}コンピュータにおける「記憶」の意味}{586}{}%
+\contentsline {subsection}{\numberline {41.7.2}メモリの構成}{586}{}%
+\contentsline {subsubsection}{\numberline {41.7.2.1}メモリとは}{586}{}%
+\contentsline {subsubsection}{\numberline {41.7.2.2}アドレスデコーダ}{586}{}%
+\contentsline {subsubsection}{\numberline {41.7.2.3}メモリセル}{586}{}%
+\contentsline {subsection}{\numberline {41.7.3}メモリセルの基本素子}{586}{}%
+\contentsline {subsubsection}{\numberline {41.7.3.1}ラッチ（Latch）}{586}{}%
+\contentsline {subsubsection}{\numberline {41.7.3.2}記憶回路の要素}{586}{}%
+\contentsline {subsubsection}{\numberline {41.7.3.3}D-ラッチ}{587}{}%
+\contentsline {subsubsection}{\numberline {41.7.3.4}D-フリップフロップ}{587}{}%
+\contentsline {subsection}{\numberline {41.7.4}メモリの動作}{587}{}%
+\contentsline {section}{\numberline {41.8}計算回路（簡易的なALUの作成）}{587}{}%
+\contentsline {subsection}{\numberline {41.8.1}コンピュータが行う計算}{587}{}%
+\contentsline {subsubsection}{\numberline {41.8.1.1}10進法}{587}{}%
+\contentsline {subsubsection}{\numberline {41.8.1.2}2進法}{587}{}%
+\contentsline {subsubsection}{\numberline {41.8.1.3}16進法}{587}{}%
+\contentsline {subsubsection}{\numberline {41.8.1.4}2の補数（負の数の表現）}{587}{}%
+\contentsline {subsubsection}{\numberline {41.8.1.5}2進法による足し算}{587}{}%
+\contentsline {subsection}{\numberline {41.8.2}簡易ALUの構成}{587}{}%
+\contentsline {subsubsection}{\numberline {41.8.2.1}加算器}{587}{}%
+\contentsline {subsubsection}{\numberline {41.8.2.2}乗算器}{587}{}%
+\contentsline {subsubsection}{\numberline {41.8.2.3}アキュムレータ}{587}{}%
+\contentsline {subsection}{\numberline {41.8.3}簡易ALUの動作}{587}{}%
+\contentsline {part}{IX\hspace {1em}数学の勉強ノート}{589}{}%
+\contentsline {chapter}{\numberline {42}はじめに}{591}{}%
+\contentsline {section}{\numberline {42.1}物理学と数学}{591}{}%
+\contentsline {section}{\numberline {42.2}「数学的準備」の学習マップ}{592}{}%
+\contentsline {chapter}{\numberline {43}関数}{595}{}%
+\contentsline {section}{\numberline {43.1}集合}{595}{}%
+\contentsline {subsection}{\numberline {43.1.1}集合を定義するとは}{595}{}%
+\contentsline {subsection}{\numberline {43.1.2}集合の直感的定義}{598}{}%
+\contentsline {subsection}{\numberline {43.1.3}集合の要素}{598}{}%
+\contentsline {subsection}{\numberline {43.1.4}空集合の存在：$\emptyset $}{599}{}%
+\contentsline {subsection}{\numberline {43.1.5}ある集合を定義する}{600}{}%
+\contentsline {subsubsection}{\numberline {43.1.5.1}特別な集合の定義の表現方法}{600}{}%
+\contentsline {subsubsection}{\numberline {43.1.5.2}集合の内包的定義}{601}{}%
+\contentsline {subsubsection}{$\sharp \tmspace +\thickmuskip {.2777em}$\textit {memo} No.111: 注意}{601}{}%
+\contentsline {subsubsection}{\numberline {43.1.5.3}集合の外延的定義}{601}{}%
+\contentsline {subsection}{\numberline {43.1.6}集合の性質}{601}{}%
+\contentsline {subsubsection}{\numberline {43.1.6.1}集合の共通部分}{602}{}%
+\contentsline {subsubsection}{\numberline {43.1.6.2}合併集合（または，和集合）}{605}{}%
+\contentsline {subsubsection}{\numberline {43.1.6.3}補集合}{607}{}%
+\contentsline {subsubsection}{\numberline {43.1.6.4}差集合}{608}{}%
+\contentsline {subsubsection}{\numberline {43.1.6.5}直積（または，積集合）}{609}{}%
+\contentsline {subsubsection}{\numberline {43.1.6.6}商集合}{610}{}%
+\contentsline {subsubsection}{\numberline {43.1.6.7}冪集合}{610}{}%
+\contentsline {section}{\numberline {43.2}写像}{610}{}%
+\contentsline {subsection}{\numberline {43.2.1}写像とは}{610}{}%
+\contentsline {subsection}{\numberline {43.2.2}関数}{612}{}%
+\contentsline {subsection}{\numberline {43.2.3}関数のイメージ}{612}{}%
+\contentsline {subsection}{\numberline {43.2.4}三角関数}{614}{}%
+\contentsline {subsubsection}{\numberline {43.2.4.1}三角比}{614}{}%
+\contentsline {subsubsection}{\numberline {43.2.4.2}三角関数の定義}{617}{}%
+\contentsline {subsubsection}{\numberline {43.2.4.3}三角関数の図形的イメージ}{617}{}%
+\contentsline {subsubsection}{\numberline {43.2.4.4}三角関数の性質}{619}{}%
+\contentsline {chapter}{\numberline {44}三角関数}{621}{}%
+\contentsline {section}{\numberline {44.1}三角関数の公式}{621}{}%
+\contentsline {subsection}{\numberline {44.1.1}加法定理}{621}{}%
+\contentsline {subsection}{\numberline {44.1.2}倍角公式}{621}{}%
+\contentsline {subsection}{\numberline {44.1.3}三倍角公式}{622}{}%
+\contentsline {subsection}{\numberline {44.1.4}半角公式}{622}{}%
+\contentsline {subsection}{\numberline {44.1.5}積和公式}{622}{}%
+\contentsline {subsection}{\numberline {44.1.6}和積公式}{622}{}%
+\contentsline {chapter}{\numberline {45}微分積分学}{623}{}%
+\contentsline {section}{\numberline {45.1}極限}{623}{}%
+\contentsline {subsection}{\numberline {45.1.1}数列とは}{623}{}%
+\contentsline {subsection}{\numberline {45.1.2}等差数列}{623}{}%
+\contentsline {subsection}{\numberline {45.1.3}等比数列}{623}{}%
+\contentsline {subsection}{\numberline {45.1.4}等比級数}{623}{}%
+\contentsline {subsection}{\numberline {45.1.5}無限等比級数}{623}{}%
+\contentsline {subsection}{\numberline {45.1.6}数列の極限\tmspace +\thickmuskip {.2777em}\tmspace +\thickmuskip {.2777em}--「限りなく0に近づける」とは --}{623}{}%
+\contentsline {subsection}{\numberline {45.1.7}関数の極限\tmspace +\thickmuskip {.2777em}\tmspace +\thickmuskip {.2777em}-- $\varepsilon $\,-\,$\delta $ 論法 --}{627}{}%
+\contentsline {section}{\numberline {45.2}積分}{628}{}%
+\contentsline {subsection}{\numberline {45.2.1}長方形の面積公式に対する疑問}{628}{}%
+\contentsline {subsection}{\numberline {45.2.2}長さとは何か}{628}{}%
+\contentsline {subsection}{\numberline {45.2.3}長方形の面積とは何か}{630}{}%
+\contentsline {subsubsection}{$\sharp \tmspace +\thickmuskip {.2777em}$\textit {memo} No.112: 一般的な形の面積}{632}{}%
+\contentsline {subsubsection}{$\sharp \tmspace +\thickmuskip {.2777em}$\textit {memo} No.113: 「直角」とは何か}{633}{}%
+\contentsline {subsection}{\numberline {45.2.4}関数と，図形の面積}{634}{}%
+\contentsline {subsubsection}{$\sharp \tmspace +\thickmuskip {.2777em}$\textit {memo} No.114: 一般的な図形の例}{635}{}%
+\contentsline {subsection}{\numberline {45.2.5}「関数 $f(x)$ と $x$ 軸の間の面積」とは}{636}{}%
+\contentsline {subsection}{\numberline {45.2.6}関数 $f(x)$ に与える条件}{636}{}%
+\contentsline {subsection}{\numberline {45.2.7}変数 $x$ のとりうる値の制限}{637}{}%
+\contentsline {subsection}{\numberline {45.2.8}「近似的な面積」という考え方}{637}{}%
+\contentsline {subsubsection}{$\sharp \tmspace +\thickmuskip {.2777em}$\textit {memo} No.115: 和の記号 $\DOTSB \sum@ \slimits@ $}{638}{}%
+\contentsline {subsubsection}{$\sharp \tmspace +\thickmuskip {.2777em}$\textit {memo} No.116: 番号 $i$ を用いた表現（例 $x_{i}$）}{639}{}%
+\contentsline {subsection}{\numberline {45.2.9}面積確定の図形}{640}{}%
+\contentsline {subsection}{\numberline {45.2.10}積分可能}{640}{}%
+\contentsline {subsection}{\numberline {45.2.11}定積分の定義}{640}{}%
+\contentsline {subsubsection}{$\sharp \tmspace +\thickmuskip {.2777em}$\textit {memo} No.117: 「無量大」とはどういうことか}{642}{}%
+\contentsline {subsubsection}{$\sharp \tmspace +\thickmuskip {.2777em}$\textit {memo} No.118: 記号 $\,\mathrm {d}x$ の意味}{643}{}%
+\contentsline {section}{\numberline {45.3}微分}{643}{}%
+\contentsline {subsection}{\numberline {45.3.1}変化の割合}{643}{}%
+\contentsline {subsection}{\numberline {45.3.2}「変化の割合」を拡張する}{643}{}%
+\contentsline {subsection}{\numberline {45.3.3}導関数の定義（「微分する」ということ）}{645}{}%
+\contentsline {subsection}{\numberline {45.3.4}微分（$\,\mathrm {d}y$の形式的定義）}{646}{}%
+\contentsline {subsubsection}{$\sharp \tmspace +\thickmuskip {.2777em}$\textit {memo} No.119: 独立変数 $x$ の微分}{647}{}%
+\contentsline {subsubsection}{$\sharp \tmspace +\thickmuskip {.2777em}$\textit {memo} No.120: 導関数の式}{647}{}%
+\contentsline {subsection}{\numberline {45.3.5}（関数 $f(x)$ の）接線の方程式}{648}{}%
+\contentsline {subsection}{\numberline {45.3.6}$\,\mathrm {d}y$ の図形的イメージ}{648}{}%
+\contentsline {subsection}{\numberline {45.3.7}1次関数 $f(x)=ax+b$ の増加量}{649}{}%
+\contentsline {subsection}{\numberline {45.3.8}1変数関数 $f(x)$ の増加量}{650}{}%
+\contentsline {subsection}{\numberline {45.3.9}偏微分}{650}{}%
+\contentsline {subsection}{\numberline {45.3.10}全微分}{651}{}%
+\contentsline {section}{\numberline {45.4}よく使う公式}{652}{}%
+\contentsline {subsection}{\numberline {45.4.1}和の微分}{652}{}%
+\contentsline {subsection}{\numberline {45.4.2}積の微分}{652}{}%
+\contentsline {subsection}{\numberline {45.4.3}商の微分}{653}{}%
+\contentsline {subsection}{\numberline {45.4.4}合成関数の微分}{655}{}%
+\contentsline {subsection}{\numberline {45.4.5}部分積分}{656}{}%
+\contentsline {chapter}{\numberline {46}微分方程式}{657}{}%
+\contentsline {section}{\numberline {46.1}微分方程式とは}{657}{}%
+\contentsline {subsection}{\numberline {46.1.1}微分方程式の概要}{657}{}%
+\contentsline {chapter}{\numberline {47}ベクトル}{659}{}%
+\contentsline {section}{\numberline {47.1}ベクトルの定義}{659}{}%
+\contentsline {subsection}{\numberline {47.1.1}図形的（幾何学的）なベクトル}{659}{}%
+\contentsline {subsubsection}{$\sharp \tmspace +\thickmuskip {.2777em}$\textit {memo} No.121: ベクトルの位置は不問である}{660}{}%
+\contentsline {subsection}{\numberline {47.1.2}代数的なベクトル}{660}{}%
+\contentsline {subsubsection}{\numberline {47.1.2.1}横ベクトル}{661}{}%
+\contentsline {subsubsection}{\numberline {47.1.2.2}縦ベクトル}{661}{}%
+\contentsline {subsection}{\numberline {47.1.3}ベクトルの大きさ}{662}{}%
+\contentsline {subsection}{\numberline {47.1.4}ベクトルの次元}{663}{}%
+\contentsline {subsubsection}{$\sharp \tmspace +\thickmuskip {.2777em}$\textit {memo} No.122: $n$ 次元の三平方の定理}{663}{}%
+\contentsline {subsection}{\numberline {47.1.5}ベクトル空間の定義}{664}{}%
+\contentsline {subsection}{\numberline {47.1.6}ベクトルの定義}{664}{}%
+\contentsline {section}{\numberline {47.2}ベクトルの性質}{665}{}%
+\contentsline {subsection}{\numberline {47.2.1}ベクトルの転置}{665}{}%
+\contentsline {subsection}{\numberline {47.2.2}ベクトルの四則演算}{666}{}%
+\contentsline {subsubsection}{\numberline {47.2.2.1}ベクトルの加法}{666}{}%
+\contentsline {subsubsection}{\numberline {47.2.2.2}実数とベクトルの積}{667}{}%
+\contentsline {subsubsection}{\numberline {47.2.2.3}ベクトルの減法}{667}{}%
+\contentsline {subsection}{\numberline {47.2.3}ベクトルの内積（図形的）}{668}{}%
+\contentsline {subsection}{\numberline {47.2.4}ベクトルの内積（代数的）}{669}{}%
+\contentsline {subsection}{\numberline {47.2.5}図形的内積と代数的内積の関係}{670}{}%
+\contentsline {subsection}{\numberline {47.2.6}ベクトルの内積の性質}{671}{}%
+\contentsline {subsection}{\numberline {47.2.7}ベクトルの外積}{672}{}%
+\contentsline {subsubsection}{\numberline {47.2.7.1}外積の定義}{672}{}%
+\contentsline {subsubsection}{\numberline {47.2.7.2}外積の成分表示}{675}{}%
+\contentsline {subsubsection}{\numberline {47.2.7.3}外積の成分表示の検算}{676}{}%
+\contentsline {subsubsection}{$\sharp \tmspace +\thickmuskip {.2777em}$\textit {memo} No.123: 右手系とは何か}{678}{}%
+\contentsline {section}{\numberline {47.3}特殊なベクトル}{678}{}%
+\contentsline {subsection}{\numberline {47.3.1}単位ベクトル}{678}{}%
+\contentsline {subsubsection}{$\sharp \tmspace +\thickmuskip {.2777em}$\textit {memo} No.124: 具体例}{681}{}%
+\contentsline {subsection}{\numberline {47.3.2}基底ベクトル}{681}{}%
+\contentsline {subsubsection}{$\sharp \tmspace +\thickmuskip {.2777em}$\textit {memo} No.125: 注意}{682}{}%
+\contentsline {chapter}{\numberline {48}ベクトル解析}{685}{}%
+\contentsline {section}{\numberline {48.1}ベクトル関数}{685}{}%
+\contentsline {subsection}{\numberline {48.1.1}ベクトル変数（あるいは，変数ベクトル）}{685}{}%
+\contentsline {subsection}{\numberline {48.1.2}ベクトル関数}{685}{}%
+\contentsline {subsection}{\numberline {48.1.3}ベクトル関数の微積分}{686}{}%
+\contentsline {subsubsection}{\numberline {48.1.3.1}極限}{687}{}%
+\contentsline {subsubsection}{\numberline {48.1.3.2}導関数}{687}{}%
+\contentsline {subsection}{\numberline {48.1.4}使用用語}{687}{}%
+\contentsline {subsubsection}{\numberline {48.1.4.1}導線(曲線)}{687}{}%
+\contentsline {subsubsection}{\numberline {48.1.4.2}閉曲線}{688}{}%
+\contentsline {subsubsection}{\numberline {48.1.4.3}曲面}{689}{}%
+\contentsline {subsubsection}{\numberline {48.1.4.4}閉曲面}{689}{}%
+\contentsline {subsubsection}{\numberline {48.1.4.5}領域}{689}{}%
+\contentsline {subsection}{\numberline {48.1.5}線積分と面積分のイメージ}{689}{}%
+\contentsline {subsection}{\numberline {48.1.6}ベクトル空間}{690}{}%
+\contentsline {subsection}{\numberline {48.1.7}ベクトルとスカラーの区別の仕方}{691}{}%
+\contentsline {subsection}{\numberline {48.1.8}線積分}{691}{}%
+\contentsline {subsubsection}{$\sharp \tmspace +\thickmuskip {.2777em}$\textit {memo} No.126: 詳細}{692}{}%
+\contentsline {subsection}{\numberline {48.1.9}面積分}{693}{}%
+\contentsline {subsection}{\numberline {48.1.10}ベクトルの発散・回転・勾配}{694}{}%
+\contentsline {subsubsection}{\numberline {48.1.10.1}ベクトルの発散($\rm {div}$)}{694}{}%
+\contentsline {subsubsection}{\numberline {48.1.10.2}ガウスの定理}{697}{}%
+\contentsline {subsubsection}{$\sharp \tmspace +\thickmuskip {.2777em}$\textit {memo} No.127: 整理}{697}{}%
+\contentsline {subsubsection}{$\sharp \tmspace +\thickmuskip {.2777em}$\textit {memo} No.128: 「ガウスの法則」と「ガウスの定理」}{698}{}%
+\contentsline {subsubsection}{\numberline {48.1.10.3}ベクトルの回転($\rm {rot}$)}{698}{}%
+\contentsline {subsubsection}{\numberline {48.1.10.4}ベクトルの勾配($\rm {grad}$)}{700}{}%
+\contentsline {subsubsection}{\numberline {48.1.10.5}ベクトル解析の公式(演算子)}{701}{}%
+\contentsline {subsubsection}{\numberline {48.1.10.6}ストークスの定理}{701}{}%
+\contentsline {chapter}{\numberline {49}行列}{703}{}%
+\contentsline {section}{\numberline {49.1}行列とは}{703}{}%
+\contentsline {part}{X\hspace {1em}思想}{705}{}%
+\contentsline {chapter}{\numberline {A}感覚$\cdot $思考$\cdot $表現}{707}{}%
+\contentsline {section}{\numberline {A.1}根拠なしに，確信できること}{707}{}%
+\contentsline {subsubsection}{$\sharp \tmspace +\thickmuskip {.2777em}$\textit {memo} No.129: 言葉と思考の順序}{708}{}%
+\contentsline {subsubsection}{$\sharp \tmspace +\thickmuskip {.2777em}$\textit {memo} No.130: 言葉の習得}{708}{}%
+\contentsline {subsubsection}{$\sharp \tmspace +\thickmuskip {.2777em}$\textit {memo} No.131: 意思疎通}{709}{}%
+\contentsline {section}{\numberline {A.2}表現}{709}{}%
+\contentsline {section}{\numberline {A.3}「科学」の思想}{710}{}%
+\contentsline {subsubsection}{$\sharp \tmspace +\thickmuskip {.2777em}$\textit {memo} No.132: 基礎がない，考えが循環する}{710}{}%
+\contentsline {chapter}{\numberline {B}論理}{711}{}%
+\contentsline {part}{XI\hspace {1em}思うこと，思ったこと}{713}{}%
+\contentsline {chapter}{\numberline {C}素朴な疑問}{715}{}%
+\contentsline {section}{\numberline {C.1}最も基本的なこと}{715}{}%
+\contentsline {section}{\numberline {C.2}私の思想の根本}{715}{}%
+\contentsline {section}{\numberline {C.3}思考の道具}{716}{}%
+\contentsline {section}{\numberline {C.4}言語の曖昧さ}{716}{}%
+\contentsline {section}{\numberline {C.5}日常言語}{717}{}%
+\contentsline {chapter}{\numberline {D}論理学とか，数学とか}{719}{}%
+\contentsline {section}{\numberline {D.1}論理}{719}{}%
+\contentsline {section}{\numberline {D.2}論理学}{719}{}%
+\contentsline {section}{\numberline {D.3}数学}{720}{}%
+\contentsline {section}{\numberline {D.4}物理学}{721}{}%
+\contentsline {chapter}{\numberline {E}他愛のない，思ったこと}{723}{}%
+\contentsline {section}{\numberline {E.1}生まれ変わる？}{723}{}%
+\contentsline {section}{\numberline {E.2}教科書に書かれていること}{724}{}%
+\contentsline {section}{\numberline {E.3}心配レベル}{724}{}%
+\contentsline {section}{\numberline {E.4}"分からないこと" と "知らないこと"}{725}{}%
+\contentsline {section}{\numberline {E.5}故事成語}{726}{}%
+\contentsline {subsection}{\numberline {E.5.1}\ruby {華胥}{かしょ}の\ruby {国}{くに}}{726}{}%
+\contentsline {subsection}{\numberline {E.5.2}\ruby {胡蝶}{こちょう}の\ruby {夢}{ゆめ}}{726}{}%
+\contentsline {subsection}{\numberline {E.5.3}\ruby {上善}{じょうぜん}は\ruby {水}{みず}のごとし}{726}{}%
+\contentsline {subsection}{\numberline {E.5.4}\ruby {驥足}{きそく}を\ruby {伸}{の}ばす}{726}{}%
+\contentsline {subsection}{\numberline {E.5.5}\ruby {驥尾}{きび}に\ruby {付}{ふ}す}{726}{}%
+\contentsline {subsection}{\numberline {E.5.6}\ruby {木}{き}に\ruby {縁}{よ}りて\ruby {魚}{さかな}を\ruby {求}{もと}む}{726}{}%
+\contentsline {subsection}{\numberline {E.5.7}\ruby {人間}{じんかん}\ruby {到}{いた}る\ruby {所}{ところ}に\ruby {青山}{せいざん}\ruby {有}{あ}り}{726}{}%
+\contentsline {subsection}{\numberline {E.5.8}\ruby {過}{す}ぎたるは\ruby {及}{およ}ばざるがごとし}{726}{}%

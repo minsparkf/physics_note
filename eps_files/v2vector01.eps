@@ -1,0 +1,94 @@
+%!PS-Adobe-3.0 EPSF-3.0
+%%BoundingBox: 0 0 639 479
+%%Creator: EPS-draw  ver 4.51
+%%CreationDate: 2016/01/04 03:59:44
+%%Title: v2vector01.eps
+%%Pages: 1
+%%DocumentSuppliedResources: procset (EPS-draw figure) 2.4 0
+%%EndComments
+%%BeginProlog
+%%BeginResource: procset (EPS-draw figure) 2.4 0
+/edrawdict 64 dict def
+edrawdict begin
+/LineSet
+{ 3 -1 roll 255 div 3 -1 roll 255 div 3 -1 roll 255 div
+  setrgbcolor setlinewidth 0 setdash } def
+/DrawLine
+{ newpath /Close exch def 3 1 roll moveto { lineto } repeat
+  Close 1 ge { closepath } if
+  Close 2 eq { gsave fill grestore } if stroke } def
+/DrawCurve
+{ newpath /Close exch def 3 1 roll moveto Close 1 ge { 1 add } if
+  { curveto } repeat Close 1 ge { closepath } if
+  Close 2 eq { gsave fill grestore } if stroke } def
+/AddArrow
+{ newpath [] 0 setdash 7 -2 roll moveto currentpoint
+  4 2 roll rmoveto lineto rlineto
+  1 eq { closepath gsave fill grestore } if stroke } def
+/DrawEllipse
+{ gsave newpath /Close exch def 8 2 roll 6 1 roll 8 1 roll
+  /Y2 exch def /X2 exch def /Y1 exch def /X1 exch def
+  X1 X2 add 2 div Y1 Y2 add 2 div translate rotate
+  /X1 X1 X2 sub abs 2 div def /Y1 Y1 Y2 sub abs 2 div def
+  /R1 X1 Y1 add 2 div def X1 R1 div Y1 R1 div scale
+  Close 1 eq { 0 0 moveto } if 0 0 R1 5 -2 roll arc
+  Close 1 ge { closepath } if 1 eq { gsave fill grestore } if stroke
+  grestore } def
+/DrawBox
+{ gsave newpath 6 2 roll 0 setlinejoin
+  /Y2 exch def /X2 exch def /Y1 exch def /X1 exch def
+  X1 X2 add 2 div Y1 Y2 add 2 div translate rotate
+  /X1 X1 X2 sub abs def /Y1 Y1 Y2 sub abs def
+  X1 -2 div Y1 -2 div moveto X1 0 rlineto 0 Y1 rlineto
+  X1 neg 0 rlineto closepath 1 eq { gsave fill grestore } if stroke
+  grestore } def
+/DrawRoundBox
+{ gsave newpath 7 2 roll /R1 exch def
+  /Y2 exch def /X2 exch def /Y1 exch def /X1 exch def
+  X1 X2 add 2 div Y1 Y2 add 2 div translate rotate
+  /X2 X1 X2 sub abs 2 div def /Y2 Y1 Y2 sub abs 2 div def
+  /X1 X2 neg def /Y1 Y2 neg def X1 Y1 R1 add moveto
+  X1 Y2 X2 Y2 R1 arcto pop pop pop pop
+  X2 Y2 X2 Y1 R1 arcto pop pop pop pop
+  X2 Y1 X1 Y1 R1 arcto pop pop pop pop
+  X1 Y1 X1 Y2 R1 arcto pop pop pop pop
+  1 eq { gsave fill grestore } if stroke grestore } def
+end
+%%EndResource
+%%EndProlog
+%%Page: 1 1
+gsave
+1 setlinecap 1 setlinejoin
+edrawdict begin
+
+% --- Begin Program --------------------------------
+
+% No.0 (Layer 0) ---> Line
+
+[] 5 0 0 255
+LineSet
+288 455
+110 38
+1 0
+DrawLine
+288 455 0 -15 -13 1 -20
+AddArrow
+
+% No.1 (Layer 0) ---> Line
+
+[] 5 255 0 0
+LineSet
+611 148
+177 75
+1 0
+DrawLine
+611 148 0 -19 5 -16 -11
+AddArrow
+
+% --- End Program ----------------------------------
+
+end
+grestore
+showpage
+%%Trailer
+%%EOF

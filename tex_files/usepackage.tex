@@ -1,0 +1,104 @@
+%===============================================================================
+% パッケージの読み込み
+%===============================================================================
+%% ------------------------------------------
+%% * Now Setting
+%% ------------------------------------------
+%\usepackage[setpagesize=false,dvipdfmx,%
+%bookmarks=true,bookmarksnumbered=true,%
+%bookmarksopen=false,%
+%colorlinks=false,%
+%pdftitle={タイトル},%
+%pdfauthor={作成者},%
+%pdfsubject={サブタイトル},%
+%pdfkeywords={キーワード},%
+%pdfborder={0 0 0},%
+%linkcolor=blue,anchorcolor=blue,urlcolor=blue,
+%]{hyperref}
+%\RequirePackage[12tabu, orthodox]{nag}
+%\usepackage{atbegshi}
+%\AtBeginShipoutFirst{\special{pdf:tounicode 90ms-RKSJ-UCS2}}
+%\usepackage{refcheck}              % ref auto check
+\usepackage[dvipdfmx]{graphicx}
+%\usepackage{mediabb}               %  pdfの図を挿入時の，大きさの設定を自動化する
+%\usepackage{gradientframe}          %  図に影をつける
+\usepackage[dvips]{color}           %  dvipsにて，色付文字を有効化する
+
+\usepackage{bm}                     %  数式太字
+
+%\usepackage{lmodern}
+\usepackage{fancyhdr}
+
+\usepackage{bbding}
+\usepackage{textcomp}
+\usepackage{okumacro}
+\usepackage{fancybox}               %  囲みの種類の追加
+%\usepackage{calrsfs}               %  文字の種類の追加 1
+%\usepackage{rsfso}                 %  文字の種類の追加 2
+\usepackage{ascmac}                 %  数式環境の拡張
+\usepackage{amsfonts}               %  数式の拡張1
+\usepackage{amsthm}                 %  数式の拡張2
+\usepackage{amsmath,amssymb}        %  数式の拡張3
+\usepackage{mathtools}                                %  数式の拡張4
+\usepackage[sans]{dsfont}
+\usepackage[T1]{fontenc}
+\usepackage{pifont}
+%  \mathtoolsset{showonlyrefs=true}  %    参照していない式の番号は付加しない
+\usepackage{enumitem}
+\usepackage[all, warning]{onlyamsmath}
+%\usepackage{esvect}                %  その他のベクトル表現
+\usepackage{url}                    %  \url のために必要
+\usepackage{makeidx}                %  索引のために
+%\usepackage{mediabb}               %  PDFファイル読み込みのために
+%\usepackage[dvipdfmx]{hyperref}    %  文字化け
+%\usepackage[hypertex]{hyperref}    %  動作がおかしい
+\usepackage[cc]{titlepic}           %  表紙に図を挿入可能にする
+%\usepackage{harmony}               %  音符が表示できるはずだが，フォントが見つからない
+%\usepackage{hangcaption}           %  長いキャプションの折り返し
+%\usepackage[times]{quotchap}        %  章のみだし体裁の変更
+%\usepackage{pdfdraftcopy}          %  透かしを入れる
+%  \draftstring{作成中}             %    -> 透かしの文字列 を設定
+%\usepackage[brackets]{fnindent}    %  脚注の体裁を変更
+\usepackage[version=4]{mhchem}
+\usepackage{setspace}               % 行間調整してみる(\setstretch{1.5}, \begin{spacing}{0.8}-\end{spacing})
+%\usepackage{breqn}                  % \begin{dmath}
+\usepackage{wasysym}
+\usepackage{layout}
+\usepackage{braket}                 %  ディラックのブラケット
+\usepackage{physics}                % 物理でよく使う数式ショートカット
+
+\usepackage{pxrubrica}              % ルビ
+\usepackage{plext}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+
+%\usepackage{kpfonts}
+%\usepackage{txfonts}               %  Times フォントの使用
+%\usepackage{newtxtext,newtxmath}   %  NewTimes フォントの使用
+%\usepackage{fourier}               %  アルファベットフォント変更 1
+%\usepackage{fouriernc}             %  アルファベットフォント変更 2
+%\usepackage{kurier}                %  アルファベットフォント変更 3
+%\usepackage{lmodern}               % Latine Modern
+\usepackage{pxfonts}                %
+% --- End Of Setting ---
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%% Back Up Code %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% ------------------------------------------
+%% * Old Setting (hyperref)
+%% ------------------------------------------
+%\usepackage[dvipdfmx,%
+%colorlinks=true,%
+%urlcolor=black,%
+%linkcolor=black,%
+%citecolor=black,%
+%linktocpage=true,%
+%bookmarkstype=toc,%
+%bookmarksdepth=4,%
+%bookmarksnumbered=true,%
+%bookmarksopen=true,%
+%bookmarks=true]{hyperref}
+%%\AtBeginDvi{\special{pdf:tounicode EUC-UCS2}}%EUC
+%\AtBeginDvi{\special{pdf:tounicode 90ms-RKSJ-UCS2}}%SJIS

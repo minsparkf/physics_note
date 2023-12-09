@@ -1,0 +1,67 @@
+This is e-upTeX, Version 3.141592653-p3.9.1-u1.27-210218-2.6 (utf8.uptex) (TeX Live 2022/dev/Debian) (preloaded format=uplatex)
+ restricted \write18 enabled.
+entering extended mode
+(./onlyamsmath.ins
+pLaTeX2e <2021-11-15u04> (based on LaTeX2e <2021-11-15> patch level 1)
+L3 programming layer <2022-01-21>
+(/usr/share/texlive/texmf-dist/tex/latex/base/docstrip.tex
+Utility: `docstrip' v2.6a <2020-11-23>
+English documentation    <2020-11-23>
+
+**********************************************************
+* This program converts documented macro-files into fast *
+* loadable files by stripping off (nearly) all comments! *
+**********************************************************
+
+********************************************************
+* No Configuration file found, using default settings. *
+********************************************************
+
+(./onlyamsmath.ins
+
+Generating file(s) ./onlyamsmath.sty 
+
+Processing file onlyamsmath.dtx (package) -> onlyamsmath.sty
+% % % % % % <*driver . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+. . . . . . . > % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % %
+% % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % %
+% % % % % % % % % % % % % % % % % % % % % <package . > <version . >
+<package,version . > % % <*package % % % . % % % % % % % % % % . . % % % . . .
+. . % % % . . . . % % % . % % % . % % % % % % % % . . . . . . . . . . % % % %
+% % % % . % % % % % % . % % % % % . % % % . % % % . . % % % % % . % % % % . %
+% % . % % % % . % % % . % % % % % % % % . . . % % % . . . % % % . . % % % % %
+% % . % % % % % % % . . . % % % % % . % % % . . % % % % % . % % > % % .
+Lines  processed: 316
+Comments removed: 221
+Comments  passed: 0
+Codelines passed: 88
+
+
+Generating file(s) ./onlyamsmath-v.tex 
+
+Processing file onlyamsmath.dtx (version) -> onlyamsmath-v.tex
+% % % % % % <*driver . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+. . . . . . . > % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % %
+% % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % %
+% % % % % % % % % % % % % % % % % % % % % <package . > <version . >
+<package,version . > % % <*package % % % . % % % % % % % % % % . . % % % . . .
+. . % % % . . . . % % % . % % % . % % % % % % % % . . . . . . . . . . % % % %
+% % % % . % % % % % % . % % % % % . % % % . % % % . . % % % % % . % % % % . %
+% % . % % % % . % % % . % % % % % % % % . . . % % % . . . % % % . . % % % % %
+% % . % % % % % % % . . . % % % % % . % % % . . % % % % % . % % > % % .
+Lines  processed: 316
+Comments removed: 221
+Comments  passed: 0
+Codelines passed: 88
+
+* Fertig
+)
+Overall statistics:
+Files  processed: 2
+Lines  processed: 632
+Comments removed: 442
+Comments  passed: 0
+Codelines passed: 176
+ ) )
+No pages of output.
+Transcript written on onlyamsmath.log.

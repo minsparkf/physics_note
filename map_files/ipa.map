@@ -1,0 +1,9 @@
+rml   H      :0:ipam.ttf
+rmlv  V      :0:ipam.ttf
+gbm   H      :0:ipag.ttf
+gbmv  V      :0:ipag.ttf
+
+uprml-h      UniJIS-UTF16-H   :0:ipam.ttf 
+uprml-v      UniJIS-UTF16-V   :0:ipam.ttf 
+upgbm-h      UniJIS-UTF16-H   :0:ipag.ttf 
+upgbm-v      UniJIS-UTF16-V   :0:ipag.ttf 

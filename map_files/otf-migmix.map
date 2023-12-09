@@ -1,0 +1,80 @@
+% TEXT, 90JIS
+hminl-h H   MigMix-1M-regular.ttf %!PS IPAMincho
+hminl-v V   MigMix-1M-regular.ttf %!PS IPAMincho
+hminr-h H   MigMix-1M-regular.ttf %!PS IPAMincho
+hminr-v V   MigMix-1M-regular.ttf %!PS IPAMincho
+hminb-h H   MigMix-1M-regular.ttf %!PS IPAMincho
+hminb-v V   MigMix-1M-regular.ttf %!PS IPAMincho
+hgothr-h    H   MigMix-2P-bold.ttf %!PS IPAGothic
+hgothr-v    V   MigMix-2P-bold.ttf %!PS IPAGothic
+hgothb-h    H   MigMix-2P-bold.ttf %!PS IPAGothic
+hgothb-v    V   MigMix-2P-bold.ttf %!PS IPAGothic
+hgotheb-h   H   MigMix-2P-bold.ttf %!PS IPAGothic
+hgotheb-v   V   MigMix-2P-bold.ttf %!PS IPAGothic
+hmgothr-h   H   MigMix-2P-bold.ttf %!PS IPAGothic
+hmgothr-v   V   MigMix-2P-bold.ttf %!PS IPAGothic
+
+% TEXT, JIS04
+hminln-h    H   MigMix-1M-regular.ttf %!PS IPAMincho
+hminln-v    V   MigMix-1M-regular.ttf %!PS IPAMincho
+hminrn-h    H   MigMix-1M-regular.ttf %!PS IPAMincho
+hminrn-v    V   MigMix-1M-regular.ttf %!PS IPAMincho
+hminbn-h    H   MigMix-1M-regular.ttf %!PS IPAMincho
+hminbn-v    V   MigMix-1M-regular.ttf %!PS IPAMincho
+hgothrn-h   H   MigMix-2P-bold.ttf %!PS IPAGothic
+hgothrn-v   V   MigMix-2P-bold.ttf %!PS IPAGothic
+hgothbn-h   H   MigMix-2P-bold.ttf %!PS IPAGothic
+hgothbn-v   V   MigMix-2P-bold.ttf %!PS IPAGothic
+hgothebn-h  H   MigMix-2P-bold.ttf %!PS IPAGothic
+hgothebn-v  V   MigMix-2P-bold.ttf %!PS IPAGothic
+hmgothrn-h  H   MigMix-2P-bold.ttf %!PS IPAGothic
+hmgothrn-v  V   MigMix-2P-bold.ttf %!PS IPAGothic
+
+% CID
+otf-cjml-h  Identity-H  MigMix-1M-regular.ttf/AJ16 %!PS IPAMincho
+otf-cjml-v  Identity-V  MigMix-1M-regular.ttf/AJ16 %!PS IPAMincho
+otf-cjmr-h  Identity-H  MigMix-1M-regular.ttf/AJ16 %!PS IPAMincho
+otf-cjmr-v  Identity-V  MigMix-1M-regular.ttf/AJ16 %!PS IPAMincho
+otf-cjmb-h  Identity-H  MigMix-1M-regular.ttf/AJ16 %!PS IPAMincho
+otf-cjmb-v  Identity-V  MigMix-1M-regular.ttf/AJ16 %!PS IPAMincho
+otf-cjgr-h  Identity-H  MigMix-2P-bold.ttf/AJ16 %!PS IPAGothic
+otf-cjgr-v  Identity-V  MigMix-2P-bold.ttf/AJ16 %!PS IPAGothic
+otf-cjgb-h  Identity-H  MigMix-2P-bold.ttf/AJ16 %!PS IPAGothic
+otf-cjgb-v  Identity-V  MigMix-2P-bold.ttf/AJ16 %!PS IPAGothic
+otf-cjge-h  Identity-H  MigMix-2P-bold.ttf/AJ16 %!PS IPAGothic
+otf-cjge-v  Identity-V  MigMix-2P-bold.ttf/AJ16 %!PS IPAGothic
+otf-cjmgr-h Identity-H  MigMix-2P-bold.ttf/AJ16 %!PS IPAGothic
+otf-cjmgr-v Identity-V  MigMix-2P-bold.ttf/AJ16 %!PS IPAGothic
+
+% Unicode 90JIS
+otf-ujml-h  UniJIS-UTF16-H  MigMix-1M-regular.ttf %!PS IPAMincho
+otf-ujml-v  UniJIS-UTF16-V  MigMix-1M-regular.ttf %!PS IPAMincho
+otf-ujmr-h  UniJIS-UTF16-H  MigMix-1M-regular.ttf %!PS IPAMincho
+otf-ujmr-v  UniJIS-UTF16-V  MigMix-1M-regular.ttf %!PS IPAMincho
+otf-ujmb-h  UniJIS-UTF16-H  MigMix-1M-regular.ttf %!PS IPAMincho
+otf-ujmb-v  UniJIS-UTF16-V  MigMix-1M-regular.ttf %!PS IPAMincho
+otf-ujgr-h  UniJIS-UTF16-H  MigMix-2P-bold.ttf %!PS IPAGothic
+otf-ujgr-v  UniJIS-UTF16-V  MigMix-2P-bold.ttf %!PS IPAGothic
+otf-ujgb-h  UniJIS-UTF16-H  MigMix-2P-bold.ttf %!PS IPAGothic
+otf-ujgb-v  UniJIS-UTF16-V  MigMix-2P-bold.ttf %!PS IPAGothic
+otf-ujge-h  UniJIS-UTF16-H  MigMix-2P-bold.ttf %!PS IPAGothic
+otf-ujge-v  UniJIS-UTF16-V  MigMix-2P-bold.ttf %!PS IPAGothic
+otf-ujmgr-h UniJIS-UTF16-H  MigMix-2P-bold.ttf %!PS IPAGothic
+otf-ujmgr-v UniJIS-UTF16-V  MigMix-2P-bold.ttf %!PS IPAGothic
+
+% Unicode JIS04
+otf-ujmln-h UniJIS2004-UTF16-H  MigMix-1M-regular.ttf %!PS IPAMincho
+otf-ujmln-v UniJIS2004-UTF16-V  MigMix-1M-regular.ttf %!PS IPAMincho
+otf-ujmrn-h UniJIS2004-UTF16-H  MigMix-1M-regular.ttf %!PS IPAMincho
+otf-ujmrn-v UniJIS2004-UTF16-V  MigMix-1M-regular.ttf %!PS IPAMincho
+otf-ujmbn-h UniJIS2004-UTF16-H  MigMix-1M-regular.ttf %!PS IPAMincho
+otf-ujmbn-v UniJIS2004-UTF16-V  MigMix-1M-regular.ttf %!PS IPAMincho
+otf-ujgrn-h UniJIS2004-UTF16-H  MigMix-2P-bold.ttf %!PS IPAGothic
+otf-ujgrn-v UniJIS2004-UTF16-V  MigMix-2P-bold.ttf %!PS IPAGothic
+otf-ujgbn-h UniJIS2004-UTF16-H  MigMix-2P-bold.ttf %!PS IPAGothic
+otf-ujgbn-v UniJIS2004-UTF16-V  MigMix-2P-bold.ttf %!PS IPAGothic
+otf-ujgen-h UniJIS2004-UTF16-H  MigMix-2P-bold.ttf %!PS IPAGothic
+otf-ujgen-v UniJIS2004-UTF16-V  MigMix-2P-bold.ttf %!PS IPAGothic
+otf-ujmgrn-h    UniJIS2004-UTF16-H  MigMix-2P-bold.ttf %!PS IPAGothic
+otf-ujmgrn-v    UniJIS2004-UTF16-V  MigMix-2P-bold.ttf %!PS IPAGothic
+

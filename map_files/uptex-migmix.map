@@ -1,0 +1,11 @@
+urml    UniJIS-UTF16-H  MigMix-1M-regular.ttf %!PS IPAMincho
+urmlv   UniJIS-UTF16-V  MigMix-1M-regular.ttf %!PS IPAMincho
+ugbm    UniJIS-UTF16-H  MigMix-2P-bold.ttf %!PS IPAGothic
+ugbmv   UniJIS-UTF16-V  MigMix-2P-bold.ttf %!PS IPAGothic
+uprml-h UniJIS-UTF16-H  MigMix-1M-regular.ttf %!PS IPAMincho
+uprml-v UniJIS-UTF16-V  MigMix-1M-regular.ttf %!PS IPAMincho
+upgbm-h UniJIS-UTF16-H  MigMix-2P-bold.ttf %!PS IPAGothic
+upgbm-v UniJIS-UTF16-V  MigMix-2P-bold.ttf %!PS IPAGothic
+uprml-hq    UniJIS-UCS2-H   MigMix-1M-regular.ttf %!PS IPAMincho
+upgbm-hq    UniJIS-UCS2-H   MigMix-2P-bold.ttf %!PS IPAGothic
+

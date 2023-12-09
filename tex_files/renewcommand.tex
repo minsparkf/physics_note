@@ -1,0 +1,337 @@
+%******************************************************************************
+%  Newcommand
+%******************************************************************************
+%================================================
+% * 章・節などの表示変更
+%================================================
+\renewcommand{\thesection}{\thechapter.\arabic{section}}
+\renewcommand{\thesubsection}{\thesection.\arabic{subsection}}
+\renewcommand{\tablename}{表\;}
+\renewcommand{\figurename}{図\;}
+
+\renewcommand{\bibname}{参考図書・教科書等}
+
+%\renewcommand{\prechaptername}{第}
+%\renewcommand{\postchaptername}{章}
+
+\renewcommand{\labelenumi}{(\arabic{enumi})\;}
+\renewcommand{\labelenumii}{(\alph{enumii})\;}
+\renewcommand{\labelenumiii}{(\roman{enumiii})\;}
+ %% - 一般の脚注のスタイル変更
+%\renewcommand\thefootnote{$\mbox{}^{\clubsuit}$\kern1pt\arabic{footnote})\,} % パターン1: 三つ葉
+\renewcommand\thefootnote{$\mbox{}^{\blacktriangleright}$\kern1pt\arabic{footnote})\,} % パターン2: 黒三角形
+\renewcommand{\footnoterule}{%
+  \vspace{1pt}                      % 線から上の幅
+  \noindent\rule{0.25\textwidth}{0.5pt}   % 線の長さ，太さ
+  \vspace{2pt}                     % 線から下の幅
+}
+
+\renewcommand{\textreferencemark}{\textreferencemark\,\,}
+\newcommand{\komemark}{\textreferencemark}
+ %% - 行間の調整
+%\renewcommand{\baselinestretch}{1.05}%普通のx倍の行間間隔
+
+%================================================
+% * 演算子などの省略記述用
+%================================================
+% * ベクトル解析用の演算子
+\newcommand{\drot}{\mathrm{rot}\,}
+\newcommand{\ddiv}{\mathrm{div}\,}
+\newcommand{\dgrad}{\mathrm{grad}\,}
+% * ゼロベクトル
+\newcommand{\bzero}{\textbf{0}}
+% * 面積分
+\newcommand{\sint}{\int\mspace{-11mu}\int}
+% * 体積積分
+\newcommand{\vint}{\int\mspace{-11mu}\int\mspace{-11mu}\int}
+\newcommand{\OmegaS}{\Omega_{S}}
+% * 微分記号（立った"d"）
+\newcommand{\df}{\,\mathrm{d}}
+% * 偏微分記号
+\newcommand{\rd}{\partial}
+% * ダランべルシアン
+\newcommand{\Dal}{\Box\,}
+% * ラプラシアン
+\newcommand{\Lap}{\triangle}
+% * 自然対数の底
+\newcommand{\e}{\mathrm{e}}
+%\newcommand{\exp}{\mathrm{exp}}
+% * 量子論的ハミルトニアン記号：$\qH$
+\newcommand{\qH}{\mathcal{H}\,}
+% * ラグランジアン密度
+\newcommand{\qL}{\mathcal{L}\,}
+% * 量子論的運動量演算子：$\dpx , \dpy , \dpz$
+\newcommand{\dpx}{-i\hbar \frac{\partial}{\partial x}\,}
+\newcommand{\dpy}{-i\hbar \frac{\partial}{\partial y}\,}
+\newcommand{\dpz}{-i\hbar \frac{\partial}{\partial y}\,}
+% * 量子論的エネルギー演算子：$\dE$
+\newcommand{\dE}{i\hbar \frac{\partial}{\partial t}\,}
+% * 量子論的ハミルトニアン演算子：$\dH$
+\newcommand{\dH}{-i\hbar \nabla \,}
+% * その他
+\newcommand{\Shrps}{$\sharp\;$} % シャープ記号#
+\newcommand{\Fig}{Fig\,\,} % 参照図を明示するときに使用する:ex.) 図\ref{xxx}
+\newcommand{\Table}{図\,\,}
+\newcommand{\circC}{${}^{\circ}$C}
+
+%================================================
+% * 標準的な画像のサイズ
+%================================================
+% 4:3 Default Size
+\newcommand{\includegraphicsdefault}[1]{\includegraphics[keepaspectratio, width=4.00cm, height=3.00cm, clip]{#1}}
+% 4:3 Middle Size
+\newcommand{\includegraphicsmiddle}[1]{\includegraphics[keepaspectratio, width=6.00cm, height=4.5cm, clip]{#1}}
+% 4:3 Large Size
+\newcommand{\includegraphicslarge}[1]{\includegraphics[keepaspectratio, width=7.2cm, height=4.98cm, clip]{#1}}
+% 2:1 Default Size
+\newcommand{\includegraphicshalfmid}[1]{\includegraphics[keepaspectratio, width=6cm, height=3cm, clip]{#1}}
+% 1:1 Squeare Default Size
+\newcommand{\includegraphicssqmid}[1]{\includegraphics[keepaspectratio, width=4.00cm, height=4.00cm, clip]{#1}}
+% 1:1 Squeare Default Size
+\newcommand{\includegraphicssqmlrg}[1]{\includegraphics[keepaspectratio, width=7.2cm, height=7.2cm, clip]{#1}}
+
+% Two Graphics Size
+\newcommand{\includegraphicsdouble}[1]{\includegraphics[keepaspectratio, width=3.2cm, height=2.4cm, clip]{#1}}
+
+
+%================================================
+% * アルファベットの太字（ベクトルとか）
+%================================================
+\newcommand{\ba}{\boldsymbol{a}}
+\newcommand{\bb}{\boldsymbol{b}}
+\newcommand{\bc}{\boldsymbol{c}}
+\newcommand{\bd}{\boldsymbol{d}}
+\newcommand{\be}{\boldsymbol{e}}
+\newcommand{\bg}{\boldsymbol{g}}
+\newcommand{\bldf}{\boldsymbol{f}}
+\newcommand{\bj}{\boldsymbol{j}}
+\newcommand{\bp}{\boldsymbol{p}}
+\newcommand{\br}{\boldsymbol{r}}
+\newcommand{\bv}{\boldsymbol{v}}
+\newcommand{\bx}{\boldsymbol{x}}
+\newcommand{\by}{\boldsymbol{y}}
+\newcommand{\bz}{\boldsymbol{z}}
+\newcommand{\bn}{\boldsymbol{n}}
+\newcommand{\bE}{\boldsymbol{E}}
+\newcommand{\bF}{\boldsymbol{F}}
+\newcommand{\bC}{\boldsymbol{C}}
+\newcommand{\bB}{\boldsymbol{B}}
+\newcommand{\bA}{\boldsymbol{A}}
+\newcommand{\bi}{\boldsymbol{i}}
+\newcommand{\bt}{\boldsymbol{t}}
+\newcommand{\bk}{\boldsymbol{k}}
+\newcommand{\bl}{\boldsymbol{l}}
+\newcommand{\bS}{\boldsymbol{S}}
+\newcommand{\bI}{\boldsymbol{I}}
+\newcommand{\bH}{\boldsymbol{H}}
+\newcommand{\bP}{\boldsymbol{P}}
+\newcommand{\bD}{\boldsymbol{D}}
+\newcommand{\bX}{\boldsymbol{X}}
+\newcommand{\bY}{\boldsymbol{Y}}
+\newcommand{\bL}{\boldsymbol{L}}
+\newcommand{\bM}{\boldsymbol{M}}
+\newcommand{\bN}{\boldsymbol{N}}
+\newcommand{\bo}{\boldsymbol{o}}
+\newcommand{\bU}{\boldsymbol{U}}
+\newcommand{\bV}{\boldsymbol{V}}
+\newcommand{\bW}{\boldsymbol{W}}
+\newcommand{\bZ}{\boldsymbol{Z}}
+\newcommand{\setN}{\mathbb{N}}
+\newcommand{\setC}{\mathbb{C}}
+\newcommand{\setZ}{\mathbb{Z}}
+\newcommand{\setR}{\mathbb{R}}
+\newcommand{\setA}{\mathbb{A}}
+\newcommand{\setB}{\mathbb{B}}
+\newcommand{\setD}{\mathbb{D}}
+\newcommand{\setE}{\mathbb{E}}
+\newcommand{\setF}{\mathbb{F}}
+\newcommand{\bldi}[1]{\textit{\textbf{{#1}}}}
+\newcommand{\bld}[1]{\textbf{{#1}}}
+
+%================================================
+% * 花文字
+%================================================
+\newcommand{\flwA}{\mathcal{A}}
+\newcommand{\flwB}{\mathcal{B}}
+\newcommand{\flwC}{\mathcal{C}}
+\newcommand{\flwD}{\mathcal{D}}
+\newcommand{\flwE}{\mathcal{E}} % 起電力
+\newcommand{\flwF}{\mathcal{F}} % 一般化された力とか
+\newcommand{\flwH}{\mathcal{H}} %
+\newcommand{\flwp}{\mathcal{p}} % 一般化された運動量
+\newcommand{\flwL}{\mathcal{L}}
+
+%================================================
+% * ギリシア数字作成
+%================================================
+\newcommand{\I}{I}
+\newcommand{\II}{I\hspace{-.1em}I}
+\newcommand{\III}{I\hspace{-.1em}I\hspace{-.1em}I}
+\newcommand{\IV}{I\hspace{-.1em}V }
+\newcommand{\V}{V}
+\newcommand{\VI}{V\hspace{-.1em}I}
+\newcommand{\VII}{V\hspace{-.1em}I\hspace{-.1em}I}
+\newcommand{\VIII}{V\hspace{-.1em}I\hspace{-.1em}I\hspace{-.1em}I }
+\newcommand{\X}{X}
+%再定義1(数式番号の表現 chap-sub-subsub)
+%\makeatletter
+% \renewcommand{\theequation}{%
+  % \thesection.\arabic{equation}}
+  %\@addtoreset{equation}{section}
+ %\makeatother
+
+%================================================
+% * 新しいカウンタの生成
+%================================================
+% * 宣言
+\newcounter{Memo}           %
+\newcounter{Snumber}        % "memo" の番号
+\newcounter{myshade}        % 物理部分の重要事項の番号
+\newcounter{PreAttentionNo} % 記入方法の諸注意の番号
+\newcounter{AboutThisNoteNo}% 「このノートにいて」の番号
+% * 初期値設定
+\setcounter{Memo}{1}
+\setcounter{Snumber}{1}
+\setcounter{myshade}{1}
+\setcounter{PreAttentionNo}{1}
+\setcounter{AboutThisNoteNo}{1}
+
+%================================================
+% * カウンタの再設定
+%================================================
+% * 目次の表示の深さを設定する
+\setcounter{secnumdepth}{6}
+\setcounter{tocdepth}{4}
+% * 立て揃え で改行を許す：0から4まで
+%    0      ; 絶対改行しない
+%    1から3 ; 適度に改行する．数字が高いほど，
+%             基準が緩くなる
+%    4      ; 必ず改行する
+\allowdisplaybreaks[4]
+
+%================================================
+% 図のcaptionの : をとる
+%================================================
+\makeatletter
+\long\def\@makecaption#1#2{%
+\vskip\abovecaptionskip%
+%\sbox\@tempboxa{#1: #2}% <--- original
+\sbox\@tempboxa{#1\;\; #2}
+\ifdim \wd\@tempboxa >\hsize%
+%#1: #2\par <--- original
+#1 #2\par
+\else
+\global \@minipagefalse
+\hb@xt@\hsize{\hfil\box\@tempboxa\hfil}%
+\fi
+\vskip\belowcaptionskip}
+\makeatother
+%------------------------------------------------
+
+%******************************************************************************
+%  Newtheorem
+%******************************************************************************
+%定義や定理の出力は，newtheorem 環境を使用します．
+%定義の場合，プリアンブルに次の内容を記述します．
+%
+%\newtheorem{dfn}{Definition}[引数]
+
+%「定義」と表示させたい場合は，
+%Definition を 定義 に書き換えます．
+%
+%定義番号に (2.1) のように章番号をつけたい場合は，
+%引数に，[chapter]を入力します．
+%章立ての文書で (1.3.2) のように節番号を付けたい場合は，
+%引数にsection を入力します．
+%
+%% 使い方：定理の場合
+%\begin{thm}
+%集合 $A, B$ について，$A$ から $B$ への単射および $B$ から $A$ への単射がともに
+%存在すれば，$A$ と $B$ の濃度が等しい.
+%\end{thm}
+\theoremstyle{plain}
+\newtheorem{thm}{定理}[section]
+\newtheorem{lem}{補題}[section]
+\newtheorem{cor}{系}[section]
+\newtheorem{prp}{命題}[section]
+%
+\theoremstyle{definition}
+\newtheorem{dfn}{定義}[section]
+%
+\theoremstyle{remark}
+\newtheorem{rem}{注意}
+\newtheorem{prf}{証明}
+
+%******************************************************************************
+% Newenvironment
+%******************************************************************************
+% * Environment: \memo
+\newenvironment{memo}[1]
+{ % before
+    \addcontentsline{toc}{subsubsection}{\Shrps\textit{memo} No.\theSnumber : #1} % 目次
+    \subsubsection*{\Shrps\textit{memo} No.\theSnumber : \emph{#1}}
+    %\addcontentsline{toc}{subsubsection}{\;\;\;\Shrps\textit{memo} \; #1}
+    %\subsubsection*{\;\;\;\Shrps\textit{memo} \;\;\; \emph{#1}}
+    \stepcounter{Snumber}
+    \small
+}
+{ % after
+    \par \normalsize
+}
+
+% * Environment: \myshadebox
+\newenvironment{myshadebox}[1]
+{ % before
+    %\addcontentsline{toc}{subsubsection}{\;\S\;Point No.\themyshade :\; #1} % 目次
+    \leavevmode \\  \leavevmode \\
+    \begin{shadebox}
+        %\;\textbf{\ding{42}\;Point No.\themyshade :\, #1} \leavevmode \\
+                \textbf{\;Point \themyshade :\, \textbf{#1}} \vspace{1mm} \\
+        \leavevmode
+        \stepcounter{myshade}
+}
+{ % after
+    \end{shadebox}
+    \leavevmode \\
+}
+
+% * Environment: \comment
+\newenvironment{mycomment}
+{ % before
+    \par \small
+    \textbf{コメント$\quad$}
+}
+{ % after
+    \newline \par \normalsize
+}
+
+% * Environment: \mysmallsec
+\newenvironment{mysmallsec}[1]
+{ % before
+%    \addcontentsline{toc}{subsubsection}{\$ #1} % 目次
+%    \subsubsection*{\$ #1}
+    \subsubsection*{\P \; #1}
+}
+
+% * Environment: \pre_attention
+\newenvironment{preattention}[1]
+{ % before
+    \addcontentsline{toc}{section}{(\thePreAttentionNo) #1} % 目次
+    \subsubsection*{(\thePreAttentionNo) \emph{#1}}
+    \stepcounter{PreAttentionNo}
+    \label{my:preattention:#1}
+}
+{ % after
+}
+
+% * Environment: \aboutthisnote
+\newenvironment{aboutthisnote}[1]
+{ % before
+    %\addcontentsline{toc}{section}{\$\theAboutThisNoteNo #1} % 目次
+    \subsubsection*{\$\theAboutThisNoteNo \emph{#1}}
+    \stepcounter{AboutThisNoteNo}
+    \small
+}
+{ % after
+    \par \normalsize
+}

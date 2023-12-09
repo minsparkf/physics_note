@@ -1,0 +1,11 @@
+/* [wxMaxima batch file version 1] [ DO NOT EDIT BY HAND! ]*/
+/* [ Created with wxMaxima version 13.04.2 ] */
+
+
+/* [wxMaxima: input   start ] */
+f(x):=128/sqrt(2*%pi)*exp(-128^2*x^2/2);
+plot2d([f(x)],[x,-2,2],[y,-1,5],[legend,false],[style,[lines,3,4]]);
+/* [wxMaxima: input   end   ] */
+
+/* Maxima can't load/batch files which end with a comment! */
+"Created with wxMaxima"$

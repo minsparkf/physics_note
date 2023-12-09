@@ -1,0 +1,548 @@
+%===================================================================================================
+%  Chapter : マクスウェル方程式のポテンシャル表示
+%  説明    : マクスウェル方程式を，ベクトルポテンシャルA とスカラーポテンシャルphi を
+%            用いて表す．また，ゲージ変換についても考える．特殊相対性理論への導入も，
+%            マクスウェル方程式のガリレイ変換ができないことを通して，行う．
+%===================================================================================================
+%   %==========================================================================
+%   %  Section
+%   %==========================================================================
+    \section{ポテンシャルの導入}
+        \begin{mycomment}
+            電磁気学を相対性理論や量子力学で扱うとき，
+            電場や磁束密度をそのままの形で表現するよりも，
+            ポテンシャルを用いて表現したほうが
+            都合がよい．そこでここでは，
+            電場と磁束密度をポテンシャル表記することを考える．
+
+            その方法は，まず，磁束密度に対するガウスの法則から，
+            ベクトルポテンシャルを定義 $\bA$ し，
+            この $\bA$ によって，磁束密度を
+            表現することを考える．
+            そして，ベクトルポテンシャルによって表現された
+            磁束密度を電磁誘導の法則に代入することにより，
+            電場のポテンシャル表記する．このとき，電位(電気的なスカラーポテンシャル)と電場の関係
+            を考慮する必要がある．
+        \end{mycomment}
+%       %======================================================================
+%       %  SubSection
+%       %======================================================================
+        \subsection{スカラーポテンシャル:$\phi$}
+            スカラーポテンシャルとは，電位 $\phi$ のことである．
+            これから，マクスウェル方程式を $\phi$ を用いた表現に書き直すことを
+            試みる．
+
+%       %======================================================================
+%       %  SubSection
+%       %======================================================================
+        \subsection{ベクトルポテンシャル:$\bA$}
+            ポテンシャルを用いて電場や磁束密度を表現することを考える．
+            まず，磁束密度について考える．磁束密度は，
+            ガウスの法則により，$\mathrm{div\,}\bB=0$ を満たしている．
+            このことに注目しながら，次のベクトル解析の恒等式を考える．
+            あるベクトル $\bA$ に対して，
+            \begin{align}\label{div_rot}
+            \mathrm{div\,rot\,}\bA=0
+            \end{align}
+            回転の発散は常に 0 であるということを意味している．式(\ref{div_rot})の
+            ベクトル $\mathrm{rot\,}\bA$ を
+            磁束密度 $\bB$ に置き換えれば，
+            すなわち，
+            \begin{align}\label{rotA}
+            \bB=\mathrm{rot\,}\bA
+            \end{align}
+            とすれば，
+            以下の恒等式を
+            得られる．
+            \begin{align}\label{div_rotA}
+            \mathrm{div\,}\bB=0
+            \end{align}
+            式(\ref{rotA})のように磁束密度を表すことによって，
+            ガウスの法則が数学的に自動的に成り立つのである．
+            この式(\ref{rotA})を満たすようなベクトル $\bA$ の
+            ことを \textbf{ベクトルポテンシャル} という．
+
+            物理的には，ベクトルポテンシャルという概念を
+            理解することは難しいが，ポテンシャルを
+            基礎に置いた理論は現代では主流である．
+            解析力学，量子力学や相対性理論との関連を考えるとき，
+            ベクトルポテンシャルの概念は便利な道具として用いられる．
+            ベクトルポテンシャルの実在性は，\textbf{Aharonov=Bohm効果} という
+            現象によって確認されている．この効果については，量子力学の
+            知識が必要である．
+
+%       %======================================================================
+%       %  SubSection
+%       %======================================================================
+        \subsection{ベクトルポテンシャル $\bA$ の形}
+            前項目では，ベクトルポテンシャル $\bA$ を磁束密度がガウスの法則を満たすように定義したが，
+            具体的な形はまだわかっていない．$\bA$ は電流 $\bi$ と 位置 $\br$ で表せる．
+            以下で計算し，確認してみよう．
+
+            ベクトルポテンシャル $\bA$ の定義は磁束密度 $\bB$ に対するガウスの法則から
+            定義された．
+                \begin{equation*}
+                    \bB := \drot \bA
+                \end{equation*}
+            ところで，磁束密度はビオ$=$サバールの法則によって記述される．
+            そこで，ビオ$=$サバールの法則を式変形していき，
+            上の磁束密度とベクトルポテンシャルの関係式の形へ誘導し，
+            ベクトルポテンシャルに対応する部分を見ることで，ベクトルポテンシャルの形を考えていく．
+
+            最初に，式変形につかう公式を2つ確認する．
+            一つは $\br'$ に関する $\dgrad$ として，
+                \begin{align}\label{eq:grad_r}
+                    \dgrad_{\br'} \left( \frac{1}{| \br -\br' |}\right)
+                    =-\frac{\br-\br'}{| \br-\br' |^{3}}.
+                \end{align}
+            もう一つは，sを任意のスカラー
+                \footnote{
+                    スカラーとは，大きさのみを数である．
+                    ベクトルが複数の数の組みで表現されるのに対し，
+                    スカラーは1つの数で表現される．
+                }
+            ，$\bU$ を任意のベクトルとして，
+                \begin{align}\label{eq:grad_sU0}
+                    \drot(s\bU\,) = s\,\drot\bU - \bU\times(\dgrad s)
+                \end{align}
+            というベクトル解析の公式である．今回はこの公式の $\bU$ は
+            定電流 $\bi(\br)$ に対応させるので，定数ベクトルとして
+            の扱いになる．$\bU$ を定数ベクトルと見たとき，この公式(\ref{eq:grad_sU0})は
+            次のように計算される．
+                \begin{align}\label{eq:grad_sU}
+                    \drot(s\bU\,) = - \bU\times(\dgrad s).
+                \end{align}
+            今回の式変形では公式を変形した式(\ref{eq:grad_sU})を
+            用いる．
+
+            それでは，式変形に執りかかろう．
+            ビオ$=$サバールの法則は以下のようであった．
+                \begin{align*}
+                    \bB(\br)
+                    &=\frac{\mu_{0}}{4\pi}
+                    \int\frac{\bi(\br')\times
+                    (\br-\br')
+                    }{|\br-\br'|^{3}}\df V' \\
+                    &=\frac{\mu_{0}}{4\pi}
+                    \int\bi(\br')\times
+                    \frac{\br-\br'}
+                    {|\br-\br'|^{3}}\df V'
+                \end{align*}
+            一番右の式に先ほどの公式(\ref{eq:grad_r})を用いると，
+                \begin{align}
+                    \bB(\br)
+                    =-\frac{\mu_{0}}{4\pi}
+                    \int\bi(\br')\times
+                    \dgrad_{\br'} \left( \frac{1}{| \br -\br'|}\right)
+                    \df V'
+                \end{align}
+            右辺に，先ほど記述したベクトル解析の公式 $\drot(s\bU\,) = - \bU\times(\dgrad s)$ を
+            使うと，
+                \begin{align}\label{eq:vector_Pt_A}
+                    \bB(\br)
+                    &=\int \drot \frac{\mu_{0}}{4\pi}\frac{\bi(\br\,')}{| \br -\br'|}\df V' \notag \\
+                    &=\drot \int \frac{\mu_{0}}{4\pi}\frac{\bi(\br\,')}{| \br -\br'|}\df V'
+                \end{align}
+            となる．この式(\ref{eq:vector_Pt_A})と，ベクトルポテンシャルと磁束密度の関係式 $\bB=\drot\bA$ の
+            ベクトルポテンシャル $\bA$ に対応する部分に注目すれば，
+                \begin{align}
+                    \bA(\br)
+                    =\int\frac{\mu_{0}}{4\pi}\frac{\bi(\br\,')}{| \br -\br'|}\df V'
+                \end{align}
+            を得る．以上で，ベクトルポテンシャルの具体的な形を得ることができた．
+
+%       %======================================================================
+%       %  SubSection
+%       %======================================================================
+        \subsection{磁束密度のポテンシャル表示}
+            今までの議論で，散々書かれてきたが，改めて記載しておこう．
+            磁束密度 $\bB$ は，ベクトルポテンシャル $\bA$ を用いると，以下のように
+            表現できる．
+                \begin{align}
+                    \bB = \drot \bA.
+                \end{align}
+
+%       %======================================================================
+%       %  SubSection
+%       %======================================================================
+        \subsection{電場のポテンシャル表示}
+            前項目では，磁束密度をベクトルポテンシャルを用いて
+            表現することを考えた．それは，$\bB=\mathrm{rot\,}\bA$ の
+            様に表現される．さて，ここでは電場をポテンシャルで表現することを考える．
+            そのためは，$\bB=\mathrm{rot\,}\bA$ を用いる．
+            どう用いるかといえば，この式をファラデーの電磁誘導の法則に代入するのである．
+            ファラデーの電磁誘導の法則は
+            \begin{align}
+            \drot \bE &= -\frac{\rd \bB}{\rd t}
+            \end{align}
+            であった．この式に $\bB=\mathrm{rot\,}\bA$ を
+            代入すると，
+            \begin{align}
+            \mathrm{rot\,} \bE &= -\frac{\rd(\mathrm{rot\,}\bA)}{\rd t}\notag \\ \notag \\
+            \Leftrightarrow
+            \mathrm{rot\,}\frac{\rd\bA}{\rd t}
+            +\mathrm{rot\,} \bE&=0 \notag \\
+            \Leftrightarrow
+            \mathrm{rot\,}\left(\frac{\rd\bA}{\rd t}
+            + \bE\right) &=0
+            \end{align}
+            となる．一般的に，この式の解は
+            \begin{align}
+            \frac{\rd\bA}{\rd t}
+            + \bE&=-\mathrm{grad\,}\phi
+            \end{align}
+            と書かれる．但し数学的には，右辺の負符号は必要ない．負の符号を付けたのは，
+            電位の定義によるものである．
+            従って，電場をポテンシャル表示すると，
+            \begin{align}
+            \bE&=-\frac{\rd\bA}{\rd t}-\mathrm{grad\,}\phi
+            \end{align}
+            となる．
+
+
+%   %==========================================================================
+%   %  Section
+%   %==========================================================================
+    \section{マクスウェル方程式のポテンシャル表示}
+    \begin{mycomment}
+            さて，以上の計算から，電場と磁束密度の
+            ポテンシャル表示を確認した．具体的には，
+            電場と磁束密度はそれぞれ，
+            スカラーポテンシャル $\phi$ とベクトルポテンシャル $\bA$ を
+            用いて，
+            \begin{align}\label{pt_EB}
+            \begin{cases}
+            \displaystyle\bE=-\frac{\rd\bA}{\rd t}-\dgrad\phi \\  \notag \\
+            \vspace{2mm}
+            \displaystyle\bB=\drot\bA
+            \end{cases}
+            \end{align}
+            のように表現されることが分かった．
+            このポテンシャル表示が示すように，電場や磁束密度はポテンシャルから導かれると
+            考えることも可能である．
+
+            このポテンシャル表示を導く課程で，ファラデーの電磁誘導の法則と
+            磁束密度に対するガウスの法則を用いた．そして，マクスウェル方程式の残りの
+            もう二つの法則，すなわち，アンペール$=$マクスウェルの法則と電場に対するガウスの法則
+            のそれぞれに，上で確認した電場と磁束密度を代入すれば，
+            それによって得た方程式と式(\ref{pt_EB})はマクスウェル方程式と
+            同等であると考えられる．では，実際に計算していくことにする．
+    \end{mycomment}
+
+
+%       %======================================================================
+%       %  SubSection
+%       %======================================================================
+        \subsection{アンペール$=$マクスウェルの法則の変形}
+            アンペール$=$マクスウェルの法則は以下のように書かれることは前に確認した．
+            すなわち，
+            \begin{align}
+            \left(\bi+
+            \varepsilon_{0}\frac{\rd \bE}{\rd t}
+            \right)
+            =\frac{1}{\mu_{0}}\drot\bB
+            \end{align}
+            である．この方程式に，電場や磁束密度のポテンシャル表示式(\ref{pt_EB})を
+            考慮すると，以下のようになる．
+            \begin{align}\label{AM_phi_A}
+            \bi+
+            \varepsilon_{0}\frac{\rd }{\rd t}
+            \left( -\frac{\rd\bA}{\rd t}-\dgrad\phi\right)
+            =\frac{1}{\mu_{0}}\drot\left(\drot\bA\right)
+            \end{align}
+
+            さてここで，ベクトル解析による恒等式を用いる．それは，任意のベクトルを $\bC$ としたとき，
+            \begin{align}\label{rotrot_C_gdCdgC}
+            \drot\drot\bC:=
+           \dgrad\ddiv\bC - \Delta \bC
+            \end{align}
+            が成り立つというものである．この恒等式(\ref{rotrot_C_gdCdgC})を
+            用いれば，式(\ref{AM_phi_A})は
+            \begin{align}
+            &\frac{1}{\mu_{0}}\left(\dgrad\ddiv\bA - \Delta \bA\right) \notag \\
+            &\quad=\bi+ \varepsilon_{0}\frac{\rd }{\rd t} \left( -\frac{\rd\bA}{\rd t}-\dgrad\phi\right) \notag \\
+            &\Leftrightarrow -\mu_{0}\bi \notag \\
+            &\quad=\left(\Delta -\frac{1}{c^{2}}\frac{\rd^{2}}{\rd t^{2}}\right)\bA
+             -\mathrm{grad\,}\left( \ddiv\bA + \frac{1}{c^{2}}\frac{\rd \phi}{\rd t}\right)
+            \end{align}
+            と変形される．ここで，$c=1/\sqrt{\varepsilon_{0}\mu_{0}}$ とおいた．
+            $c$ は波動の位相速度で，特にこの場合は光速の意味を持つ．
+            注意しておくことは，
+            この式はもはやアンペール$=$マクスウェルの法則を
+            示すものではないということである．
+
+%       %======================================================================
+%       %  SubSection
+%       %======================================================================
+        \subsection{電場に対するガウスの法則の変形}
+            電場に対するガウスの法則を書き下すと，
+            \begin{align}
+            \ddiv\bE
+            =\frac{1}{\varepsilon_{0}}\rho
+            \end{align}
+            である．この式に，ポテンシャル表示された
+            電場 $\displaystyle\bE = -(\rd\bA/\rd t) -\mathrm{grad\,}\phi$ を
+            代入すると，
+            \begin{align}
+            \ddiv\left(-\frac{\rd\bA}{\rd t}-\mathrm{grad\,}\phi\right)
+            =\frac{1}{\varepsilon_{0}}\rho \notag \\  \notag \\
+            \Leftrightarrow
+            -\frac{\rd(\mathrm{div\,}\bA)}{\rd t}-\mathrm{div\,grad\,}\phi
+            =\frac{1}{\varepsilon_{0}}\rho
+            \end{align}
+            そして，$\Delta:=\mathrm{div\,grad\,}$ ということに注意すれば，
+            \begin{align}
+            \frac{\rd(\mathrm{div\,}\bA)}{\rd t}+\Delta\phi
+            =-\frac{1}{\varepsilon_{0}}\rho
+            \end{align}
+            となる．ここで，少々トリッキーな操作を行う．
+            この式の両辺に $-\varepsilon_{0}\mu_{0}(\rd^{2} \phi/\rd t^{2})$ を加える．
+            \begin{align}
+            &\frac{\rd(\mathrm{div\,}\bA)}{\rd t}+\Delta\phi
+            -\varepsilon_{0}\mu_{0}\frac{\rd^{2} \phi}{\rd t^{2}}
+            =-\frac{1}{\varepsilon_{0}}\rho -\varepsilon_{0}\mu_{0}\frac{\rd^{2} \phi}{\rd t^{2}}\notag \\ \notag \\
+            &\Leftrightarrow\,
+            \left(\Delta
+            -\frac{1}{c^{2}}\frac{\rd^{2} }{\rd t^{2}}\right)\phi
+            +\frac{\rd}{\rd t}\left(\mathrm{div\,}\bA
+            +\frac{1}{c^{2}}\frac{\rd \phi}{\rd t}
+            \right)
+            =-\frac{1}{\varepsilon_{0}}\rho
+            \end{align}
+
+            これで，とりあえずの式変形が終了した．この後に，
+            これら4つの式を，次に確認する \textbf{Lorentz ゲージ} という
+            ゲージを導入し，もう少し表現を簡略化する．その前に，とりあえず
+            今までに得られたマクスウェル方程式と等価な方程式をまとめておく．
+                    \begin{myshadebox}{マクスウェル方程式のポテンシャル表示}
+                        以下の方程式群は，マクスウェル方程式を，ベクトルポテンシャルと
+                        スカラーポテンシャルを用いた表現に書きなおしたものであり，
+                        先に導出したマクスウェル方程式と（数学的に）同等の内容である．
+                        \begin{align}
+                            \bE&=-\displaystyle
+                            \frac{\rd\bA}{\rd t}-\mathrm{grad\,}\phi \\ \notag \\
+                            \vspace{2mm}
+                            \bB&=\mathrm{rot\,}\bA
+                        \end{align}
+                        \begin{align}
+                            &-\mu_{0}\bi  \\\,\vspace{2mm}  \notag \\
+                            &=\left(\Delta
+                            -\frac{1}{c^{2}}\frac{\rd^{2}}{\rd t^{2}}\right)\bA
+                            -\mathrm{grad\,}\left( \mathrm{div\,}\bA
+                            +\frac{1}{c^{2}}\frac{\rd{\phi}}{\rd t}\right) \\
+                            &-\frac{1}{\varepsilon_{0}}\rho \notag \\
+                            &=\left(\Delta
+                            -\frac{1}{c^{2}}\frac{\rd^{2} }{\rd t^{2}}\right)\phi
+                            +\frac{\rd}{\rd t}\left(\mathrm{div\,}\bA
+                            +\frac{1}{c^{2}}\frac{\rd \phi}{\rd t}
+                            \right)
+                        \end{align}
+                    \end{myshadebox}
+
+                このままでは式の形がややこしいので，
+                次に \textbf{ゲージ変換} を確認して，
+                \textbf{ローレンツ条件} を導入しよう．
+
+
+%       %======================================================================
+%       %  SubSection
+%       %======================================================================
+        \subsection{ゲージ変換}
+            電場 $\bE$ と磁束密度 $\bB$ のポテンシャル表示の式は以下のように表現されることは，
+            前項目で既に確認している．
+                    \begin{align}
+                            \bE&=-\displaystyle
+                            \frac{\rd\bA}{\rd t}-\mathrm{grad\,}\phi \\  \notag \\
+                            \vspace{2mm}
+                            \bB&=\mathrm{rot\,}\bA
+                    \end{align}
+            ここで，2つのポテンシャル $\bA$ と $\phi$ を以下のように変換してみる．\\
+                        \begin{myshadebox}{ゲージ変換}
+                            2つのポテンシャル $\bA$ と $\phi$ の \textbf{ゲージ変換} とは，
+                            以下の変換のことをいう．
+                            \begin{align}\label{guage1}
+                                \bA'&=\bA-\dgrad\chi \\ \notag \\
+                                \phi ' &=\phi +\frac{\rd \chi}{\rd t}
+                            \end{align}
+                        \end{myshadebox}
+
+            ここで，$\chi$ は任意の関数である．
+            このように，ポテンシャルを式(\ref{guage1})で変換することを，\textbf{ゲージ変換} という．
+            なぜこんな可笑しな変換を考えるかといえば，それは次のような理由による．
+            \textbf{ポテンシャルをゲージ変換しても，
+            電場と磁束密度は形を変えない}．このことを確認をしておこう．
+
+            まず，電場について考えよう．ゲージ変換をしたポテンシャルでの電場 $\bE\,'$ は，
+                    \begin{align}
+                            &\bE\,' \notag \\
+                            &=-\displaystyle \frac{\rd\bA'}{\rd t}-\mathrm{grad\,}\phi ' \notag \\
+                            &=-\frac{\rd}{\rd t}\left( \bA-\dgrad\chi \right)
+                            -\dgrad\left( \phi+\frac{\rd \chi}{\rd t} \right) \notag \\
+                            &=-\frac{\rd  \bA}{\rd t}+\frac{\rd  (\dgrad\chi)}{\rd t}
+                            -\dgrad\phi-\dgrad\left( \frac{\rd \chi}{\rd t} \right) \notag \\
+                            &=-\frac{\rd  \bA}{\rd t}+-\dgrad\left( \frac{\rd \chi}{\rd t} \right)
+                            -\dgrad\phi-\dgrad\left( \frac{\rd \chi}{\rd t} \right) \notag \\
+                            &=-\frac{\rd  \bA}{\rd t}-\dgrad\phi \notag \\
+                            &=\bE\notag \\ \notag \\
+                            &\therefore\,\,\bE\,'=\bE
+                    \end{align}
+            よって，ゲージ変換を適用しても，電場の形の変化はない．
+
+            次に，磁束密度について確認しよう．ゲージ変換された磁束密度を $\bB\,'$ とすると，
+                    \begin{align}
+                    \bB\,'&=\drot\bA' \notag \\
+                    &=\drot\left(\bA-\mathrm{grad \chi} \right)\notag \\
+                    &=\drot\bA-\mathrm{rot\,grad} \,\chi\notag \\
+                    &=\drot\bA\notag \\
+                    &=\bB\notag \\
+                    \therefore\,\quad\,
+                    \bB\,'&=\bB
+                    \end{align}
+            よって電場と同様に，磁束密度についてもゲージ変換を適用しても，磁束密度の形を変えることはないことが示された．
+
+            以上のように，電場と磁束密度はゲージ変換に対してその形を変化させることは
+            ないことを示したが，このことを，電場と磁束密度は \textbf{ゲージ変換に対して不変である} と表現する．
+
+%       %======================================================================
+%       %  SubSection
+%       %======================================================================
+        \subsection{ローレンツ条件}
+            ベクトルポテンシャルとスカラーポテンシャルが以下の式ローレンツ条件を満たすと仮定する．
+                        \begin{myshadebox}{ローレンツ条件式}
+                            \begin{align}
+                                \mathrm{div\,}\bA + \frac{1}{c^{2}}\frac{\rd \phi}{\rd t}
+                                =0
+                            \end{align}
+                        \end{myshadebox}
+
+            こうすると，マクスウェル方程式がきれいに整理される．しかし，
+            上のローレンツ条件はどうなるか．実は，これは大した問題ではなく，理論にも矛盾を
+            引き起こしたりしない．そのことを確認するため，計算してみよう．
+
+            ローレンツ変換式に，ゲージ変換した
+            ポテンシャル $\bA'=\bA-\dgrad\chi$，
+            $\phi ' =\phi +\left(\rd \chi/\rd t\right)$ を代入して，
+                            \begin{align*}
+                                &\mathrm{div\,}\bA' + \frac{1}{c^{2}}\frac{\rd \phi '}{\rd t} \notag \\
+                                &\quad=\mathrm{div\,}(\bA-\dgrad\chi)
+                                +\frac{1}{c^{2}}\frac{\rd}{\rd t}
+                                \left(\phi +\frac{\rd \chi}{\rd t}\right) \\ \notag \\
+                                &\quad=\mathrm{div\,}\bA
+                                -\mathrm{div\,grad\,}\chi
+                                +\frac{1}{c^{2}}\frac{\rd \phi}{\rd t}
+                                +\frac{1}{c^{2}}\frac{\rd^{2} \chi}{\rd t^{2}} \\ \notag \\
+                                &\quad=\mathrm{div\,}\bA
+                                +\frac{1}{c^{2}}\frac{\rd \phi}{\rd t}
+                                \left(
+                                    -\mathrm{div\,grad\,}\chi
+                                +\frac{1}{c^{2}}\frac{\rd^{2} \chi}{\rd t^{2}}
+                                \right)
+                            \end{align*}
+            ここで，$\Delta:=\mathrm{div\,grad\,}$ であることに注意して，
+                            \begin{align*}
+                                &\mathrm{div\,}\bA'
+                                +\frac{1}{c^{2}}\frac{\rd \phi '}{\rd t} \\
+                                &\quad=
+                                \mathrm{div\,}\bA
+                                +\frac{1}{c^{2}}\frac{\rd \phi}{\rd t}
+                                -\left(
+                                    \Delta\chi
+                                -\frac{1}{c^{2}}\frac{\rd^{2} \chi}{\rd t^{2}}
+                                \right)
+                            \end{align*}
+            この式で右辺第1項と第2項の和は，ローレンツ条件で 0になるから，
+                            \begin{align*}
+                                \mathrm{div\,}\bA'
+                                +\frac{1}{c^{2}}\frac{\rd \phi '}{\rd t}
+                                &=
+                                -\left(
+                                    \Delta\chi
+                                -\frac{1}{c^{2}}\frac{\rd^{2} \chi}{\rd t^{2}}
+                                \right)
+                            \end{align*}
+            と計算される．ゲージ変換しても，ローレンツ変換式を維もできるためには，この式の右辺が0に等しければよく，
+            つまり
+                            \begin{align}
+                                \left(
+                                    \Delta\chi
+                                -\frac{1}{c^{2}}\frac{\rd^{2} \chi}{\rd t^{2}}
+                                \right)
+                                =0
+                            \end{align}
+            が満たされていればよい．この条件を満たすような解 $\chi$ は1つ以上，すなわち，
+            複数存在する．しかし，この条件を満たすような解ならば，
+            $\chi$ はどのようなものであってもよい．とにかく，そのような解が存在するということを
+            確認できればそれでよいのである．
+            解である $\chi$ 具体的な形はあまり本質的ではないのだ．以上で確認終了．
+            これで安心してローレンツ条件を用いることができる．
+
+
+            この条件式を用いて，ポテンシャル表記されたマクスウェル方程式
+            を整理するとつぎのようになる．
+               \begin{myshadebox}{マクスウェル方程式のポテンシャル表示}
+                        \begin{align}
+                            \bE&=-\displaystyle
+                            \frac{\rd\bA}{\rd t}-\mathrm{grad\,}\phi \\ \notag \\
+                            \vspace{2mm}
+                            \bB&=\mathrm{rot\,}\bA
+                    \end{align}
+                    \begin{align}
+                            \left(\Delta
+                            -\frac{1}{c^{2}}\frac{\rd^{2}}{\rd t^{2}}\right)\bA
+                            &=-\mu_{0}\bi  \\\,\vspace{2mm} \notag \\
+                            \left(\Delta
+                            -\frac{1}{c^{2}}\frac{\rd^{2} }{\rd t^{2}}\right)\phi
+                            &=-\frac{1}{\varepsilon_{0}}\rho
+                    \end{align}
+                        \textbf{ローレンツ条件式}
+                            \begin{align}
+                                \mathrm{div\,}\bA
+                                +\frac{1}{c^{2}}\frac{\rd \phi}{\rd t}
+                                =0
+                            \end{align}
+               \end{myshadebox}
+
+
+                    条件式が1つ多くなるが，マクスウェル方程式はかなり整理された形になったと
+                    感じられることと思う(感覚は人それぞれではあるが...)
+                      \footnote{
+                        くどいようだが，確認しておきたいことがある．式を1つ追加してまでも
+                        マクスウェル方程式をポテンシャル表記するのは，後に考える量子力学や相対性理論との
+                        かかわりをより深く理解するためである．この理由を改めておくのは，学習意欲を
+                        失うことのないようにするためである．
+                      }．
+
+
+%       %======================================================================
+%       %  SubSection
+%       %======================================================================
+        \subsection{ポテンシャル表記の利点}
+                    マクスウェル方程式を，電位 $\phi$ とベクトルポテンシャル $\bA$ で
+                    表すことで，マクスウェル方程式が数学的に美しい形で表現された．
+                    つまり，方程式が解きやすくなったのだ．マクスウェル方程式を解くとは，
+                    電場 $\bE$ と磁束密度 $\bB$ を求めることである．元の式で
+                    は，$\bE$ と $\bB$ がひとつの方程式に混在している．
+                    それに対して，ポテンシャル表記された方程式は，$\phi$ と $\bA$ が
+                    分離されている．つまり，元の式から $\bE$，$\bB$ を解くより，
+                    ポテンシャル表記された方程式から $\phi$，$\bA$ を求める
+                    方が簡単なのである．$\phi$ と $\bA$ さえ求まれば，$\bE$ と $\bB$ は
+                    すぐに求められる．数学的解析を行いたい場合には，この
+                    ポテンシャル表記された方程式は，とても役に立つ．
+
+                    さらに言えば，ポテンシャル表記された方程式は
+                    量子力学や相対性理論との相性がいい．量子力学・
+                    相対性理論を学ぶ際には，ポテンシャル表記の方程式を
+                    理解していなければならない．
+
+                    もちろん，数式と物理現象との対応を，鮮やかに表現しているのは
+                    元の $\bE$ と $\bB$ で表される方程式である．
+                    要するに，目的応じて数式的表現を選べるのである．
+                    実際の物理現象のイメージを大切にしたい場合は $\bE$ と $\bB$ で
+                    表される方程式を使えばいい．
+                    問題を解析的(数学的)に解きたい場合はポテンシャル表記の方程式を
+                    選べばよい．一度数式で表現された物理現象は，もはや物理現象の
+                    数式表現と言うことにとどまらず，純粋に数学的な方程式の問題としても
+                    見れるのである．ポテンシャル表記された方程式は，意味がわからないとして
+                    避けてしまってはならない．むしろ，これから先の学習で，ポテンシャル
+                    表記の方程式はなくてはならないものになるはずである．
+

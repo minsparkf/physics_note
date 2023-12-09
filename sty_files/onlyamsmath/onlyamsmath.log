@@ -1,0 +1,113 @@
+This is e-upTeX, Version 3.141592653-p3.9.1-u1.27-210218-2.6 (utf8.uptex) (TeX Live 2022/dev/Debian) (preloaded format=uplatex 2023.6.20)  25 NOV 2023 02:13
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**onlyamsmath.ins
+(./onlyamsmath.ins
+pLaTeX2e <2021-11-15u04> (based on LaTeX2e <2021-11-15> patch level 1)
+L3 programming layer <2022-01-21>
+(/usr/share/texlive/texmf-dist/tex/latex/base/docstrip.tex
+\blockLevel=\count184
+\emptyLines=\count185
+\processedLines=\count186
+\commentsRemoved=\count187
+\commentsPassed=\count188
+\codeLinesPassed=\count189
+\TotalprocessedLines=\count190
+\TotalcommentsRemoved=\count191
+\TotalcommentsPassed=\count192
+\TotalcodeLinesPassed=\count193
+\NumberOfFiles=\count194
+\inFile=\read2
+\inputcheck=\read3
+\off@0=\count195
+\off@1=\count196
+\off@2=\count197
+\off@3=\count198
+\off@4=\count199
+\off@5=\count266
+\off@6=\count267
+\off@7=\count268
+\off@8=\count269
+\off@9=\count270
+\off@10=\count271
+\off@11=\count272
+\off@12=\count273
+\off@13=\count274
+\off@14=\count275
+\off@15=\count276
+\@maxfiles=\count277
+\@maxoutfiles=\count278
+
+Utility: `docstrip' v2.6a <2020-11-23>
+English documentation    <2020-11-23>
+
+**********************************************************
+* This program converts documented macro-files into fast *
+* loadable files by stripping off (nearly) all comments! *
+**********************************************************
+
+********************************************************
+* No Configuration file found, using default settings. *
+********************************************************
+
+(./onlyamsmath.ins
+
+Generating file(s) ./onlyamsmath.sty 
+\openout0 = `./onlyamsmath.sty'.
+
+
+Processing file onlyamsmath.dtx (package) -> onlyamsmath.sty
+% % % % % % <*driver . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+. . . . . . . > % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % %
+% % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % %
+% % % % % % % % % % % % % % % % % % % % % <package . > <version . >
+<package,version . > % % <*package % % % . % % % % % % % % % % . . % % % . . .
+. . % % % . . . . % % % . % % % . % % % % % % % % . . . . . . . . . . % % % %
+% % % % . % % % % % % . % % % % % . % % % . % % % . . % % % % % . % % % % . %
+% % . % % % % . % % % . % % % % % % % % . . . % % % . . . % % % . . % % % % %
+% % . % % % % % % % . . . % % % % % . % % % . . % % % % % . % % > % % .
+Lines  processed: 316
+Comments removed: 221
+Comments  passed: 0
+Codelines passed: 88
+
+
+Generating file(s) ./onlyamsmath-v.tex 
+\openout0 = `./onlyamsmath-v.tex'.
+
+
+Processing file onlyamsmath.dtx (version) -> onlyamsmath-v.tex
+% % % % % % <*driver . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+. . . . . . . > % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % %
+% % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % %
+% % % % % % % % % % % % % % % % % % % % % <package . > <version . >
+<package,version . > % % <*package % % % . % % % % % % % % % % . . % % % . . .
+. . % % % . . . . % % % . % % % . % % % % % % % % . . . . . . . . . . % % % %
+% % % % . % % % % % % . % % % % % . % % % . % % % . . % % % % % . % % % % . %
+% % . % % % % . % % % . % % % % % % % % . . . % % % . . . % % % . . % % % % %
+% % . % % % % % % % . . . % % % % % . % % % . . % % % % % . % % > % % .
+Lines  processed: 316
+Comments removed: 221
+Comments  passed: 0
+Codelines passed: 88
+
+* Fertig
+)
+Overall statistics:
+Files  processed: 2
+Lines  processed: 632
+Comments removed: 442
+Comments  passed: 0
+Codelines passed: 176
+ ) ) 
+Here is how much of TeX's memory you used:
+ 345 strings out of 478733
+ 3706 string characters out of 5860893
+ 304184 words of memory out of 5000000
+ 18861 multiletter control sequences out of 15000+600000
+ 471900 words of font info for 46 fonts, out of 8000000 for 9000
+ 929 hyphenation exceptions out of 8191
+ 18i,0n,23p,211b,126s stack positions out of 5000i,500n,10000p,200000b,80000s
+
+No pages of output.

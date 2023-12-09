@@ -1,0 +1,17 @@
+/* [wxMaxima batch file version 1] [ DO NOT EDIT BY HAND! ]*/
+/* [ Created with wxMaxima version 13.04.2 ] */
+
+/* [wxMaxima: input   start ] */
+[legend,false];
+f(x):=1/sqrt(2*%pi)*exp(-1^2*x^2/2);
+g(x):=2/sqrt(2*%pi)*exp(-2^2*x^2/2);
+h(x):=4/sqrt(2*%pi)*exp(-4^2*x^2/2);
+i(x):=8/sqrt(2*%pi)*exp(-8^2*x^2/2);
+j(x):=16/sqrt(2*%pi)*exp(-16^2*x^2/2);
+k(x):=128/sqrt(2*%pi)*exp(-128^2*x^2/2);
+plot2d([f(x), g(x), h(x), i(x), j(x), k(x)],[x,-2,2],[y,-1,5],[legend,false],[style,[lines,3,4]]);
+/* [wxMaxima: input   end   ] */
+
+
+/* Maxima can't load/batch files which end with a comment! */
+"Created with wxMaxima"$

@@ -1,0 +1,247 @@
+%       %======================================================================
+%       %  SubSection
+%       %======================================================================
+\subsection{和の微分}
+    1変数関数 $K(x)$ があり，この $K(x)$ が2つの関数 $f(x)$，$g(x)$ の和に分解できるとする．
+    つまり，以下が成り立っている場合を考える
+        \footnote{
+            ごく簡単な例で言えば，$K(x)=f(x)+g(x)=5x$，$f(x)=x$，$g(x)=4x$ の場合とか．
+        }．
+        \begin{equation*}
+            K(x) = f(x) + g(x).
+        \end{equation*}
+    この時，
+         \begin{align}
+             K'(x) = f'(x) + g'(x)
+         \end{align}
+    が成り立つ．
+
+    これは微分の定義に従って式変形をすることで，確認できる．少々面倒だが，やってみよう．
+        \begin{align*}
+            K'(x) &= \lim_{\Delta x \to 0} \frac{K(x+\Delta x)-K(x)}{\Delta x} \\
+                  &= \lim_{\Delta x \to 0}
+                     \frac{\left(f(x+\Delta x)+g(x+\Delta x)\right)-\left( f(x)+g(x)\right)}{\Delta x} \\
+                  &= \lim_{\Delta x \to 0}
+                     \frac{f(x+\Delta x)-f(x) + g(x+\Delta x)-g(x)}{\Delta x} \\
+                  &= \lim_{\Delta x \to 0}
+                     \left(
+                         \frac{f(x+\Delta x)-f(x)}{\Delta x}+\frac{g(x+\Delta x)-g(x)}{\Delta x}
+                     \right) \\
+                  &= \lim_{\Delta x \to 0} \frac{f(x+\Delta x)-f(x)}{\Delta x}
+                   + \lim_{\Delta x \to 0} \frac{g(x+\Delta x)-g(x)}{\Delta x} \\
+                  &= f'(x) + g'(x).
+        \end{align*}
+
+    この式変形で，関数の極限の和の公式を利用している
+        \footnote{
+            $\displaystyle\lim_{x \to 0}f(x)$ と $\displaystyle\lim_{x \to 0}g(x)$ が共に収束する場合，
+            \begin{equation*}
+                \lim_{x \to 0}(f(x)+g(x)) = \lim_{x \to 0}f(x) + \lim_{x \to 0}g(x).
+            \end{equation*}
+        }．
+
+\subsection{積の微分}
+    1変数関数 $K(x)$ があり，この $K(x)$ が2つの関数 $f(x)$，$g(x)$ の積に分解できるとする．
+    つまり，以下が成り立っている場合を考える
+        \footnote{
+            ごく簡単な例で言えば，$K(x)=f(x)g(x)=5x(x+1)$，$f(x)=5x$，$g(x)=x+1$ の場合とか．
+        }．
+        \begin{equation*}
+            K(x) = f(x)g(x).
+        \end{equation*}
+     この時，
+         \begin{align}
+             K'(x) = f'(x)g(x) + f(x)g'(x)
+         \end{align}
+     が成り立つ．
+
+    これは微分の定義に従って式変形をすることで，確認できる．少々面倒だが，やってみよう．
+    特に，$-f(x)g(x+\Delta x) + f(x)g(x+\Delta x) = 0$ であることに注意．
+        \begin{align*}
+            &K'(x) \\
+            &= \lim_{\Delta x \to 0}
+               \frac{K(x+\Delta x)-K(x)}{\Delta x} \\
+            &= \lim_{\Delta x \to 0}
+               \frac{f(x+\Delta x)g(x+\Delta x)-f(x)g(x)}{\Delta x} \\
+            &= \lim_{\Delta x \to 0}
+               \frac{f(x+\Delta x)g(x+\Delta x)-f(x)g(x+\Delta x) + f(x)g(x+\Delta x)-f(x)g(x)}{\Delta x} \\
+            &= \lim_{\Delta x \to 0}
+               \frac{\left(f(x+\Delta x)-f(x)\right)g(x+\Delta x) + f(x)\left(g(x+\Delta x)-g(x)\right)}{\Delta x} \\
+            &= \lim_{\Delta x \to 0} \frac{\left(f(x+\Delta x)-f(x)\right)g(x+\Delta x)}{\Delta x}
+             + \lim_{\Delta x \to 0} f(x)\frac{g(x+\Delta x)-g(x)}{\Delta x} \\
+            &= \lim_{\Delta x \to 0} \frac{f(x+\Delta x)-f(x)}{\Delta x} g(x+\Delta x)
+             + f(x) \lim_{\Delta x \to 0} \frac{g(x+\Delta x)-g(x)}{\Delta x} \\
+            &= f'(x)g(x) + f(x)g'(x).
+        \end{align*}
+
+    この式変形で，関数の極限の積の公式を利用している
+        \footnote{
+            $\displaystyle\lim_{x \to 0}f(x)$ と $\displaystyle\lim_{x \to 0}g(x)$ が共に収束する場合，
+            \begin{equation*}
+                \lim_{x \to 0}(f(x) \cdot g(x)) = \lim_{x \to 0}f(x) \cdot \lim_{x \to 0}g(x).
+            \end{equation*}
+        }．
+    また，式変形について，以下を考慮した．
+        \begin{align*}
+            f(x) &= \lim_{\Delta x \to 0} f(x) \\
+            g(x) &= \lim_{\Delta x \to 0} g(x+\Delta x)
+        \end{align*}
+    1つ目の式はそもそも $\Delta x$ が関数 $f(x)$ にないので，$\Delta x$ に関する極限を
+    とったところで変化なし．2つ目の式は関数の極限の定義そのものである．
+
+\subsection{商の微分}
+    1変数関数 $K(x)$ があり，この $K(x)$ が2つの関数 $f(x)$，$g(x)$ の商に分解できるとする．
+    つまり，以下が成り立っている場合を考える
+        \footnote{
+            ごく簡単な例で言えば，$K(x)=f(x)/g(x)=5x$，$f(x)=20{x}^{2}$，$g(x)=4x$ の場合とか．
+        }．
+        \begin{equation*}
+            K(x) = \frac{f(x)}{g(x)}.
+        \end{equation*}
+    この時，
+         \begin{align}
+             K'(x) = \frac{f'(x)g(x) - f(x)g'(x)}{{\left(g(x)\right)}^{2}}
+         \end{align}
+    が成り立つ．
+
+    これを示すには，
+        \begin{equation*}
+            K(x) = \frac{f(x)}{g(x)} = f(x)\frac{1}{g(x)}
+        \end{equation*}
+    とみなし，積の微分公式を用いる．実際に確認してみよう．
+        \begin{equation*}
+            K'(x) = f'(x)\frac{1}{g(x)} + f(x)\left(\frac{1}{g(x)}\right)'
+        \end{equation*}
+    ここで移行の式変形の都合上
+        \footnote{
+            不自然に思われるかもしれないが，覚えやすく使いやすい形にしたいがための式変形であり，
+            重要な部分である．
+        }
+    ，上式の第1項の分母と分子に $g(x)$ をかけて，
+        \begin{equation*}
+            K'(x) = f'(x)g(x)\frac{1}{{g(x)}^{2}} + f(x)\left(\frac{1}{g(x)}\right)'
+        \end{equation*}
+    としておく．また，第2項のカッコ内の微分は，定義に従って計算する
+        \footnote{
+            2つの分数の恒等式を使うので，補足しておこう．
+            \begin{equation*}
+                \frac{1}{A} - \frac{1}{B}
+                = \frac{B}{AB} - \frac{A}{AB}
+                = \frac{B-A}{AB}
+                = - \frac{A-B}{AB}.
+            \end{equation*}
+            \begin{equation*}
+                \frac{\displaystyle\frac{A}{B}}{C}
+                = \frac{\displaystyle\frac{A}{B}B}{BC}
+                = \frac{A}{BC}.
+            \end{equation*}
+        }．
+        \begin{align*}
+            \left(\frac{1}{g(x)}\right)'
+            &= \lim_{x \to 0}
+               \frac{\displaystyle\frac{1}{g(x + \Delta x)} - \displaystyle\frac{1}{g(x)}}{\Delta x} \\
+            &= \lim_{x \to 0}
+               \frac{\displaystyle\frac{-g(x + \Delta x)+g(x)}{g(x + \Delta x)g(x)}}{\Delta x} \\
+            &= \lim_{x \to 0}
+               -\frac{g(x + \Delta x)-g(x)}{\Delta x}\frac{1}{{g(x + \Delta x)g(x)}} \\
+            &= -g'(x) \frac{1}{{\left(g(x)\right)}^{2}} \\
+            &= -\frac{g'(x)}{{\left(g(x)\right)}^{2}}
+        \end{align*}
+    なので，
+        \begin{equation*}
+            K'(x) = f'(x)g(x)\frac{1}{{g(x)}^{2}}-f(x)\frac{g'(x)}{{\left(g(x)\right)}^{2}}.
+        \end{equation*}
+    共通な分母でまとめると，
+        \begin{equation*}
+            K'(x) = \frac{f'(x)g(x)-f(x)g'(x)}{{\left(g(x)\right)}^{2}}.
+        \end{equation*}
+
+\subsection{合成関数の微分}
+    関数 $f(g(x))$ というもの考える．$g(x)$ は独立変数 $x$ を持つ関数であり，$f$ は $g(x)$ で
+    得られた値を引数に持つ関数である
+        \footnote{
+            例えば，${(x+1)}^{2}$ であれば，$g(x)=x+1$ として $f(g(x))={\left(g(x)\right)}^{2}$ と
+            書き表せる．
+        }．
+    こういった入れ子になった関数を \textbf{合成関数} という．
+    $f(g(x))$ は $(g \circ f)(x)$ と書かれることもある．
+        \footnote{
+            表記だけの問題だが，$f(g(x))$ という表現は，見難くなる傾向にある．この程度であれば，まだ
+            わかるが，これが $f(g(h(i(j(x))))$ となった場合にはカッコが多くて，読み難くくなってしまう．
+            だから，$f(g(x))=(g \circ f)(x)$ と書くこともある．これなら，関数が多くなろうとも問題ない．
+            さっきの例で言うと，$(j \circ i \circ h \circ g \circ f) (x)$ である．
+            関数の依存関係を左のカッコ内に書き，その独立変数を右のカッコの中に書く．関数の依存関係は
+            一番深いものを最左に書き，順次右に追記していく．
+        }．
+
+    ここでは，この合成関数の微分公式を確認する．
+    合成関数 $(g \circ f)(x)=f(g(x))$ は $u=g(x)$ と置いて $f(u)$ と見ることができる．
+    $g(x)$ が $x$ の関数だから，結局のところ $(g \circ f)(x)$ も $x$ の関数となるので，
+    $\df (g \circ f) /\df x$ を考えられる．$u=g(x)$ を展開し，さらに $f(u)$ を
+    展開した後で，微分を計算しても良いが，もっと賢い方法がある．次のとおりだ．
+        \begin{align}
+            \frac{\df (g \circ f)}{\df x}
+            = \frac{\df f}{\df u}\frac{\df u}{\df x}
+            = \frac{\df f(u)}{\df u}\frac{\df g(x)}{\df x}.
+        \end{align}
+
+    これが正しいことは，微分の定義から計算することで確認できる．
+        \begin{align*}
+            &\frac{\df (g \circ f)}{\df x} \\
+            &= \lim_{\Delta x \to 0}
+               \frac{(g \circ f)(x+\Delta x)-(g \circ f)(x)}{\Delta x} \\
+            &= \lim_{\Delta x \to 0}
+               \frac{(g \circ f)(x+\Delta x)-(g \circ f)(x)}{g(x + \Delta x) - g(x)}
+               \frac{g(x + \Delta x) - g(x)}{\Delta x} \\
+            &= \lim_{\Delta x \to 0}
+               \frac{(g \circ f)(x+\Delta x)-(g \circ f)(x)}{\Delta g}
+               \frac{g(x + \Delta x) - g(x)}{\Delta x} \\
+            &= \lim_{\Delta x \to 0}
+               \frac{(g \circ f)(x+\Delta x)-(g \circ f)(x)}{g(x + \Delta x) - g(x)}
+               \cdot
+               \lim_{\Delta x \to 0}
+               \frac{g(x + \Delta x) - g(x)}{\Delta x}
+        \end{align*}
+
+    ここで，式の見やすさのため，$\Delta g = g(x + \Delta x) - g(x)$ と置く．
+    また，$g(x)=\displaystyle \lim_{\Delta x \to 0} g(x+\Delta x)$ の関係から，
+        \begin{align*}
+            &\lim_{\Delta x \to 0} \left( g(x+\Delta x) \right) - g(x) \\
+            &= \lim_{\Delta x \to 0} \left( g(x+\Delta x) - g(x) \right) \\
+            &= \lim_{\Delta x \to 0} \Delta g \\
+            &= 0
+        \end{align*} \\
+    が成り立つので，$\Delta x \to 0$ を $\Delta g \to 0$ に置き換えられることを使う．
+        \begin{flalign*}
+            &\frac{\df (g \circ f)}{\df x} \\
+                                &= \lim_{\Delta g \to 0}
+                                   \frac{(g \circ f)(x+\Delta x)-(g \circ f)(x)}{\Delta g}
+                                   \cdot
+                                   \lim_{\Delta x \to 0}
+                                   \frac{g(x + \Delta x) - g(x)}{\Delta x}
+        \end{flalign*}
+
+    最後に，$\Delta (g \circ f) = (g \circ f)(x+\Delta x)-(g \circ f)(x) $，
+    $\Delta u = \Delta g$ であることに注意すれば，
+        \begin{flalign*}
+            \frac{\df (g \circ f)}{\df x}
+                &= \lim_{\Delta g \to 0} \frac{\Delta (g \circ f)}{\Delta g}
+                   \cdot
+                   \lim_{\Delta x \to 0} \frac{g(x + \Delta x) - g(x)}{\Delta x} \\
+                &= \lim_{\Delta u \to 0} \frac{\Delta (g \circ f)}{\Delta u}
+                   \cdot
+                   \lim_{\Delta x \to 0} \frac{\Delta g}{\Delta x} \\
+                &= \lim_{\Delta u \to 0} \frac{\Delta (g \circ f)}{\Delta u}
+                   \cdot
+                   \lim_{\Delta x \to 0} \frac{\Delta u}{\Delta x} \\
+                &= \frac{\df (g \circ f)}{\df u} \frac{\df u}{\df x}
+        \end{flalign*}
+    を得る．大抵の場合は，$f:=(g \circ f)=f(g(x))$ と略記されるので，これに従うと，
+        \begin{flalign*}
+            \frac{\df f}{\df x} &= \frac{\df f}{\df u} \frac{\df u}{\df x}
+        \end{flalign*}
+    となって，いつもの合成関数の微分公式が見えてくる．
+
+\subsection{部分積分}
+
+

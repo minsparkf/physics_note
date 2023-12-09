@@ -1,0 +1,54 @@
+﻿%===================================================================================================
+%  Chapter : 行列
+%  説明    : 行列の基本的な計算規則，座標変換について
+%===================================================================================================
+%   %==========================================================================
+%   %  Section
+%   %==========================================================================
+    \section{三角関数の公式}
+        \subsection{加法定理}
+            \begin{align}
+                \sin(\alpha+\beta) &= \sin\alpha\cos\beta + \cos\alpha\sin\beta. \\
+                \sin(\alpha-\beta) &= \sin\alpha\cos\beta - \cos\alpha\sin\beta. \\
+                \cos(\alpha+\beta) &= \cos\alpha\cos\beta - \sin\alpha\sin\beta. \\
+                \cos(\alpha-\beta) &= \cos\alpha\cos\beta + \sin\alpha\sin\beta. \\
+                \tan(\alpha+\beta) &= \frac{\tan\alpha+\tan\beta}{1-\tan\alpha\tan\beta}. \\
+                \tan(\alpha-\beta) &= \frac{\tan\alpha-\tan\beta}{1+\tan\alpha\tan\beta}.
+            \end{align}
+
+        \subsection{倍角公式}
+            \begin{align}
+                \sin2\alpha &= 2\sin\alpha\cos\beta. \\
+                \tan2\alpha &= \frac{2\tan\alpha}{1-\tan^{2}\alpha}.
+                \cos2\alpha &= \cos^{2}\alpha-\sin^{2}\alpha \\
+                            &= 2\cos^{2}\alpha-1 \\
+                            &= 1-2\sin^{2}\alpha.
+            \end{align}
+
+        \subsection{三倍角公式}
+            \begin{align}
+                \sin3\alpha &= -4\sin^{3}\alpha+3\sin\alpha \\
+                \cos3\alpha &= 4\cos^{3}\alpha-3\cos\alpha
+            \end{align}
+
+        \subsection{半角公式}
+            \begin{align}
+                \sin^{2}\frac{\alpha}{2}=\frac{1-\cos\alpha}{2}. \\
+                \cos^{2}\frac{\alpha}{2}=\frac{1+\cos\alpha}{2}. \\
+                \tan^{2}\frac{\alpha}{2}=\frac{1-\cos\alpha}{1+\cos\alpha}.
+            \end{align}
+
+        \subsection{積和公式}
+            \begin{align}
+                \sin\alpha\cos\beta=\frac{\sin(\alpha+\beta)+\sin(\alpha-\beta)}{2}. \\
+                \cos\alpha\cos\beta=\frac{\cos(\alpha+\beta)+\cos(\alpha-\beta)}{2}. \\
+                \sin\alpha\sin\beta=\frac{\cos(\alpha+\beta)-\cos(\alpha-\beta)}{2}.
+            \end{align}
+
+        \subsection{和積公式}
+            \begin{align}
+                \sin{A}+\sin{B}=2 \sin\frac{A+B}{2}\cos\frac{A-B}{2}. \\
+                \sin{A}-\sin{B}=2 \cos\frac{A+B}{2}\sin\frac{A-B}{2}. \\
+                \cos{A}+\cos{B}=2 \cos\frac{A+B}{2}\cos\frac{A-B}{2}. \\
+                \cos{A}-\cos{B}=-2 \sin\frac{A+B}{2}\sin\frac{A-B}{2}.
+            \end{align}
