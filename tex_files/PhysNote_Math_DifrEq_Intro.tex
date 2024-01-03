@@ -5,4 +5,176 @@
         %  SubSection
         %==================================================================
             \subsection{微分方程式の概要}
+                微分方程式とは，たとえば以下のようなものだ．
+                    \begin{align*}
+                        \frac{\df f(x)}{\df x} = 3x + 5
+                        \quad , \qquad \frac{\df f(x)}{\df x} = 5{x}^{2} + 3x + 10 \\
+                        \frac{{df}^{2}\ f(x)}{{\df x}^{2}} - 4f(x) + 10 = 0
+                        \quad , \qquad \frac{{\df}^{3} f(x)}{{\df x}^{3}} + 4\frac{\df f(x)}{\df \df} = 0. 
+                    \end{align*}
+                つまり，独立変数とそれをもつ関数，さらにその導関数を含む方程式を \textbf{微分方程式} という
+                    \footnote{
+                        例に対して，$x$が独立変数，$f(x)$がその関数，$\df f(x)/\df x$ が導関数だ．
+                    }．
+                この例のように，独立変数が1つの場合を \textbf{常微分方程式} という．独立変数が2つ以上ある場合は，
+                \textbf{偏微分方程式} という．偏微分方程式の例は以下のようだ．
+                    \[
+                        \frac{\rd P(x,\,y)}{\rd y} = \frac{\rd Q(x,\,y)}{\rd x}
+                        \quad , \qquad \frac{{\rd}^{2} u(x,\,y)}{\rd {x}^{2}} + \frac{{\rd}^{2} v(x,\,y)}{\rd {y}^{2}} = 0.
+                    \]
                 
+                偏微分方程式は難しい．まず，常微分方程式について勉強していこう．
+
+                微分方程式の解は関数である．逆に，微分方程式を満たす関数を導くことを微分方程式を解くという．
+                微分方程式の解くには，微分積分学の基本定理を使う．積分（多くの場合，不定積分）すればいい．
+
+            \subsection{積分定数}
+                実は，微分方程式の解くのに積分の範囲が定まらない場合は，その解は一つではない．
+                不定積分を計算することになるからである．微分方程式の解には積分定数$C$の不定性が伴う．
+                最も簡単な例を考えよう，$y=f(x)$ として，
+                    \[
+                        \frac{\df y}{\df x} = 0
+                    \]
+                を解いてみよう．と言っても両辺を$x$で積分するだけだ．
+                    \begin{align*}
+                        \int \frac{\df y}{\df x} \df x &= \int 0 \df x. \\
+                        \Leftrightarrow \quad
+                        \int \df y &= C \\
+                        \Leftrightarrow \quad
+                        y &= C.
+                    \end{align*}
+                ここで，$C$ は積分定数（任意の実数）である．$y=f(x)$ だから，結局，
+                    \[
+                        f(x) = C.
+                    \]
+                これが解である．微分方程式$\df y/\df x = 0$ の解は定数であることがわかった．
+                実際，定数を$x$で微分すると0であることは微分を勉強したときに確認したことである．
+
+            \subsection{簡単な例(1)（$\df y/\df x = x$）}
+                次の例も見ておこう．$y=f(x)$である．
+                \[
+                    \frac{\df y}{\df x} = x.
+                \]
+                これも解き方は同じ．両辺を$x$で不定積分をすればいい．
+                \begin{align*}
+                    \int \frac{\df y}{\df x} \df x &= \int x \df x. \\
+                    \Leftrightarrow \quad
+                    \int \df y &= \frac{1}{2} {x}^{2} + C \\
+                    \Leftrightarrow \quad
+                    y &= \frac{1}{2} {x}^{2} + C.
+                \end{align*}
+                つまり，
+                \[
+                    f(x) = \frac{1}{2} {x}^{2} + C
+                \]
+                である．
+                
+                検算してみよう．この$f(x)$を微分すると，
+                \[
+                    \frac{\df f(x)}{\df x} = \frac{\df }{\df x}\left( \frac{1}{2} {x}^{2} + C \right)
+                    = \frac{\df }{\df x}\left( \frac{1}{2} {x}^{2}\right) + \frac{\df }{\df x} C
+                    = x + 0
+                \]
+                よって，
+                \[
+                    \frac{\df f(x)}{\df x} = \frac{\df y}{\df x} = x
+                \]
+                となり，もとの微分方程式が導かれるので，検算もOKだ．
+
+            \subsection{簡単な例(2)（${\df}^{2} x/{\df t}^{2} = a$）}
+                この節の最後に，もう一つだけ，微分方程式を解いておこう．$x=f(t)$で$a$は実数の任意定数とする．
+                \[
+                    \frac{{\df}^{2} x}{{\df t}^{2}} = a.
+                \]
+                これは2階の微分方程式という．ニュートンの運動方程式もこの形をしている．
+                この微分方程式を解くには，不定積分を2回繰り返せばよい．
+
+                式変形を見やすくしたいので，この微分方程式の表現を改める．この微分方程式は以下のような意味であった．
+                \[
+                    \frac{\df \displaystyle \left(\frac{\df x}{\df t}\right)}{\df t}= a.
+                \]
+                ここで，
+                \[
+                    v := \frac{\df x}{\df t}
+                \]
+                とおくと，
+                \[
+                    \frac{\df v}{\df t}= a
+                \]
+                となる．
+
+                では，微分方程式を解こう．両辺を$t$で不定積分する．
+                \begin{align*}
+                    \int \frac{\df v}{\df t} \df t &= \int a \df t \\
+                    \Leftrightarrow \quad v &= at + {v}_{0}
+                \end{align*}
+                ここで，${v}_{0}$は積分定数である．$v=\df x/\df t$であるから，さらに不定積分する．$v$を元に戻して，
+                \[
+                    \frac{\df x}{\df t}  = at + {v}_{0}.
+                \]
+                両辺を$t$で不定積分しよう．
+                \begin{align*}
+                    \int \frac{\df x}{\df t} \df x &= \int \left( at + {v}_{0} \right) \df t \\
+                    \Leftrightarrow \quad x &= \frac{1}{2} {at}^{2} + {v}_{0}t + {x}_{0}.
+                \end{align*}
+                ここで，${x}_{0}$は積分定数である．これが求める解である．
+
+            \begin{memo}{補足}
+                先の例，つまり，$x=f(t)$としたときの
+                \[
+                    \frac{{\df}^{2} x}{{\df t}^{2}} = a.
+                \]
+                の計算で，以下のような文字の置き換えを行った．
+                \[
+                    v := \frac{\df x}{\df t}
+                \]
+                ここでは，この置き換えをしない場合の式変形を記述しておく．
+                先にも書いたように，2階微分を省略しない表現で書くと，以下のとおりである．
+                \[
+                    \frac{\df \displaystyle \left(\frac{\df x}{\df t}\right)}{\df t}= a.
+                \]
+                この式の両辺を$t$で不定積分する．
+                \begin{align*}
+                    \int \frac{\df \displaystyle \left(\frac{\df x}{\df t}\right)}{\df t} \df t &= \int a \df t. \\
+                    \int \df \displaystyle \left (\frac{\df x}{\df t}\right) = at + {C}_{0}.
+                \end{align*}
+                この式の左辺を見たときに，どう計算すればよいか，迷うかもしれない．先程の例だと，文字の置き換えを
+                行うことでこれがカモフラージュされて，なんの違和感もなく自然に積分ができたと思う．
+                どんなふうに計算していたかというと，$\df x/\df t$ を微分の式とみなさずに，一つの変数として計算していたのである．
+
+                ちょっと脱線して，改めて
+                \[
+                    \int a \df t = 0.    
+                \]
+                という積分を計算してみよう．これは簡単で，
+                \[
+                    at = C
+                \]
+                と解けるはずだ．$C$は積分定数である．この$t$が$\df x/\df t$の場合も，形式的に同じように計算してよいのだ．すなわち，
+                \[
+                    \int \df \displaystyle \left( \frac{\df x}{\df t} \right)= 0
+                \]
+                という積分のような式は，$\df x/\df t$を一つの積分変数とみなして，
+                \[
+                    \frac{\df x}{\df t} = C
+                \]
+                とできる．あとは詰まることなく計算できるだろう．
+                話をもとに戻して，
+                \begin{align*}
+                    \int \df \displaystyle \left (\frac{\df x}{\df t}\right) &= at + {C}_{0} \\
+                    \Leftrightarrow \quad \frac{\df x}{\df t} &= at + {C}_{0} \\
+                    \Leftrightarrow \quad \int \frac{\df x}{\df t} \df t &=  \int \left(at + {C}_{0} \right)\df t\\
+                    \Leftrightarrow \quad \int \df x &= \frac{1}{2}a{t}^{2} + {C}_{0}t + C{1} \\
+                \end{align*}
+                となる．${C}_{0},\,{C}_{1}$は積分定数である．よって，
+                \[
+                    x = \frac{1}{2}a{t}^{2} + {C}_{0}t + C{1}
+                \]
+                である．
+ 
+
+
+
+            \end{memo}
+
+

@@ -264,11 +264,12 @@ Underfull \vbox (badness 10000) has occurred while \output is active [179]
 [180]) [181] [182]
 Chapter 9.
 (./PhysNote_CM_Analysis.tex [183] [184] [185] [186] [187] [188] [189] [190]
-[191] [192] [193] [194] [195] [196] [197] [198] [199] [200] [201] [202]
-[203]
-Underfull \vbox (badness 2310) has occurred while \output is active [204]
-[205] [206] [207] [208] [209] [210] [211] [212] [213] [214] [215] [216]))
-[217] [218] [219] [220] (./PhysNote_EM_1st.tex
+[191] [192] [193] [194] [195] [196] [197] [198] [199]
+Overfull \vbox (3.41768pt too high) has occurred while \output is active
+[200] [201] [202] [203]
+Underfull \vbox (badness 10000) has occurred while \output is active [204]
+[205] [206] [207] [208] [209] [210] [211] [212] [213] [214] [215] [216]
+[217])) [218] [219] [220] (./PhysNote_EM_1st.tex
 Chapter 10.
 (./PhysNote_EM_1st_Intro.tex [221] [222]
 Underfull \vbox (badness 2126) has occurred while \output is active [223])
@@ -606,47 +607,56 @@ Chapter 44.
 (./PhysNote_Math_sincos.tex [621]) [622]
 Chapter 45.
 (./PhysNote_Math_DifrAndIntg.tex (./PhysNote_Math_DifrAndIntg_inf.tex [623]
-[624] [625] [626] [627]) (./PhysNote_Math_DifrAndIntg_intg.tex [628] [629]
-[630] [631]
-Overfull \hbox (14.25002pt too wide) in paragraph at lines 231--247
+[624] [625] [626] [627]) (./PhysNote_Math_DifrAndIntg_intg.tex [628]
+Overfull \hbox (109.80661pt too wide) in paragraph at lines 37--40
+[]\T1/pxr/m/n/9 ===============================================================
+== 
+[629] [630]
+Overfull \vbox (1.38614pt too high) has occurred while \output is active
+[631] [632]
+Overfull \hbox (14.25002pt too wide) in paragraph at lines 264--280
 [][][][] 
 
-Overfull \vbox (3.9104pt too high) has occurred while \output is active
-[632] [633] [634]
-Overfull \vbox (2.41226pt too high) has occurred while \output is active
-[635] [636] [637]
-Underfull \vbox (badness 2173) has occurred while \output is active [638]
-[639]
-Overfull \hbox (14.25002pt too wide) in paragraph at lines 695--711
+Overfull \vbox (0.37538pt too high) has occurred while \output is active
+[633] [634] [635] [636] [637] [638]
+Overfull \vbox (0.30269pt too high) has occurred while \output is active
+[639] [640]
+Overfull \hbox (14.25002pt too wide) in paragraph at lines 728--744
 [][][][] 
 
-Overfull \vbox (6.15103pt too high) has occurred while \output is active
-[640] [641] [642]) (./PhysNote_Math_DifrAndIntg_difr.tex [643] [644] [645]
-[646] [647] [648] [649] [650]) (./PhysNote_Math_Fomulas.tex [651] [652]
+Overfull \vbox (3.57327pt too high) has occurred while \output is active
+[641]
+Overfull \vbox (0.32857pt too high) has occurred while \output is active
+[642]) (./PhysNote_Math_DifrAndIntg_difr.tex
+Underfull \vbox (badness 10000) has occurred while \output is active [643]
+[644] [645] [646] [647] [648] [649] [650]
+Overfull \vbox (5.14363pt too high) has occurred while \output is active
+[651]) (./PhysNote_Math_Fomulas.tex [652]
 Overfull \hbox (1.01556pt too wide) detected at line 75
 []
-[653] [654] [655])) [656]
+[653] [654] [655] [656])) [657] [658]
 Chapter 46.
-(./PhysNote_Math_DifrEq.tex (./PhysNote_Math_DifrEq_Intro.tex)) [657] [658]
+(./PhysNote_Math_DifrEq.tex (./PhysNote_Math_DifrEq_Intro.tex [659] [660]
+[661] [662])) [663] [664]
 Chapter 47.
-(./PhysNote_Math_Vector.tex (./PhysNote_Math_Vector_def.tex [659] [660]
-[661] [662] [663]) [664] (./PhysNote_Math_Vector_AddSubMul.tex [665] [666]
+(./PhysNote_Math_Vector.tex (./PhysNote_Math_Vector_def.tex [665] [666]
+[667] [668] [669]) [670] (./PhysNote_Math_Vector_AddSubMul.tex [671] [672]
 Overfull \vbox (4.06583pt too high) has occurred while \output is active
-[667]) (./PhysNote_Math_Vector_NaiSekiGaiSeki.tex
-Underfull \vbox (badness 1168) has occurred while \output is active [668]
-[669] [670] [671]
+[673]) (./PhysNote_Math_Vector_NaiSekiGaiSeki.tex
+Underfull \vbox (badness 1168) has occurred while \output is active [674]
+[675] [676] [677]
 Overfull \hbox (14.25002pt too wide) in paragraph at lines 229--247
 [][][][] 
-[672] [673] [674] [675] [676] [677]
+[678] [679] [680] [681] [682] [683]
 Overfull \hbox (14.25002pt too wide) in paragraph at lines 656--674
 [][][][] 
 ) (./PhysNote_Math_Vector_TaniVector.tex
 Overfull \vbox (4.25537pt too high) has occurred while \output is active
-[678] [679] [680] [681] [682])) [683] [684]
+[684] [685] [686] [687] [688])) [689] [690]
 Chapter 48.
 (./PhysNote_Math_VctrAnlys.tex
 Overfull \vbox (3.04202pt too high) has occurred while \output is active
-[685] [686] [687] [688]
+[691] [692] [693] [694]
 Overfull \hbox (14.25002pt too wide) in paragraph at lines 217--233
 [][][][] 
 
@@ -658,10 +668,10 @@ Overfull \hbox (43.9157pt too wide) in paragraph at lines 270--271
 
 Overfull \hbox (14.25002pt too wide) in paragraph at lines 260--276
 [][][][] 
-[689] [690] [691] [692]
+[695] [696] [697] [698]
 Overfull \hbox (14.25002pt too wide) in paragraph at lines 466--482
 [][][][] 
-[693] [694] [695] [696] [697] [698]
+[699] [700] [701] [702] [703] [704]
 Overfull \hbox (14.25002pt too wide) in paragraph at lines 778--794
 [][][][] 
 
@@ -669,41 +679,41 @@ Overfull \hbox (14.25002pt too wide) in paragraph at lines 827--843
 [][][][] 
 
 Overfull \vbox (4.31607pt too high) has occurred while \output is active
-[699] [700]) [701] [702]
+[705] [706]) [707] [708]
 Chapter 49.
-(./PhysNote_Math_Matrix.tex)) [703] [704] [705] [706]
+(./PhysNote_Math_Matrix.tex)) [709] [710] [711] [712]
 (./PhysNote_Introduction.tex
 Appendix A.
-[707]
+[713]
 Overfull \vbox (0.73842pt too high) has occurred while \output is active
-[708]
-Underfull \vbox (badness 1565) has occurred while \output is active [709]
-[710]
+[714]
+Underfull \vbox (badness 1565) has occurred while \output is active [715]
+[716]
 Appendix B.
-) [711] [712] [713] [714] (./PhysNote_Apdx_Omoukoto.tex
+) [717] [718] [719] [720] (./PhysNote_Apdx_Omoukoto.tex
 Appendix C.
 (./PhysNote_Apdx_Omoukoto_SobokuGimon.tex
 Overfull \vbox (5.00064pt too high) has occurred while \output is active
-[715]
-Underfull \vbox (badness 4205) has occurred while \output is active [716])
-[717] [718]
+[721]
+Underfull \vbox (badness 4205) has occurred while \output is active [722])
+[723] [724]
 Appendix D.
 (./PhysNote_Apdx_Omoukoto_LogicMathEtc.tex
 Overfull \vbox (4.94167pt too high) has occurred while \output is active
-[719] [720]) [721] [722]
+[725] [726]) [727] [728]
 Appendix E.
 (./PhysNote_Apdx_Omoukoto_TaaiNaiOmoukoto.tex
-Underfull \vbox (badness 10000) has occurred while \output is active [723]
-[724])) (./PhysNote_Apdx_Vocabularry.tex
-Underfull \vbox (badness 10000) has occurred while \output is active [725])))
-(./end_process.tex (./thebibliogeaphy.tex [726] [727]) [728]
-(./physics_2nd_A5_Print.lof [729] [730]
-Underfull \vbox (badness 3942) has occurred while \output is active [731]
-[732] [733] [734] [735] [736] [737]
-Underfull \vbox (badness 1460) has occurred while \output is active [738])
-[739] [740] (./PhysNote_MsgLast.tex)
+Underfull \vbox (badness 10000) has occurred while \output is active [729]
+[730])) (./PhysNote_Apdx_Vocabularry.tex
+Underfull \vbox (badness 10000) has occurred while \output is active [731])))
+(./end_process.tex (./thebibliogeaphy.tex [732] [733]) [734]
+(./physics_2nd_A5_Print.lof [735] [736]
+Underfull \vbox (badness 3942) has occurred while \output is active [737]
+[738] [739] [740] [741] [742] [743]
+Underfull \vbox (badness 1460) has occurred while \output is active [744])
+[745] [746] (./PhysNote_MsgLast.tex)
 No file physics_2nd_A5_Print.ind.
-) [741] (./physics_2nd_A5_Print.aux)
+) [747] (./physics_2nd_A5_Print.aux)
 
 LaTeX Warning: There were undefined references.
 
@@ -712,5 +722,5 @@ LaTeX Warning: There were multiply-defined labels.
 
  )
 (see the transcript file for additional information)
-Output written on physics_2nd_A5_Print.dvi (791 pages, 3072588 bytes).
+Output written on physics_2nd_A5_Print.dvi (797 pages, 3091864 bytes).
 Transcript written on physics_2nd_A5_Print.log.

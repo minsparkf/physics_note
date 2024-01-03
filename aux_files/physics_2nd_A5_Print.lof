@@ -310,63 +310,63 @@
 \contentsline {figure}{\numberline {45.3}{\ignorespaces 数列の極限3}}{626}{}%
 \contentsline {figure}{\numberline {45.4}{\ignorespaces 関数の極限}}{627}{}%
 \contentsline {figure}{\numberline {45.5}{\ignorespaces 長方形の面積}}{629}{}%
-\contentsline {figure}{\numberline {45.6}{\ignorespaces 棒の長さと数直線}}{629}{}%
+\contentsline {figure}{\numberline {45.6}{\ignorespaces 棒の長さと数直線}}{630}{}%
 \contentsline {figure}{\numberline {45.7}{\ignorespaces 棒の長さ}}{630}{}%
 \contentsline {figure}{\numberline {45.8}{\ignorespaces 面積}}{631}{}%
-\contentsline {figure}{\numberline {45.9}{\ignorespaces 面積はなぜ掛け算で定義されるか}}{632}{}%
+\contentsline {figure}{\numberline {45.9}{\ignorespaces 面積はなぜ掛け算で定義されるか}}{633}{}%
 \contentsline {figure}{\numberline {45.10}{\ignorespaces 面積}}{633}{}%
 \contentsline {figure}{\numberline {45.11}{\ignorespaces 円の面積と直交する2つの直線}}{634}{}%
-\contentsline {figure}{\numberline {45.12}{\ignorespaces $S$ は関数 $f(x)$ と $g(x)$ の間の面積とみなせる}}{635}{}%
-\contentsline {figure}{\numberline {45.13}{\ignorespaces 関数 $f(x)$ と $x$ 軸の間の面積}}{636}{}%
+\contentsline {figure}{\numberline {45.12}{\ignorespaces $S$ は関数 $f(x)$ と $g(x)$ の間の面積とみなせる}}{636}{}%
+\contentsline {figure}{\numberline {45.13}{\ignorespaces 関数 $f(x)$ と $x$ 軸の間の面積}}{637}{}%
 \contentsline {figure}{\numberline {45.14}{\ignorespaces 関数 $f(x)$ と $x$ 軸の間の面積}}{637}{}%
-\contentsline {figure}{\numberline {45.15}{\ignorespaces 区間を $N$ 個に分割}}{638}{}%
-\contentsline {figure}{\numberline {45.16}{\ignorespaces 関数 $f(x)$ と $x$ 軸の間の面積}}{639}{}%
+\contentsline {figure}{\numberline {45.15}{\ignorespaces 区間を $N$ 個に分割}}{639}{}%
+\contentsline {figure}{\numberline {45.16}{\ignorespaces 関数 $f(x)$ と $x$ 軸の間の面積}}{640}{}%
 \contentsline {figure}{\numberline {45.17}{\ignorespaces 近似値の得方は2種類ある}}{641}{}%
-\contentsline {figure}{\numberline {45.18}{\ignorespaces 分割数 $N$ を増やす}}{641}{}%
-\contentsline {figure}{\numberline {45.19}{\ignorespaces 2次関数}}{644}{}%
-\contentsline {figure}{\numberline {45.20}{\ignorespaces $\Delta x$ を0に近づけることで，関数の傾きの正確さが増す}}{645}{}%
+\contentsline {figure}{\numberline {45.18}{\ignorespaces 分割数 $N$ を増やす}}{642}{}%
+\contentsline {figure}{\numberline {45.19}{\ignorespaces 2次関数}}{645}{}%
+\contentsline {figure}{\numberline {45.20}{\ignorespaces $\Delta x$ を0に近づけることで，関数の傾きの正確さが増す}}{646}{}%
 \contentsline {figure}{\numberline {45.21}{\ignorespaces 微分の定義}}{649}{}%
-\contentsline {figure}{\numberline {45.22}{\ignorespaces 1次関数数関数 $f(x)=ax+b$ の増加量}}{649}{}%
-\contentsline {figure}{\numberline {45.23}{\ignorespaces 1変数関数 $f(x)$ の増加量}}{650}{}%
-\contentsline {figure}{\numberline {45.24}{\ignorespaces 全微分のイメージ}}{651}{}%
+\contentsline {figure}{\numberline {45.22}{\ignorespaces 1次関数数関数 $f(x)=ax+b$ の増加量}}{650}{}%
+\contentsline {figure}{\numberline {45.23}{\ignorespaces 1変数関数 $f(x)$ の増加量}}{651}{}%
+\contentsline {figure}{\numberline {45.24}{\ignorespaces 全微分のイメージ}}{652}{}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {47.1}{\ignorespaces ベクトル：図形，矢印}}{659}{}%
-\contentsline {figure}{\numberline {47.2}{\ignorespaces ベクトル：図形，矢印}}{660}{}%
-\contentsline {figure}{\numberline {47.3}{\ignorespaces ベクトル：図形，矢印}}{661}{}%
-\contentsline {figure}{\numberline {47.4}{\ignorespaces 三平方の定理（2次元）}}{662}{}%
-\contentsline {figure}{\numberline {47.5}{\ignorespaces 三平方の定理（3次元）}}{663}{}%
-\contentsline {figure}{\numberline {47.6}{\ignorespaces 内積}}{669}{}%
-\contentsline {figure}{\numberline {47.7}{\ignorespaces 内積(代数的定義と図形的定義の関係)}}{671}{}%
-\contentsline {figure}{\numberline {47.8}{\ignorespaces 2つのベクトルは3角形を作る}}{673}{}%
-\contentsline {figure}{\numberline {47.9}{\ignorespaces 外積}}{673}{}%
-\contentsline {figure}{\numberline {47.10}{\ignorespaces 右ねじを回して進む方向}}{674}{}%
-\contentsline {figure}{\numberline {47.11}{\ignorespaces 右手系}}{679}{}%
-\contentsline {figure}{\numberline {47.12}{\ignorespaces ベクトルの和$\cdot $差/$\cdot $積（内積/外積）}}{679}{}%
-\contentsline {figure}{\numberline {47.13}{\ignorespaces 単位ベクトル}}{680}{}%
+\contentsline {figure}{\numberline {47.1}{\ignorespaces ベクトル：図形，矢印}}{665}{}%
+\contentsline {figure}{\numberline {47.2}{\ignorespaces ベクトル：図形，矢印}}{666}{}%
+\contentsline {figure}{\numberline {47.3}{\ignorespaces ベクトル：図形，矢印}}{667}{}%
+\contentsline {figure}{\numberline {47.4}{\ignorespaces 三平方の定理（2次元）}}{668}{}%
+\contentsline {figure}{\numberline {47.5}{\ignorespaces 三平方の定理（3次元）}}{669}{}%
+\contentsline {figure}{\numberline {47.6}{\ignorespaces 内積}}{675}{}%
+\contentsline {figure}{\numberline {47.7}{\ignorespaces 内積(代数的定義と図形的定義の関係)}}{677}{}%
+\contentsline {figure}{\numberline {47.8}{\ignorespaces 2つのベクトルは3角形を作る}}{679}{}%
+\contentsline {figure}{\numberline {47.9}{\ignorespaces 外積}}{679}{}%
+\contentsline {figure}{\numberline {47.10}{\ignorespaces 右ねじを回して進む方向}}{680}{}%
+\contentsline {figure}{\numberline {47.11}{\ignorespaces 右手系}}{685}{}%
+\contentsline {figure}{\numberline {47.12}{\ignorespaces ベクトルの和$\cdot $差/$\cdot $積（内積/外積）}}{685}{}%
+\contentsline {figure}{\numberline {47.13}{\ignorespaces 単位ベクトル}}{686}{}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {48.1}{\ignorespaces 導線}}{688}{}%
-\contentsline {figure}{\numberline {48.2}{\ignorespaces 閉曲線}}{688}{}%
-\contentsline {figure}{\numberline {48.3}{\ignorespaces 曲面}}{689}{}%
-\contentsline {figure}{\numberline {48.4}{\ignorespaces 閉曲面}}{689}{}%
-\contentsline {figure}{\numberline {48.5}{\ignorespaces 領域}}{690}{}%
-\contentsline {figure}{\numberline {48.6}{\ignorespaces ベクトル空間1(説明図)}}{690}{}%
-\contentsline {figure}{\numberline {48.7}{\ignorespaces ベクトル空間2(イメージ)}}{690}{}%
-\contentsline {figure}{\numberline {48.8}{\ignorespaces 線積分}}{692}{}%
-\contentsline {figure}{\numberline {48.9}{\ignorespaces 線積分(説明図)}}{693}{}%
-\contentsline {figure}{\numberline {48.10}{\ignorespaces 面積分(巨視的視点から)}}{693}{}%
-\contentsline {figure}{\numberline {48.11}{\ignorespaces 面積分(微視的視点から)}}{693}{}%
-\contentsline {figure}{\numberline {48.12}{\ignorespaces 発散のイメージ}}{695}{}%
-\contentsline {figure}{\numberline {48.13}{\ignorespaces 湧き出し(一方向)}}{695}{}%
-\contentsline {figure}{\numberline {48.14}{\ignorespaces ガウスの定理(イメージ)}}{697}{}%
-\contentsline {figure}{\numberline {48.15}{\ignorespaces 川で生じる渦のイメージ}}{698}{}%
-\contentsline {figure}{\numberline {48.16}{\ignorespaces 回転(渦)が生じるための条件}}{699}{}%
-\contentsline {figure}{\numberline {48.17}{\ignorespaces 物体(葉)の回転1}}{699}{}%
-\contentsline {figure}{\numberline {48.18}{\ignorespaces 物体(葉)の回転2}}{700}{}%
-\contentsline {figure}{\numberline {48.19}{\ignorespaces 物体(葉)の回転3}}{700}{}%
+\contentsline {figure}{\numberline {48.1}{\ignorespaces 導線}}{694}{}%
+\contentsline {figure}{\numberline {48.2}{\ignorespaces 閉曲線}}{694}{}%
+\contentsline {figure}{\numberline {48.3}{\ignorespaces 曲面}}{695}{}%
+\contentsline {figure}{\numberline {48.4}{\ignorespaces 閉曲面}}{695}{}%
+\contentsline {figure}{\numberline {48.5}{\ignorespaces 領域}}{696}{}%
+\contentsline {figure}{\numberline {48.6}{\ignorespaces ベクトル空間1(説明図)}}{696}{}%
+\contentsline {figure}{\numberline {48.7}{\ignorespaces ベクトル空間2(イメージ)}}{696}{}%
+\contentsline {figure}{\numberline {48.8}{\ignorespaces 線積分}}{698}{}%
+\contentsline {figure}{\numberline {48.9}{\ignorespaces 線積分(説明図)}}{699}{}%
+\contentsline {figure}{\numberline {48.10}{\ignorespaces 面積分(巨視的視点から)}}{699}{}%
+\contentsline {figure}{\numberline {48.11}{\ignorespaces 面積分(微視的視点から)}}{699}{}%
+\contentsline {figure}{\numberline {48.12}{\ignorespaces 発散のイメージ}}{701}{}%
+\contentsline {figure}{\numberline {48.13}{\ignorespaces 湧き出し(一方向)}}{701}{}%
+\contentsline {figure}{\numberline {48.14}{\ignorespaces ガウスの定理(イメージ)}}{703}{}%
+\contentsline {figure}{\numberline {48.15}{\ignorespaces 川で生じる渦のイメージ}}{704}{}%
+\contentsline {figure}{\numberline {48.16}{\ignorespaces 回転(渦)が生じるための条件}}{705}{}%
+\contentsline {figure}{\numberline {48.17}{\ignorespaces 物体(葉)の回転1}}{705}{}%
+\contentsline {figure}{\numberline {48.18}{\ignorespaces 物体(葉)の回転2}}{706}{}%
+\contentsline {figure}{\numberline {48.19}{\ignorespaces 物体(葉)の回転3}}{706}{}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {A.1}{\ignorespaces 科学的に扱えることの範囲}}{710}{}%
+\contentsline {figure}{\numberline {A.1}{\ignorespaces 科学的に扱えることの範囲}}{716}{}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }

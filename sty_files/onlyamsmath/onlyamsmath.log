@@ -1,4 +1,4 @@
-This is e-upTeX, Version 3.141592653-p3.9.1-u1.27-210218-2.6 (utf8.uptex) (TeX Live 2022/dev/Debian) (preloaded format=uplatex 2023.6.20)  25 NOV 2023 02:13
+This is e-upTeX, Version 3.141592653-p3.9.1-u1.27-210218-2.6 (utf8.uptex) (TeX Live 2022/dev/Debian) (preloaded format=uplatex 2023.11.26)  3 JAN 2024 02:44
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -103,8 +103,8 @@ Codelines passed: 176
  ) ) 
 Here is how much of TeX's memory you used:
  345 strings out of 478733
- 3706 string characters out of 5860893
- 304184 words of memory out of 5000000
+ 3706 string characters out of 5860892
+ 304186 words of memory out of 5000000
  18861 multiletter control sequences out of 15000+600000
  471900 words of font info for 46 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
