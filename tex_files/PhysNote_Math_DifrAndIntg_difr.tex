@@ -291,8 +291,7 @@
         %  SubSection
         %==================================================================
             \subsection{$\df y$ の図形的イメージ}
-                このように微分を定義することで，$\df y$ に次のような意味が
-                与えられる．
+                このように微分を定義することで，$\df y$ にグラフの接線の傾きとして，図形的な意味づけができる．
                 \begin{figure}[hbt]
                     \begin{center}
                         \includegraphics[keepaspectratio, width=6cm,height=2.4cm,clip]{bibunnno_Teigi00.pdf}
@@ -411,24 +410,28 @@
                     \end{center}
                 \end{figure}
 
-                                $x$ 方向だけ変化させた場合の増加量とは，$x$ 方向についての微分であり，
-                                        \begin{equation*}
-                                                \frac{\rd f(x,\,y)}{\rd x} \df x
-                                        \end{equation*}
-                            である．また，$y$ 方向だけ変化させた場合の増加量とは，$y$ 方向についての微分であり，
-                                        \begin{equation*}
-                                                \frac{\rd f(x,\,y)}{\rd y} \df y
-                                        \end{equation*}
-                            と書ける．よって，$\df f:=\df f(x,\,y)$ は
-                                \begin{align}
-                                        \df f = \frac{\rd f(x,\,y)}{\rd x} \df x + \frac{\rd f(x,\,y)}{\rd y} \df y
-                                \end{align}
-                            と計算することができる．
+                $x$ 方向だけ変化させた場合の増加量とは，$x$ 方向についての微分であり，
+                \begin{equation*}
+                     \frac{\rd f(x,\,y)}{\rd x} \df x
+               \end{equation*}
+                である．また，$y$ 方向だけ変化させた場合の増加量とは，$y$ 方向についての微分であり，
+                \begin{equation*}
+                    \frac{\rd f(x,\,y)}{\rd y} \df y
+                \end{equation*}
+                と書ける．よって，$\df f:=\df f(x,\,y)$ は
+                \begin{align}
+                        \df f = \frac{\rd f(x,\,y)}{\rd x} \df x + \frac{\rd f(x,\,y)}{\rd y} \df y
+                \end{align}
+                と計算することができる．
+                このような2変数関数の微分のことを \textbf{全微分} という．
 
-                            このような2変数関数の微分のことを \textbf{全微分} という
-                                \footnote{
-                                                1変数関数の微小増加量が微分であることを先に確認した．
-                                2変数関数の場合は方向が2つあるので，増加量を計算するには全方向の微分を
-                                足し合わせるのであった．これを強調し，2変数関数の微分のことを \textbf{全微分} という．
-                                2変数以上の関数の微分は全て，全微分と言われる．
-                                }．
+                もう一度まとめておく．1変数関数の微小増加量が微分であることを先に確認した．
+                2変数関数の場合は方向が2つあるので，増加量を計算するには全方向の微分
+                \footnote{
+                    「全方向の微分」のことを「全独立変数の微分」と言い換えても良い．
+                }
+                を足し合わせる必要があった．全方向の増加分の和が全微分である．
+                2変数以上の関数の微分は全て，全微分と言われる．
+
+                
+
