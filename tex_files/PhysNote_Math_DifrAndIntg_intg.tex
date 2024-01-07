@@ -891,17 +891,65 @@
         %  SubSection
         %==================================================================
         \subsection{積分公式}
+        \subsubsection{置換積分}
+        次の積分公式が成り立つ．
+        \begin{align}
+            \int f\left( g\left(x\right) \right) g^{\prime}\left(x\right) \df x= \int f\left(t\right) \df t.
+        \end{align}
+        
+        証明しておこう．$y=\int f\left( g\left(x\right) \right) \df x$ をとおく．$y$ を $x$ で微分するとき，
+        合成関数の微分公式を適用するために $t=g\left(x\right)$ として，
+        \[
+            \frac{\df y}{\df x} = \frac{\df y}{\df t}\frac{\df t}{\df x} = f\left( g\left(x\right) \right) g^{\prime}\left(x\right)
+        \]
+        である．両辺を $x$ で積分すれば，
+        \[
+            \int \frac{\df y}{\df x} \df x = \int f\left( g\left(x\right) \right) g^{\prime}\left(x\right) \df x.
+        \]
+        左辺に着目して，
+        \[
+            \int \frac{\df y}{\df x} \df x = \int \df y = y = \int f\left( g\left(x\right) \right) \df t.
+        \]
+        したがって，
+        \[
+            \int \frac{\df y}{\df x} \df x = \int f\left( g\left(x\right) \right) g^{\prime}\left(x\right) \df x.
+        \]
+        以上で示せた．
+
+        \subsubsection{部分積分}
+        次の積分公式が成り立つ．
+        \begin{align}
+            \int f\left( x \right) g^{\prime}\left(x\right) \df x
+            = f\left(x\right) g\left(x\right) - \int f^{\prime}\left(x\right) g\left(x\right) \df x.
+        \end{align}
+
+        証明しておこう．以下の積の微分公式から導ける．
+        \[
+            \{ f(x)g(x) \}^{\prime} = f^{\prime}(x)g(x) + f(x)g^{\prime}(x).
+        \]
+        各項を移行して整理して，以下のようにする．
+        \[
+            f(x)g^{\prime}(x) = \{ f(x)g(x) \}^{\prime} - f^{\prime}(x)g(x).
+        \]
+        両辺を $x$ で積分すれば，部分積分の公式が導かれる．
+        \[
+            \int f(x)g^{\prime}(x) \df x= f(x)g(x) - \int f^{\prime}(x)g(x) \df x.
+        \]
+        以上で示せた．
+
+        \subsubsection{$1/x$の不定積分}
+        次の積分公式が成り立つ．
+        \begin{align}
+            \int \frac{1}{x} \df x= \log |x| + C.
+        \end{align}
+
         \subsubsection{$f^{\prime}(x)/f(x)$の不定積分}
         次の積分公式が成り立つ．
         \begin{align}
             \int \frac{f^{\prime}(x)}{f(x)} \df x= \log |f(x)| + C.
         \end{align}
 
-        確かめておこう．
-        \[
-            t=f(x)
-        \]
-        としたとき，
+        確かめておこう．$t=f(x)$ としたとき，
         \[
             \frac{\df t}{\df x} = f^{\prime}(x)
         \]
