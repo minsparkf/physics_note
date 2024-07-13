@@ -1,0 +1,47 @@
+This is e-upTeX, Version 3.141592653-p4.1.0-u1.29-230214-2.6 (utf8.uptex) (TeX Live 2023/Debian) (preloaded format=uplatex)
+ restricted \write18 enabled.
+entering extended mode
+(./dashbox.ins
+pLaTeX2e <2023-02-14u04>+1, based on
+LaTeX2e <2023-06-01>
+L3 programming layer <2023-06-05>
+(/usr/share/texlive/texmf-dist/tex/latex/base/docstrip.tex
+Utility: `docstrip' v2.6b <2022-09-03>
+English documentation    <2022-09-03>
+
+**********************************************************
+* This program converts documented macro-files into fast *
+* loadable files by stripping off (nearly) all comments! *
+**********************************************************
+
+********************************************************
+* No Configuration file found, using default settings. *
+********************************************************
+
+(./dashbox.ins
+
+Generating file(s) ./dashbox.sty 
+
+Processing file dashbox.dtx (package) -> dashbox.sty
+% % <*dtx . > <driver . > % % % <*driver . . . . . > % % % % % % % % % % % % %
+% % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % %
+% % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % %
+<*package . . . . . % % % % % % % % . % % % % . % % % % . % % % % % % % % % %
+% % . . . . . . . . % % % % % % % % . . . . . . . . % % % % % % % % % % % % .
+% % % % . % % % % . % % % % % % % % % . % % % % % . . % % % % % % . . % % % %
+% . . % % % % % % . . . % % % % % . % % % % % % % . . . . % % % % % % . . . .
+. % % % % % % % % % . . . . % % % % % % % % % % . . . . . . % % % % % % % % %
+% % % % % % . % % % % . % % % % . % % % % . % % % % . % % % % . % % % % % % %
+. % % % % % % % . . . . . . . . % % % % % . % % % % % . . % % % % % . % % % %
+% . . . . . . . . % % % % % % % % . . . . % % % % % % % % . . . . . . . . . .
+. . . . . . . . . . . . % % % % % % % % . . . . % % % % % % % % % % . % % % %
+% % % % % % % . . . . . . . . . % % % % % % % % . . % % % % . . > % % % %
+File dashbox.dtx ended by \endinput.
+Lines  processed: 497
+Comments removed: 350
+Comments  passed: 6
+Codelines passed: 134
+
+) ) )
+No pages of output.
+Transcript written on dashbox.log.

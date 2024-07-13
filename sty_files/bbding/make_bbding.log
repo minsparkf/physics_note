@@ -1,0 +1,51 @@
+This is e-upTeX, Version 3.141592653-p4.1.0-u1.29-230214-2.6 (utf8.uptex) (TeX Live 2023/Debian) (preloaded format=uplatex)
+ restricted \write18 enabled.
+entering extended mode
+(./bbding.ins
+pLaTeX2e <2023-02-14u04>+1, based on
+LaTeX2e <2023-06-01>
+L3 programming layer <2023-06-05>
+(/usr/share/texlive/texmf-dist/tex/latex/base/docstrip.tex
+Utility: `docstrip' v2.6b <2022-09-03>
+English documentation    <2022-09-03>
+
+**********************************************************
+* This program converts documented macro-files into fast *
+* loadable files by stripping off (nearly) all comments! *
+**********************************************************
+
+********************************************************
+* No Configuration file found, using default settings. *
+********************************************************
+
+(./bbding.ins
+
+Generating file(s) ./bbding.sty 
+
+Processing file bbding.dtx (sty) -> bbding.sty
+File bbding.dtx ended by \endinput.
+Lines  processed: 828
+Comments removed: 563
+Comments  passed: 0
+Codelines passed: 255
+
+
+Generating file(s) ./Uding.fd 
+
+Processing file bbding.dtx (fd) -> Uding.fd
+File bbding.dtx ended by \endinput.
+Lines  processed: 828
+Comments removed: 563
+Comments  passed: 0
+Codelines passed: 255
+
+)
+Overall statistics:
+Files  processed: 2
+Lines  processed: 1656
+Comments removed: 1126
+Comments  passed: 0
+Codelines passed: 510
+ ) )
+No pages of output.
+Transcript written on bbding.log.
